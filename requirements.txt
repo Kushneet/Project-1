@@ -1,0 +1,35 @@
+# Casting Defect Detection — Python 3.10+ (developed on 3.11)
+#
+# Version notes (checked against PyPI on 2026-08-26):
+#   transformers 5.15.1, peft 0.20.0, accelerate 1.14.0, gradio 6.26.0
+# Lower bounds are pinned rather than exact versions so the project installs
+# cleanly on Colab, whose preinstalled torch should NOT be overridden.
+# Run `python scripts/train_model.py --sanity-check` after install to confirm
+# the stack actually interoperates on your machine.
+
+# --- core ML (needed for baseline, training, inference) ---
+torch>=2.4                 # on Colab, use the preinstalled build
+transformers>=5.0.0        # Qwen3VLForConditionalGeneration lives here
+peft>=0.14.0               # LoRA adapters
+accelerate>=1.0.0
+datasets>=3.0.0
+bitsandbytes>=0.44.0 ; platform_system == "Linux"   # 4-bit; CUDA/Linux only
+
+# --- data handling and analysis ---
+numpy>=1.26
+pandas>=2.0
+pillow>=10.0
+scikit-learn>=1.4
+matplotlib>=3.8
+seaborn>=0.13
+pyyaml>=6.0
+tqdm>=4.66
+
+# --- dataset download ---
+kaggle>=1.6
+
+# --- demo ---
+gradio>=5.0
+
+# --- development ---
+pytest>=8.0

@@ -1,0 +1,31 @@
+# Secrets — never commit
+.env
+kaggle.json
+*.pem
+*.key
+
+# Data (large; re-downloadable via scripts/download_dataset.py)
+data/raw/*
+data/processed/*
+data/splits/*
+data/external/*
+!data/**/.gitkeep
+
+# Model weights / checkpoints
+results/training/final_model/
+results/training/checkpoints/
+*.safetensors
+*.bin
+*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+
+# OS
+.DS_Store

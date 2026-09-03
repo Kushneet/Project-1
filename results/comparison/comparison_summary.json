@@ -1,0 +1,9 @@
+{
+  "quadrant_counts": {
+    "both_correct": 314,
+    "fixed_by_finetuning": 176,
+    "broken_by_finetuning": 24,
+    "both_wrong": 20
+  },
+  "n_compared_rows": 534
+}

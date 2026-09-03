@@ -1,0 +1,192 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Casting Defect Detection using a Fine-Tuned Vision-Language Model</title>
+<style>
+  @page { size: A4; margin: 13mm 12mm; }
+  * { box-sizing: border-box; }
+  body { font: 9px/1.45 -apple-system, "Helvetica Neue", Arial, sans-serif;
+         color: #23282d; margin: 0; }
+  code, pre { font-family: "SF Mono", Menlo, Consolas, monospace; }
+  h1 { font-size: 19px; line-height: 1.2; margin: 0 0 3px; color: #11161b;
+       letter-spacing: -0.2px; }
+  .byline { font-size: 8.5px; color: #6b7580; margin: 0 0 14px; }
+  .byline code { background: #eef2f6; padding: 1px 4px; border-radius: 3px;
+                 font-size: 8px; color: #2f4256; }
+  h2 { font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.6px;
+       color: #1d4e79; margin: 15px 0 6px; font-weight: 700; }
+  .cols { display: flex; gap: 18px; }
+  .cols > div { flex: 1; min-width: 0; }
+  table { width: 100%; border-collapse: collapse; margin: 0 0 2px;
+          page-break-inside: avoid; }
+  h2, .note, .cols { page-break-inside: avoid; }
+  h2 + table, h2 + div, h2 + p { page-break-before: avoid; }
+  td, th { padding: 3.5px 6px; vertical-align: top; text-align: left;
+           border-bottom: 0.5px solid #dfe5eb; }
+  th { background: #e9eff5; font-size: 8px; text-transform: uppercase;
+       letter-spacing: 0.4px; color: #34506b; font-weight: 700; }
+  td.k { font-weight: 700; width: 34%; color: #2b3138; }
+  td.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  pre { background: #eef3f8; border-left: 2.5px solid #4a7fb5; margin: 0 0 6px;
+        padding: 7px 9px; font-size: 8px; line-height: 1.5; color: #2f4256;
+        white-space: pre-wrap; }
+  ul { margin: 0 0 4px; padding-left: 14px; }
+  li { margin-bottom: 3px; }
+  .note { background: #fdf6e6; border-left: 2.5px solid #d9a441; padding: 7px 9px;
+          margin: 0 0 6px; }
+  .good { color: #2c7a3f; font-weight: 700; }
+  .bad  { color: #b3402c; font-weight: 700; }
+  .warn { color: #b07715; font-weight: 700; }
+  .foot { margin-top: 16px; padding-top: 6px; border-top: 0.5px solid #dfe5eb;
+          font-size: 7.5px; color: #7b858f; }
+  .big { font-size: 8.5px; }
+  .hdr { page-break-inside: avoid; }
+</style>
+
+<h1>Casting Defect Detection using a Fine-Tuned Vision-Language Model</h1>
+<p class="byline">Kushneet Kaur &nbsp;·&nbsp; B.Tech CSE, MAIT &nbsp;·&nbsp; August 2026
+&nbsp;·&nbsp; Base-vs-fine-tuned study on <code>Qwen/Qwen3-VL-4B-Instruct</code></p>
+
+<h2>1. Aim</h2>
+<p>To measure <b>how well a pretrained vision-language model detects casting defects before any
+training, and how much task-specific fine-tuning changes that</b> — with the base model measured
+first, and the fine-tuned model evaluated on exactly the same images with exactly the same prompts,
+so the difference is attributable to fine-tuning alone.</p>
+
+<div class="cols">
+<div>
+  <h2>2. What was used</h2>
+  <table>
+    <tr><td class="k">Model</td><td><code>Qwen/Qwen3-VL-4B-Instruct</code> — 4B params, Apache-2.0, ungated</td></tr>
+    <tr><td class="k">Why this one</td><td>Ungated + permissive licence, current documented API, fits a free Colab T4</td></tr>
+    <tr><td class="k">Dataset</td><td>Kaggle <i>simmoshaikh/casting-defect-detection</i>, CC BY-SA 4.0</td></tr>
+    <tr><td class="k">Libraries</td><td>PyTorch, Transformers 5.x, PEFT (LoRA), scikit-learn, Gradio</td></tr>
+    <tr><td class="k">Hardware</td><td>Analysis on MacBook Air M4 (CPU); inference &amp; training on Colab NVIDIA T4</td></tr>
+    <tr><td class="k">Method</td><td>LoRA / parameter-efficient fine-tuning, vision tower frozen</td></tr>
+  </table>
+</div>
+<div>
+  <h2>3. Dataset — measured, not assumed</h2>
+  <table>
+    <tr><td class="k">Labelled images</td><td>1,200 (the card's "1,493" also counts unlabelled overlays and plots)</td></tr>
+    <tr><td class="k">Classes</td><td>12 — <code>ok</code> + 11 defect types, exactly 100 each</td></tr>
+    <tr><td class="k">Image size</td><td>512×512 RGB JPEG, uniform; 0 corrupted</td></tr>
+    <tr><td class="k">Binary balance</td><td>100 OK vs 1,100 Defective (1:11)</td></tr>
+    <tr><td class="k">Split</td><td>train 838 / val 184 / test 178, seed 42</td></tr>
+  </table>
+</div>
+</div>
+
+<h2>4. Mechanism</h2>
+<pre>UPLOAD CASTING IMAGE → VISION-LANGUAGE MODEL → parse structured reply →
+   TRACK A (primary): Is the casting defective? → OK / Defective
+   TRACK B (secondary): which of the 12 defect types? → label or "Unmatched"
+   → model-reported confidence + visual evidence</pre>
+<p>The model receives one image plus one of three fixed prompts and replies in a structured format,
+parsed into a verdict, defect type, confidence and justification. Fine-tuning teaches that verdict
+from the dataset's own ground-truth labels — no label is invented.</p>
+
+<h2>5. What was done</h2>
+<ul>
+  <li><b>Dataset audit.</b> Every count and dimension measured from the files themselves; verified byte-identical to the authentic Kaggle archive by checksum.</li>
+  <li><b>Leakage prevention.</b> Filenames carry <i>no</i> source-casting identity (index-match rate 2.9% = chance), yet 360 cross-class pairs exceed 0.99 similarity — the same casting reused across classes. Images are therefore grouped by <i>visual content</i> into 854 groups, each assigned wholly to one split. Verified: worst cross-split similarity 0.9491, zero groups spanning splits.</li>
+  <li><b>Frozen evaluation.</b> 178 held-out test images × 3 fixed prompts = <b>534 generations</b>, locked to disk so the base and fine-tuned runs see identical inputs. Greedy decoding, seed 42. Nine run settings plus the full decoding config are asserted equal across the two runs before any comparison is accepted.</li>
+  <li><b>Two-track scoring.</b> Track A on a class-balanced 12 OK + 12 Defective slice; Track B on all 178 images across the 12 original labels.</li>
+  <li><b>Engineering.</b> 166 automated tests; the training script <i>refuses</i> to run before a baseline exists; the comparison script <i>aborts</i> if the two runs differ in even one image.</li>
+</ul>
+
+<h2>6. End result — all experiments complete</h2>
+<div class="cols">
+<div>
+  <table>
+    <tr><th>Deliverable</th><th>Status</th></tr>
+    <tr><td>Dataset analysis + leakage-safe split</td><td class="good">Complete</td></tr>
+    <tr><td>Base-model baseline (534 generations)</td><td class="good">Complete</td></tr>
+    <tr><td>LoRA fine-tuning (315 steps, 73.7 min)</td><td class="good">Complete</td></tr>
+    <tr><td>Fine-tuned evaluation, same images</td><td class="good">Complete</td></tr>
+    <tr><td>Base vs fine-tuned comparison</td><td class="good">Complete</td></tr>
+    <tr><td>Gradio upload-and-predict demo</td><td class="good">Built</td></tr>
+    <tr><td>Generalization on real photographs</td><td class="warn">Out of scope</td></tr>
+  </table>
+</div>
+<div>
+  <p class="big"><b>Track B — 12-class defect typing: the principal result.</b>
+  The base model sat at chance; the fine-tuned model identifies the synthetic defect
+  type reliably.</p>
+  <table>
+    <tr><th>12-class defect type</th><th class="n">Base</th><th class="n">Fine-tuned</th></tr>
+    <tr><td>Accuracy</td><td class="n">0.1220</td><td class="n good">0.8333</td></tr>
+    <tr><td>Macro F1</td><td class="n">0.0371</td><td class="n good">0.8144</td></tr>
+    <tr><td>Coverage</td><td class="n">0.4607</td><td class="n good">0.6742</td></tr>
+  </table>
+  <p style="font-size:8px;color:#6b7580;margin:4px 0 0">Chance level for 12 classes is 0.083.
+  Coverage = share of replies naming a usable class; prompts never listed the 12 names.</p>
+</div>
+</div>
+
+<h2>7. Track A — the binary result must be read on both views</h2>
+<table>
+  <tr><th>Binary OK vs Defective</th><th class="n">Base</th><th class="n">Fine-tuned</th><th class="n">Δ</th></tr>
+  <tr><td><b>Balanced slice (12 OK + 12 Def) — primary view</b></td><td class="n">0.7361</td><td class="n bad">0.5833</td><td class="n bad">−0.1528</td></tr>
+  <tr><td>Macro F1, balanced slice</td><td class="n">0.7361</td><td class="n bad">0.4958</td><td class="n bad">−0.2403</td></tr>
+  <tr><td>Full test set (166 Def / 12 OK) — secondary</td><td class="n">0.6330</td><td class="n good">0.9176</td><td class="n good">+0.2846</td></tr>
+  <tr><td>Recall, Defective</td><td class="n">0.6245</td><td class="n good">0.9719</td><td class="n good">+0.3474</td></tr>
+  <tr><td>Recall, OK</td><td class="n">0.7500</td><td class="n bad">0.1667</td><td class="n bad">−0.5833</td></tr>
+  <tr><td>False negatives / false positives</td><td class="n">187 / 9</td><td class="n">14 / 30</td><td class="n">−173 / +21</td></tr>
+</table>
+<div class="note">
+  <b>The two accuracy rows are the same behaviour seen from two angles.</b> The fine-tuned model
+  answers "Defective" almost unconditionally: it catches every defect in the balanced slice and
+  recognises only 6 of 36 OK rows. A test set that is 93% Defective rewards that; a balanced one
+  does not. <b>The +0.2846 figure must not be quoted without the −0.1528 beside it.</b>
+  The cause is identifiable: the training split is 767 Defective vs 71 OK (91.5% Defective), and
+  no class-balanced sampling or loss weighting was applied. All 24 regressions are OK castings,
+  and none are Defective — the signature of a learned base rate rather than a learned feature.
+</div>
+
+<h2>8. What fine-tuning changed, per image-prompt pair (534 rows)</h2>
+<div class="cols">
+<div>
+  <table>
+    <tr><th>Quadrant</th><th class="n">Rows</th><th>Composition</th></tr>
+    <tr><td>Both correct</td><td class="n">314</td><td>—</td></tr>
+    <tr><td>Fixed by fine-tuning</td><td class="n good">176</td><td>173 Defective, 3 OK</td></tr>
+    <tr><td>Broken by fine-tuning</td><td class="n bad">24</td><td>24 OK, 0 Defective</td></tr>
+    <tr><td>Both wrong</td><td class="n">20</td><td>mostly <code>flash</code>, the subtlest texture</td></tr>
+  </table>
+</div>
+<div>
+  <table>
+    <tr><th>Also measured</th><th class="n">Base</th><th class="n">Fine-tuned</th></tr>
+    <tr><td>Accuracy spread across 3 prompts</td><td class="n">0.3596</td><td class="n good">0.0225</td></tr>
+    <tr><td>Mean response length (chars)</td><td class="n">372</td><td class="n">97</td></tr>
+    <tr><td>Generation rate (img-prompt/s)</td><td class="n">0.20</td><td class="n">0.56</td></tr>
+    <tr><td>Confidently-wrong error rows</td><td class="n">95</td><td class="n good">16</td></tr>
+    <tr><td>Hallucinated defect type</td><td class="n">1</td><td class="n bad">16</td></tr>
+    <tr><td>Unparseable outputs</td><td class="n">0</td><td class="n">0</td></tr>
+  </table>
+</div>
+</div>
+<p>Prompt sensitivity was largely eliminated — a clean, separable gain. The base model's dominant
+error was <i>missing</i> defects; the fine-tuned model's is <i>inventing</i> them, sometimes with a
+fabricated defect type and bounding box on a defect-free part.</p>
+
+<h2>9. Honest limitations</h2>
+<div class="note">
+  <b>The defect classes in this dataset are synthetic</b> — generated by a script that paints defect
+  textures onto real defect-free castings. Results therefore describe detection of <i>synthetic</i>
+  defect patterns, and do <b>not</b> demonstrate recognition of real industrial casting defects.
+  Validation on genuine defect photographs remains future work.
+</div>
+<ul>
+  <li>Only 12 OK images reach the test set, so OK-class recall carries wide error bars (Wilson 95% CI on the base model's OK recall: 0.468–0.911) and is reported as indicative.</li>
+  <li>The 91.5% Defective training split was not corrected for; class-balanced sampling, loss weighting or a calibrated decision threshold are the obvious next steps.</li>
+  <li>Confidence values are the model's own self-reported numbers, not calibrated probabilities — one wrong answer was stated at 100% confidence.</li>
+  <li>Single random seed; no confidence intervals across repeated runs.</li>
+  <li>A conventional CNN would likely be stronger and cheaper here; the VLM is studied because the task is a before/after fine-tuning comparison, not a search for peak accuracy.</li>
+  <li>Research prototype only — not a certified industrial quality-control system.</li>
+</ul>
+
+<p class="foot">All figures measured from the actual runs and copied from files under <code>results/</code> —
+none written by hand. Baseline 2026-08-28 (43.6 min) and fine-tuned evaluation 2026-08-29 (20.5 min),
+both on a Tesla T4, 534/534 generations each, zero generation errors, zero unparseable outputs.
+Reproducible pipeline, fixed seed 42, frozen prompts and evaluation subset.</p>

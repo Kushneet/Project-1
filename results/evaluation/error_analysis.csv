@@ -1,0 +1,119 @@
+image_id,image_path,relpath,ground_truth,true_defect_type,prompt_id,raw_response,parsed_prediction,predicted_defect_type,confidence,predicted_class,format_ok,evidence,generation_error,model_tag,correct,error_type,failure_flags
+flash_00042,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00042.jpg,flash/flash_00042.jpg,Defective,flash,prompt_3,"Classification: OK
+Defect type: None",OK,,,ok,True,,,finetuned,False,false_negative_missed_defect,none
+flash_00046,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00046.jpg,flash/flash_00046.jpg,Defective,flash,prompt_1,"Classification: OK
+Reason: None
+Confidence: 100%",OK,,100.0,ok,True,,,finetuned,False,false_negative_missed_defect,confidently_wrong
+flash_00046,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00046.jpg,flash/flash_00046.jpg,Defective,flash,prompt_3,"Classification: OK
+Defect type: None
+Defect location: None",OK,,,ok,True,,,finetuned,False,false_negative_missed_defect,none
+flash_00052,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00052.jpg,flash/flash_00052.jpg,Defective,flash,prompt_1,"Classification: OK
+Reason: No defect detected
+Confidence: 100%",OK,,100.0,ok,True,No defect detected,,finetuned,False,false_negative_missed_defect,confidently_wrong
+flash_00052,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00052.jpg,flash/flash_00052.jpg,Defective,flash,prompt_2,"Classification: OK
+Defect present: No
+Defect type: Unknown
+Evidence: None",OK,,,ok,True,,,finetuned,False,false_negative_missed_defect,none
+flash_00052,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00052.jpg,flash/flash_00052.jpg,Defective,flash,prompt_3,"Classification: OK
+Defect type: None
+Defect location: None",OK,,,ok,True,,,finetuned,False,false_negative_missed_defect,none
+flash_00054,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00054.jpg,flash/flash_00054.jpg,Defective,flash,prompt_3,"Classification: OK
+Defect type: None",OK,,,ok,True,,,finetuned,False,false_negative_missed_defect,none
+flash_00059,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00059.jpg,flash/flash_00059.jpg,Defective,flash,prompt_1,"Classification: OK
+Reason: None
+Confidence: 100%",OK,,100.0,ok,True,,,finetuned,False,false_negative_missed_defect,confidently_wrong
+flash_00064,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00064.jpg,flash/flash_00064.jpg,Defective,flash,prompt_1,"Classification: OK
+Reason: None
+Confidence: 100%",OK,,100.0,ok,True,,,finetuned,False,false_negative_missed_defect,confidently_wrong
+flash_00064,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00064.jpg,flash/flash_00064.jpg,Defective,flash,prompt_3,"Classification: OK
+Defect type: None
+Defect location: None",OK,,,ok,True,,,finetuned,False,false_negative_missed_defect,none
+flash_00067,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00067.jpg,flash/flash_00067.jpg,Defective,flash,prompt_1,"Classification: OK
+Reason: None
+Confidence: 100%",OK,,100.0,ok,True,,,finetuned,False,false_negative_missed_defect,confidently_wrong
+flash_00067,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00067.jpg,flash/flash_00067.jpg,Defective,flash,prompt_3,"Classification: OK
+Defect type: None
+Defect location: None",OK,,,ok,True,,,finetuned,False,false_negative_missed_defect,none
+ok_00000,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00000.jpg,ok/ok_00000.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: crack
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,crack,,finetuned,False,false_positive_false_alarm,confidently_wrong
+ok_00000,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00000.jpg,ok/ok_00000.jpg,OK,ok,prompt_2,"Classification: Defective
+Defect type: crack
+Evidence: A crack is visible on the right side of the part.",Defective,crack,,crack,True,A crack is visible on the right side of the part.,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+ok_00000,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00000.jpg,ok/ok_00000.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: crack
+Defect location: [0.85, 0.45, 0.95, 0.55]",Defective,crack,,crack,True,,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+ok_00005,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00005.jpg,ok/ok_00005.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: crack
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,crack,,finetuned,False,false_positive_false_alarm,confidently_wrong
+ok_00005,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00005.jpg,ok/ok_00005.jpg,OK,ok,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: The flash is visible as a thin layer of material on the outer edge of the part.",Defective,flash,,flash,True,The flash is visible as a thin layer of material on the outer edge of the part.,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+ok_00005,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00005.jpg,ok/ok_00005.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: flash",Defective,flash,,flash,True,,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+ok_00024,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00024.jpg,ok/ok_00024.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,False,false_positive_false_alarm,confidently_wrong
+ok_00024,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00024.jpg,ok/ok_00024.jpg,OK,ok,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: Flash is visible on the surface of the part.",Defective,flash,,flash,True,Flash is visible on the surface of the part.,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+ok_00025,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00025.jpg,ok/ok_00025.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: small scratch
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,small scratch,,finetuned,False,false_positive_false_alarm,confidently_wrong
+ok_00025,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00025.jpg,ok/ok_00025.jpg,OK,ok,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: A flash is present on the surface of the part.",Defective,flash,,flash,True,A flash is present on the surface of the part.,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+ok_00025,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00025.jpg,ok/ok_00025.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+ok_00030,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00030.jpg,ok/ok_00030.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: Defective surface: surface_roughness
+Confidence: 99%",Defective,Unknown,99.0,Unmatched,True,Defective surface: surface_roughness,,finetuned,False,false_positive_false_alarm,confidently_wrong
+ok_00030,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00030.jpg,ok/ok_00030.jpg,OK,ok,prompt_2,"Classification: Unknown
+Defect present: No",Defective,Unknown,,Unmatched,True,,,finetuned,False,false_positive_false_alarm,none
+ok_00030,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00030.jpg,ok/ok_00030.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+ok_00032,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00032.jpg,ok/ok_00032.jpg,OK,ok,prompt_2,"Classification: Unknown
+Defect present: No",Defective,Unknown,,Unmatched,True,,,finetuned,False,false_positive_false_alarm,none
+ok_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00045.jpg,ok/ok_00045.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,surface_roughness,,finetuned,False,false_positive_false_alarm,confidently_wrong
+ok_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00045.jpg,ok/ok_00045.jpg,OK,ok,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: Flash is visible on the surface of the part.",Defective,flash,,flash,True,Flash is visible on the surface of the part.,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+ok_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00045.jpg,ok/ok_00045.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: flash",Defective,flash,,flash,True,,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+ok_00050,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00050.jpg,ok/ok_00050.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,False,false_positive_false_alarm,confidently_wrong
+ok_00050,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00050.jpg,ok/ok_00050.jpg,OK,ok,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: Flash is visible on the left side of the part.",Defective,flash,,flash,True,Flash is visible on the left side of the part.,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+ok_00050,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00050.jpg,ok/ok_00050.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: flash",Defective,flash,,flash,True,,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+ok_00055,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00055.jpg,ok/ok_00055.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: scratch
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,scratch,,finetuned,False,false_positive_false_alarm,confidently_wrong
+ok_00055,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00055.jpg,ok/ok_00055.jpg,OK,ok,prompt_2,"Classification: Defective
+Defect type: scratch
+Evidence: A scratch is visible on the surface of the part.",Defective,scratch,,scratch,True,A scratch is visible on the surface of the part.,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+ok_00055,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00055.jpg,ok/ok_00055.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+ok_00062,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00062.jpg,ok/ok_00062.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,False,false_positive_false_alarm,confidently_wrong
+ok_00062,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00062.jpg,ok/ok_00062.jpg,OK,ok,prompt_2,"Classification: Unknown
+Defect present: No",Defective,Unknown,,Unmatched,True,,,finetuned,False,false_positive_false_alarm,none
+ok_00062,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00062.jpg,ok/ok_00062.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+ok_00080,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00080.jpg,ok/ok_00080.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,False,false_positive_false_alarm,confidently_wrong
+ok_00080,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00080.jpg,ok/ok_00080.jpg,OK,ok,prompt_2,"Classification: Unknown
+Defect present: No",Defective,Unknown,,Unmatched,True,,,finetuned,False,false_positive_false_alarm,none
+ok_00080,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00080.jpg,ok/ok_00080.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: flash",Defective,flash,,flash,True,,,finetuned,False,false_positive_false_alarm,hallucinated_defect_type
+surface_roughness_00098,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00098.jpg,surface_roughness/surface_roughness_00098.jpg,Defective,surface_roughness,prompt_1,"Classification: OK
+Reason: None
+Confidence: 100%",OK,,100.0,ok,True,,,finetuned,False,false_negative_missed_defect,confidently_wrong
+surface_roughness_00098,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00098.jpg,surface_roughness/surface_roughness_00098.jpg,Defective,surface_roughness,prompt_3,"Classification: OK
+Defect type: None",OK,,,ok,True,,,finetuned,False,false_negative_missed_defect,none

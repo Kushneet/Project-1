@@ -1,0 +1,225 @@
+{
+  "dataset_root": "/Users/kushneetkaur/casting-defect-vlm/data/raw/output/defect_dataset",
+  "n_files_total": 1200,
+  "n_valid_images": 1200,
+  "n_corrupted_images": 0,
+  "corrupted_examples": [],
+  "class_names": [
+    "cold_shut",
+    "crack",
+    "dent",
+    "flash",
+    "inclusion",
+    "mixed_defects",
+    "ok",
+    "pinhole",
+    "porosity",
+    "scratch",
+    "shrinkage",
+    "surface_roughness"
+  ],
+  "n_classes": 12,
+  "images_per_class": {
+    "cold_shut": 100,
+    "crack": 100,
+    "dent": 100,
+    "flash": 100,
+    "inclusion": 100,
+    "mixed_defects": 100,
+    "ok": 100,
+    "pinhole": 100,
+    "porosity": 100,
+    "scratch": 100,
+    "shrinkage": 100,
+    "surface_roughness": 100
+  },
+  "class_percentages": {
+    "cold_shut": 8.333,
+    "crack": 8.333,
+    "dent": 8.333,
+    "flash": 8.333,
+    "inclusion": 8.333,
+    "mixed_defects": 8.333,
+    "ok": 8.333,
+    "pinhole": 8.333,
+    "porosity": 8.333,
+    "scratch": 8.333,
+    "shrinkage": 8.333,
+    "surface_roughness": 8.333
+  },
+  "split_hints": {
+    "none": 1200
+  },
+  "image_formats": {
+    "JPEG": 1200
+  },
+  "channel_distribution": {
+    "3": 1200
+  },
+  "mode_distribution": {
+    "RGB": 1200
+  },
+  "dimension_stats": {
+    "width": {
+      "count": 1200.0,
+      "mean": 512.0,
+      "std": 0.0,
+      "min": 512.0,
+      "25%": 512.0,
+      "50%": 512.0,
+      "75%": 512.0,
+      "max": 512.0
+    },
+    "height": {
+      "count": 1200.0,
+      "mean": 512.0,
+      "std": 0.0,
+      "min": 512.0,
+      "25%": 512.0,
+      "50%": 512.0,
+      "75%": 512.0,
+      "max": 512.0
+    }
+  },
+  "most_common_dimensions": [
+    {
+      "width": 512,
+      "height": 512,
+      "count": 1200
+    }
+  ],
+  "n_distinct_dimensions": 1,
+  "file_size_mb_total": 120.76,
+  "duplicates": {
+    "n_duplicate_filenames": 0,
+    "duplicate_filename_examples": {},
+    "n_exact_duplicate_groups": 0,
+    "n_images_in_duplicate_groups": 0,
+    "exact_duplicate_examples": {},
+    "n_cross_class_duplicate_groups": 0,
+    "cross_class_duplicates": []
+  },
+  "directory_tree": {
+    "cold_shut": {
+      "n_files": 100,
+      "n_images": 100,
+      "n_subdirs": 0,
+      "example_files": [
+        "cold_shut_00036.jpg",
+        "cold_shut_00022.jpg",
+        "cold_shut_00023.jpg"
+      ]
+    },
+    "crack": {
+      "n_files": 100,
+      "n_images": 100,
+      "n_subdirs": 0,
+      "example_files": [
+        "crack_00087.jpg",
+        "crack_00093.jpg",
+        "crack_00044.jpg"
+      ]
+    },
+    "dent": {
+      "n_files": 100,
+      "n_images": 100,
+      "n_subdirs": 0,
+      "example_files": [
+        "dent_00074.jpg",
+        "dent_00060.jpg",
+        "dent_00048.jpg"
+      ]
+    },
+    "flash": {
+      "n_files": 100,
+      "n_images": 100,
+      "n_subdirs": 0,
+      "example_files": [
+        "flash_00063.jpg",
+        "flash_00077.jpg",
+        "flash_00088.jpg"
+      ]
+    },
+    "inclusion": {
+      "n_files": 100,
+      "n_images": 100,
+      "n_subdirs": 0,
+      "example_files": [
+        "inclusion_00007.jpg",
+        "inclusion_00013.jpg",
+        "inclusion_00012.jpg"
+      ]
+    },
+    "mixed_defects": {
+      "n_files": 100,
+      "n_images": 100,
+      "n_subdirs": 0,
+      "example_files": [
+        "mixed_defects_00024.jpg",
+        "mixed_defects_00030.jpg",
+        "mixed_defects_00018.jpg"
+      ]
+    },
+    "ok": {
+      "n_files": 100,
+      "n_images": 100,
+      "n_subdirs": 0,
+      "example_files": [
+        "ok_00074.jpg",
+        "ok_00060.jpg",
+        "ok_00048.jpg"
+      ]
+    },
+    "pinhole": {
+      "n_files": 100,
+      "n_images": 100,
+      "n_subdirs": 0,
+      "example_files": [
+        "pinhole_00056.jpg",
+        "pinhole_00042.jpg",
+        "pinhole_00095.jpg"
+      ]
+    },
+    "porosity": {
+      "n_files": 100,
+      "n_images": 100,
+      "n_subdirs": 0,
+      "example_files": [
+        "porosity_00062.jpg",
+        "porosity_00076.jpg",
+        "porosity_00089.jpg"
+      ]
+    },
+    "scratch": {
+      "n_files": 100,
+      "n_images": 100,
+      "n_subdirs": 0,
+      "example_files": [
+        "scratch_00073.jpg",
+        "scratch_00067.jpg",
+        "scratch_00098.jpg"
+      ]
+    },
+    "shrinkage": {
+      "n_files": 100,
+      "n_images": 100,
+      "n_subdirs": 0,
+      "example_files": [
+        "shrinkage_00056.jpg",
+        "shrinkage_00042.jpg",
+        "shrinkage_00095.jpg"
+      ]
+    },
+    "surface_roughness": {
+      "n_files": 100,
+      "n_images": 100,
+      "n_subdirs": 0,
+      "example_files": [
+        "surface_roughness_00078.jpg",
+        "surface_roughness_00044.jpg",
+        "surface_roughness_00050.jpg"
+      ]
+    }
+  },
+  "label_type": "multi-class"
+}

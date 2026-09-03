@@ -1,0 +1,119 @@
+# Central configuration. No machine-specific absolute paths, no secrets.
+# Relative paths resolve against the project root (see src/utils.resolve_path).
+
+project:
+  name: casting-defect-vlm
+  seed: 42
+
+data:
+  raw_dir: data/raw/output/defect_dataset   # the 12 labelled class folders
+  # NOTE: data/raw/output also contains hand_overlays/ and visualizations/.
+  # Those are unlabelled overlay assets and rendered plots, NOT dataset
+  # samples, so they are excluded from analysis, training and evaluation.
+  external_dir: data/external       # opt-in, qualitative generalization only
+  processed_dir: data/processed
+  splits_dir: data/splits
+  train_file: data/processed/train.jsonl
+  validation_file: data/processed/validation.jsonl
+  test_file: data/processed/test.jsonl
+
+split:
+  # Group-split by source casting so a base image and its synthetic
+  # derivatives can never straddle train/test. See PROJECT_DECISIONS.md.
+  #
+  # group_by: content  -- groups are recovered from IMAGE CONTENT (near-duplicate
+  #   clustering). Required for this dataset: its filenames are per-class
+  #   counters carrying no source-casting identity (measured index-match rate
+  #   between a defect image and the same-index OK image is 2.9% = chance),
+  #   while source castings ARE reused across classes.
+  # group_by: filename -- legacy heuristic, kept for datasets whose filenames
+  #   genuinely encode the source casting.
+  strategy: group_stratified
+  group_by: content
+  similarity_threshold: 0.95   # lower = groups more aggressively = safer
+  feature_size: 64
+  train_ratio: 0.70
+  validation_ratio: 0.15
+  test_ratio: 0.15
+  seed: 42
+  prefer_official_split: true       # honour a split CSV if the dataset ships one
+
+model:
+  # Verified live on Hugging Face: ungated, Apache-2.0.
+  model_name: Qwen/Qwen3-VL-4B-Instruct
+  model_class: Qwen3VLForConditionalGeneration
+  attn_implementation: sdpa
+  dtype: bfloat16
+  max_new_tokens: 128
+  # Cap the vision-token budget so a T4 does not OOM on large images.
+  min_pixels: 200704                # 256 * 28 * 28
+  max_pixels: 602112                # 768 * 28 * 28
+
+inference:
+  # Deterministic decoding: baseline and fine-tuned must be directly comparable.
+  do_sample: false
+  temperature: 0.0
+  seed: 42
+  batch_size: 1
+
+baseline:
+  # null = run the ENTIRE held-out test split (178 images). Both the base and
+  # the fine-tuned model are evaluated on exactly this frozen set.
+  eval_subset_size: null
+  # Track A (binary) is reported primarily on a class-balanced slice of that
+  # set; Track B (12-class) uses the full set for coverage. The held-out split
+  # itself is never altered — the balanced slice is a reporting view.
+  balanced_subset: true
+  prompt_ids: [prompt_1, prompt_2, prompt_3]
+  primary_prompt_id: prompt_1
+  results_csv: results/baseline/baseline_results.csv
+  raw_outputs: results/baseline/baseline_raw_outputs.jsonl
+
+tracks:
+  # TRACK A — PRIMARY: binary defect detection (OK vs Defective)
+  # TRACK B — SECONDARY: 12-class defect-type classification
+  # The 12 original labels are preserved end to end; the binary label is
+  # derived from them and never replaces them.
+  primary: binary
+  secondary: defect_type
+
+training:
+  output_dir: results/training/final_model
+  checkpoint_dir: results/training/checkpoints
+  log_dir: results/training/logs
+  image_size: 448
+  batch_size: 1
+  gradient_accumulation_steps: 8    # effective batch size 8
+  learning_rate: 1.0e-4
+  num_epochs: 3
+  warmup_ratio: 0.03
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  logging_steps: 10
+  save_steps: 100
+  eval_steps: 100
+  evaluation_strategy: steps
+  save_total_limit: 2
+  precision: bf16                   # set fp16 on a T4 (no bf16 support)
+  gradient_checkpointing: true
+  load_in_4bit: true                # CUDA only; ignored on MPS/CPU
+  optim: paged_adamw_8bit
+
+lora:
+  lora_r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  bias: none
+  task_type: CAUSAL_LM
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+  # Train the language side only; the vision tower stays frozen.
+  freeze_vision_tower: true
+
+evaluation:
+  results_csv: results/evaluation/finetuned_results.csv
+  raw_outputs: results/evaluation/finetuned_raw_outputs.jsonl
+  comparison_dir: results/comparison
+
+sanity_check:
+  n_examples: 8
+  max_steps: 2

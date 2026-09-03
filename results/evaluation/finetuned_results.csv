@@ -1,0 +1,1597 @@
+image_id,image_path,relpath,ground_truth,true_defect_type,prompt_id,raw_response,parsed_prediction,predicted_defect_type,confidence,predicted_class,format_ok,evidence,generation_error,model_tag,correct,error_type
+cold_shut_00004,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00004.jpg,cold_shut/cold_shut_00004.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00004,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00004.jpg,cold_shut/cold_shut_00004.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: A cold shut is visible as a wavy line across the surface.",Defective,cold_shut,,cold_shut,True,A cold shut is visible as a wavy line across the surface.,,finetuned,True,correct
+cold_shut_00004,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00004.jpg,cold_shut/cold_shut_00004.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00009,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00009.jpg,cold_shut/cold_shut_00009.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00009,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00009.jpg,cold_shut/cold_shut_00009.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: A cold shut is visible as a wavy line across the surface.",Defective,cold_shut,,cold_shut,True,A cold shut is visible as a wavy line across the surface.,,finetuned,True,correct
+cold_shut_00009,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00009.jpg,cold_shut/cold_shut_00009.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00017,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00017.jpg,cold_shut/cold_shut_00017.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00017,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00017.jpg,cold_shut/cold_shut_00017.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: Defect type: cold_shut, Defect location: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 2",Defective,cold_shut,,cold_shut,True,"Defect type: cold_shut, Defect location: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 2",,finetuned,True,correct
+cold_shut_00017,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00017.jpg,cold_shut/cold_shut_00017.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00027,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00027.jpg,cold_shut/cold_shut_00027.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00027,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00027.jpg,cold_shut/cold_shut_00027.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: A cold shut is visible as a wavy line across the surface.",Defective,cold_shut,,cold_shut,True,A cold shut is visible as a wavy line across the surface.,,finetuned,True,correct
+cold_shut_00027,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00027.jpg,cold_shut/cold_shut_00027.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00029,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00029.jpg,cold_shut/cold_shut_00029.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00029,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00029.jpg,cold_shut/cold_shut_00029.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00029,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00029.jpg,cold_shut/cold_shut_00029.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00034,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00034.jpg,cold_shut/cold_shut_00034.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00034,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00034.jpg,cold_shut/cold_shut_00034.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: A cold shut is visible as a wavy line running across the surface of the casting.",Defective,cold_shut,,cold_shut,True,A cold shut is visible as a wavy line running across the surface of the casting.,,finetuned,True,correct
+cold_shut_00034,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00034.jpg,cold_shut/cold_shut_00034.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00039,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00039.jpg,cold_shut/cold_shut_00039.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00039,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00039.jpg,cold_shut/cold_shut_00039.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: Defect is a cold_shut with a defect type of cold_shut, and a defect length of 0.325 m.",Defective,cold_shut,,cold_shut,True,"Defect is a cold_shut with a defect type of cold_shut, and a defect length of 0.325 m.",,finetuned,True,correct
+cold_shut_00039,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00039.jpg,cold_shut/cold_shut_00039.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00045.jpg,cold_shut/cold_shut_00045.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00045.jpg,cold_shut/cold_shut_00045.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: A cold shut is present, indicated by the wavy line across the surface.",Defective,cold_shut,,cold_shut,True,"A cold shut is present, indicated by the wavy line across the surface.",,finetuned,True,correct
+cold_shut_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00045.jpg,cold_shut/cold_shut_00045.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00051,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00051.jpg,cold_shut/cold_shut_00051.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00051,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00051.jpg,cold_shut/cold_shut_00051.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: A cold shut is visible as a wavy line across the surface.",Defective,cold_shut,,cold_shut,True,A cold shut is visible as a wavy line across the surface.,,finetuned,True,correct
+cold_shut_00051,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00051.jpg,cold_shut/cold_shut_00051.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00053,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00053.jpg,cold_shut/cold_shut_00053.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00053,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00053.jpg,cold_shut/cold_shut_00053.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00053,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00053.jpg,cold_shut/cold_shut_00053.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00058,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00058.jpg,cold_shut/cold_shut_00058.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00058,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00058.jpg,cold_shut/cold_shut_00058.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: A cold shut is visible as a wavy line running along the surface of the part.",Defective,cold_shut,,cold_shut,True,A cold shut is visible as a wavy line running along the surface of the part.,,finetuned,True,correct
+cold_shut_00058,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00058.jpg,cold_shut/cold_shut_00058.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00063,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00063.jpg,cold_shut/cold_shut_00063.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00063,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00063.jpg,cold_shut/cold_shut_00063.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: A cold shut is visible as a wavy line running through the center of the part.",Defective,cold_shut,,cold_shut,True,A cold shut is visible as a wavy line running through the center of the part.,,finetuned,True,correct
+cold_shut_00063,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00063.jpg,cold_shut/cold_shut_00063.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00065,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00065.jpg,cold_shut/cold_shut_00065.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00065,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00065.jpg,cold_shut/cold_shut_00065.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: Defect is a cold_shut with a defect type of cold_shut, and it is located at the center of the image.",Defective,cold_shut,,cold_shut,True,"Defect is a cold_shut with a defect type of cold_shut, and it is located at the center of the image.",,finetuned,True,correct
+cold_shut_00065,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00065.jpg,cold_shut/cold_shut_00065.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00066,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00066.jpg,cold_shut/cold_shut_00066.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00066,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00066.jpg,cold_shut/cold_shut_00066.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: A cold shut is visible as a wavy black line across the surface.",Defective,cold_shut,,cold_shut,True,A cold shut is visible as a wavy black line across the surface.,,finetuned,True,correct
+cold_shut_00066,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00066.jpg,cold_shut/cold_shut_00066.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00069,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00069.jpg,cold_shut/cold_shut_00069.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00069,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00069.jpg,cold_shut/cold_shut_00069.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: A cold shut is visible as a wavy, dotted line across the surface.",Defective,cold_shut,,cold_shut,True,"A cold shut is visible as a wavy, dotted line across the surface.",,finetuned,True,correct
+cold_shut_00069,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00069.jpg,cold_shut/cold_shut_00069.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00072,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00072.jpg,cold_shut/cold_shut_00072.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00072,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00072.jpg,cold_shut/cold_shut_00072.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: A cold shut is visible as a wavy line across the surface.",Defective,cold_shut,,cold_shut,True,A cold shut is visible as a wavy line across the surface.,,finetuned,True,correct
+cold_shut_00072,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00072.jpg,cold_shut/cold_shut_00072.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00075,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00075.jpg,cold_shut/cold_shut_00075.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00075,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00075.jpg,cold_shut/cold_shut_00075.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: A cold shut is present, indicated by the wavy dotted line.",Defective,cold_shut,,cold_shut,True,"A cold shut is present, indicated by the wavy dotted line.",,finetuned,True,correct
+cold_shut_00075,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00075.jpg,cold_shut/cold_shut_00075.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00078,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00078.jpg,cold_shut/cold_shut_00078.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00078,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00078.jpg,cold_shut/cold_shut_00078.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: A cold shut is visible as a wavy line across the surface.",Defective,cold_shut,,cold_shut,True,A cold shut is visible as a wavy line across the surface.,,finetuned,True,correct
+cold_shut_00078,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00078.jpg,cold_shut/cold_shut_00078.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut
+Defect location: [0.0, 0.45, 1.0, 0.55]",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+cold_shut_00082,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00082.jpg,cold_shut/cold_shut_00082.jpg,Defective,cold_shut,prompt_1,"Classification: Defective
+Reason: Defect type: cold_shut
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: cold_shut,,finetuned,True,correct
+cold_shut_00082,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00082.jpg,cold_shut/cold_shut_00082.jpg,Defective,cold_shut,prompt_2,"Classification: Defective
+Defect type: cold_shut
+Evidence: A cold shut is visible as a wavy dotted line across the surface.",Defective,cold_shut,,cold_shut,True,A cold shut is visible as a wavy dotted line across the surface.,,finetuned,True,correct
+cold_shut_00082,/content/casting-defect-vlm/data/raw/output/defect_dataset/cold_shut/cold_shut_00082.jpg,cold_shut/cold_shut_00082.jpg,Defective,cold_shut,prompt_3,"Classification: Defective
+Defect type: cold_shut",Defective,cold_shut,,cold_shut,True,,,finetuned,True,correct
+crack_00018,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00018.jpg,crack/crack_00018.jpg,Defective,crack,prompt_1,"Classification: Defective
+Reason: crack
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,crack,,finetuned,True,correct
+crack_00018,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00018.jpg,crack/crack_00018.jpg,Defective,crack,prompt_2,"Classification: Defective
+Defect type: crack
+Evidence: Two cracks are visible on the surface of the part.",Defective,crack,,crack,True,Two cracks are visible on the surface of the part.,,finetuned,True,correct
+crack_00018,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00018.jpg,crack/crack_00018.jpg,Defective,crack,prompt_3,"Classification: Defective
+Defect type: crack",Defective,crack,,crack,True,,,finetuned,True,correct
+crack_00019,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00019.jpg,crack/crack_00019.jpg,Defective,crack,prompt_1,"Classification: Defective
+Reason: Defect type: crack
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: crack,,finetuned,True,correct
+crack_00019,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00019.jpg,crack/crack_00019.jpg,Defective,crack,prompt_2,"Classification: Defective
+Defect type: crack
+Evidence: A crack is visible at the top of the image.",Defective,crack,,crack,True,A crack is visible at the top of the image.,,finetuned,True,correct
+crack_00019,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00019.jpg,crack/crack_00019.jpg,Defective,crack,prompt_3,"Classification: Defective
+Defect type: crack",Defective,crack,,crack,True,,,finetuned,True,correct
+crack_00028,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00028.jpg,crack/crack_00028.jpg,Defective,crack,prompt_1,"Classification: Defective
+Reason: Defect type: crack
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: crack,,finetuned,True,correct
+crack_00028,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00028.jpg,crack/crack_00028.jpg,Defective,crack,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: crack
+Evidence: A crack is visible on the left side of the image.",Defective,crack,,crack,True,A crack is visible on the left side of the image.,,finetuned,True,correct
+crack_00028,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00028.jpg,crack/crack_00028.jpg,Defective,crack,prompt_3,"Classification: Defective
+Defect type: crack",Defective,crack,,crack,True,,,finetuned,True,correct
+crack_00044,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00044.jpg,crack/crack_00044.jpg,Defective,crack,prompt_1,"Classification: Defective
+Reason: Defect type: crack
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: crack,,finetuned,True,correct
+crack_00044,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00044.jpg,crack/crack_00044.jpg,Defective,crack,prompt_2,"Classification: Defective
+Defect type: crack
+Evidence: The image shows a crack extending from the left side to the right side of the object.
+Confidence: 90%",Defective,crack,90.0,crack,True,The image shows a crack extending from the left side to the right side of the object.,,finetuned,True,correct
+crack_00044,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00044.jpg,crack/crack_00044.jpg,Defective,crack,prompt_3,"Classification: Defective
+Defect type: crack
+Defect location: [0, 740, 999, 940]",Defective,crack,,crack,True,,,finetuned,True,correct
+crack_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00045.jpg,crack/crack_00045.jpg,Defective,crack,prompt_1,"Classification: Defective
+Reason: crack
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,crack,,finetuned,True,correct
+crack_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00045.jpg,crack/crack_00045.jpg,Defective,crack,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: crack
+Evidence: The image shows a crack extending from the center to the edge of the part. The crack is visible as a thin, dark line that runs diagonally across the surface.
+Confidence: 90%",Defective,crack,90.0,crack,True,"The image shows a crack extending from the center to the edge of the part. The crack is visible as a thin, dark line that runs diagonally across the surface.",,finetuned,True,correct
+crack_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00045.jpg,crack/crack_00045.jpg,Defective,crack,prompt_3,"Classification: Defective
+Defect type: crack
+Defect location: [1, 0, 1, 1]",Defective,crack,,crack,True,,,finetuned,True,correct
+crack_00050,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00050.jpg,crack/crack_00050.jpg,Defective,crack,prompt_1,"Classification: Defective
+Reason: Defect type: crack, crack length: 1.05cm
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,"Defect type: crack, crack length: 1.05cm",,finetuned,True,correct
+crack_00050,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00050.jpg,crack/crack_00050.jpg,Defective,crack,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: crack
+Evidence: A crack is visible at the top left of the image.
+Confidence: 90%",Defective,crack,90.0,crack,True,A crack is visible at the top left of the image.,,finetuned,True,correct
+crack_00050,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00050.jpg,crack/crack_00050.jpg,Defective,crack,prompt_3,"Classification: Defective
+Defect type: crack
+Defect location: [100, 0, 200, 220]",Defective,crack,,crack,True,,,finetuned,True,correct
+crack_00062,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00062.jpg,crack/crack_00062.jpg,Defective,crack,prompt_1,"Classification: Defective
+Reason: Defect type: crack
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: crack,,finetuned,True,correct
+crack_00062,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00062.jpg,crack/crack_00062.jpg,Defective,crack,prompt_2,"Classification: Defective
+Defect type: crack
+Evidence: The image shows multiple cracks extending from the center of the part outward. The cracks are long, thin, and appear to be oriented in different directions.
+Confidence: 95%",Defective,crack,95.0,crack,True,"The image shows multiple cracks extending from the center of the part outward. The cracks are long, thin, and appear to be oriented in different directions.",,finetuned,True,correct
+crack_00062,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00062.jpg,crack/crack_00062.jpg,Defective,crack,prompt_3,"Classification: Defective
+Defect type: crack
+Defect location: [0.0, 0.48, 0.2, 0.65]",Defective,crack,,crack,True,,,finetuned,True,correct
+crack_00063,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00063.jpg,crack/crack_00063.jpg,Defective,crack,prompt_1,"Classification: Defective
+Reason: Presence of cracks
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Presence of cracks,,finetuned,True,correct
+crack_00063,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00063.jpg,crack/crack_00063.jpg,Defective,crack,prompt_2,"Classification: Defective
+Defect type: crack
+Evidence: Two black lines are visible in the image, which are cracks.
+Confidence: 90%",Defective,crack,90.0,crack,True,"Two black lines are visible in the image, which are cracks.",,finetuned,True,correct
+crack_00063,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00063.jpg,crack/crack_00063.jpg,Defective,crack,prompt_3,"Classification: Defective
+Defect type: crack
+Defect location: [158, 178, 320, 240]",Defective,crack,,crack,True,,,finetuned,True,correct
+crack_00066,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00066.jpg,crack/crack_00066.jpg,Defective,crack,prompt_1,"Classification: Defective
+Reason: crack
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,crack,,finetuned,True,correct
+crack_00066,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00066.jpg,crack/crack_00066.jpg,Defective,crack,prompt_2,"Classification: Defective
+Defect type: crack
+Evidence: The image shows a crack extending from the center to the edge of the part. The crack is clearly visible and appears to be a significant defect.
+Confidence: 95%",Defective,crack,95.0,crack,True,The image shows a crack extending from the center to the edge of the part. The crack is clearly visible and appears to be a significant defect.,,finetuned,True,correct
+crack_00066,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00066.jpg,crack/crack_00066.jpg,Defective,crack,prompt_3,"Classification: Defective
+Defect type: crack
+Defect location: [0.39, 0.3, 0.7, 0.47]",Defective,crack,,crack,True,,,finetuned,True,correct
+crack_00078,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00078.jpg,crack/crack_00078.jpg,Defective,crack,prompt_1,"Classification: Defective
+Reason: crack
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,crack,,finetuned,True,correct
+crack_00078,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00078.jpg,crack/crack_00078.jpg,Defective,crack,prompt_2,"Classification: Defective
+Defect type: crack
+Evidence: Two cracks are visible on the surface of the casting.",Defective,crack,,crack,True,Two cracks are visible on the surface of the casting.,,finetuned,True,correct
+crack_00078,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00078.jpg,crack/crack_00078.jpg,Defective,crack,prompt_3,"Classification: Defective
+Defect type: crack",Defective,crack,,crack,True,,,finetuned,True,correct
+crack_00088,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00088.jpg,crack/crack_00088.jpg,Defective,crack,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+crack_00088,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00088.jpg,crack/crack_00088.jpg,Defective,crack,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: Flash is visible at the top of the part.",Defective,flash,,flash,True,Flash is visible at the top of the part.,,finetuned,True,correct
+crack_00088,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00088.jpg,crack/crack_00088.jpg,Defective,crack,prompt_3,"Classification: Defective
+Defect type: flash",Defective,flash,,flash,True,,,finetuned,True,correct
+crack_00091,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00091.jpg,crack/crack_00091.jpg,Defective,crack,prompt_1,"Classification: Defective
+Reason: Defect type: crack
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: crack,,finetuned,True,correct
+crack_00091,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00091.jpg,crack/crack_00091.jpg,Defective,crack,prompt_2,"Classification: Defective
+Defect type: crack
+Evidence: A crack is visible in the image, extending diagonally from the top left to the bottom right.",Defective,crack,,crack,True,"A crack is visible in the image, extending diagonally from the top left to the bottom right.",,finetuned,True,correct
+crack_00091,/content/casting-defect-vlm/data/raw/output/defect_dataset/crack/crack_00091.jpg,crack/crack_00091.jpg,Defective,crack,prompt_3,"Classification: Defective
+Defect type: crack",Defective,crack,,crack,True,,,finetuned,True,correct
+dent_00003,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00003.jpg,dent/dent_00003.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defect type: dent
+Confidence: 80%",Defective,Unknown,80.0,Unmatched,True,Defect type: dent,,finetuned,True,correct
+dent_00003,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00003.jpg,dent/dent_00003.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect type: dent
+Evidence: Defects are visible as dark circles on the surface of the object.",Defective,dent,,dent,True,Defects are visible as dark circles on the surface of the object.,,finetuned,True,correct
+dent_00003,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00003.jpg,dent/dent_00003.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00005,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00005.jpg,dent/dent_00005.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defect type: dent; Defect location: center
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: dent; Defect location: center,,finetuned,True,correct
+dent_00005,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00005.jpg,dent/dent_00005.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: dent
+Evidence: Defects are visible as three black circular marks on the surface of the part.",Defective,dent,,dent,True,Defects are visible as three black circular marks on the surface of the part.,,finetuned,True,correct
+dent_00005,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00005.jpg,dent/dent_00005.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00006,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00006.jpg,dent/dent_00006.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defect type: dent
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: dent,,finetuned,True,correct
+dent_00006,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00006.jpg,dent/dent_00006.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect type: dent
+Evidence: A dent is present in the lower left corner of the image.",Defective,dent,,dent,True,A dent is present in the lower left corner of the image.,,finetuned,True,correct
+dent_00006,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00006.jpg,dent/dent_00006.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00008,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00008.jpg,dent/dent_00008.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defect type: dent
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: dent,,finetuned,True,correct
+dent_00008,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00008.jpg,dent/dent_00008.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect type: dent
+Evidence: A dent is visible on the surface of the object.",Defective,dent,,dent,True,A dent is visible on the surface of the object.,,finetuned,True,correct
+dent_00008,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00008.jpg,dent/dent_00008.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00029,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00029.jpg,dent/dent_00029.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defect type: dent
+Defect location: [178, 460, 340, 560]
+Defect location: [178, 200, 260, 290]
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: dent,,finetuned,True,correct
+dent_00029,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00029.jpg,dent/dent_00029.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: dent
+Evidence: Defects: dent
+Confidence: 90%",Defective,dent,90.0,dent,True,Defects: dent,,finetuned,True,correct
+dent_00029,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00029.jpg,dent/dent_00029.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00031,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00031.jpg,dent/dent_00031.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defect type: dent
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: dent,,finetuned,True,correct
+dent_00031,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00031.jpg,dent/dent_00031.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: dent
+Evidence: Defects are visible as dark circles on the surface of the part.",Defective,dent,,dent,True,Defects are visible as dark circles on the surface of the part.,,finetuned,True,correct
+dent_00031,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00031.jpg,dent/dent_00031.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent
+Defect location: [0.32, 0.0, 0.47, 0.12] [0.79, 0.49, 0.89, 0.57]",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00037,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00037.jpg,dent/dent_00037.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defect type: dent; Defect location: right side
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: dent; Defect location: right side,,finetuned,True,correct
+dent_00037,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00037.jpg,dent/dent_00037.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: dent
+Evidence: Defects are marked with black circles.",Defective,dent,,dent,True,Defects are marked with black circles.,,finetuned,True,correct
+dent_00037,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00037.jpg,dent/dent_00037.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00044,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00044.jpg,dent/dent_00044.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defect type: dent
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: dent,,finetuned,True,correct
+dent_00044,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00044.jpg,dent/dent_00044.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: dent
+Evidence: Defects are marked with circles.",Defective,dent,,dent,True,Defects are marked with circles.,,finetuned,True,correct
+dent_00044,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00044.jpg,dent/dent_00044.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00054,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00054.jpg,dent/dent_00054.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defective: Defect type: dent, Defect location: left, right
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,"Defective: Defect type: dent, Defect location: left, right",,finetuned,True,correct
+dent_00054,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00054.jpg,dent/dent_00054.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: dent
+Evidence: Defects are marked with black circles.",Defective,dent,,dent,True,Defects are marked with black circles.,,finetuned,True,correct
+dent_00054,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00054.jpg,dent/dent_00054.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00059,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00059.jpg,dent/dent_00059.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defect type: dent
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: dent,,finetuned,True,correct
+dent_00059,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00059.jpg,dent/dent_00059.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: dent
+Evidence: Two dent defects are visible on the surface of the part.",Defective,dent,,dent,True,Two dent defects are visible on the surface of the part.,,finetuned,True,correct
+dent_00059,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00059.jpg,dent/dent_00059.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent
+Defect location: [0.32, 0.74, 0.39, 0.81] [0.7, 0.15, 0.79, 0.22]",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00063,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00063.jpg,dent/dent_00063.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defect type: dent
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: dent,,finetuned,True,correct
+dent_00063,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00063.jpg,dent/dent_00063.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect type: dent
+Evidence: A dent is visible on the right side of the image.
+Confidence: 90%",Defective,dent,90.0,dent,True,A dent is visible on the right side of the image.,,finetuned,True,correct
+dent_00063,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00063.jpg,dent/dent_00063.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00068,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00068.jpg,dent/dent_00068.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defect type: dent
+Defect location: [0.62, 0.15, 0.73, 0.24], [0.81, 0.51, 0.89, 0.59], [0.92, 0.53, 1.0, 0.65]
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: dent,,finetuned,True,correct
+dent_00068,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00068.jpg,dent/dent_00068.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: dent
+Evidence: Defects are marked with circles.",Defective,dent,,dent,True,Defects are marked with circles.,,finetuned,True,correct
+dent_00068,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00068.jpg,dent/dent_00068.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent
+Defect location: [0.62, 0.15, 0.72, 0.24], [0.8, 0.51, 0.89, 0.59], [0.92, 0.52, 1.0, 0.65]",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00075,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00075.jpg,dent/dent_00075.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defective: dent
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defective: dent,,finetuned,True,correct
+dent_00075,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00075.jpg,dent/dent_00075.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect type: dent
+Evidence: Defects are visible as black circles on the surface of the part.",Defective,dent,,dent,True,Defects are visible as black circles on the surface of the part.,,finetuned,True,correct
+dent_00075,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00075.jpg,dent/dent_00075.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent
+Defect location: [0.0, 0.2, 0.2, 0.3]",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00076,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00076.jpg,dent/dent_00076.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: dent
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,dent,,finetuned,True,correct
+dent_00076,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00076.jpg,dent/dent_00076.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect type: dent
+Evidence: dent is present at the top left and top right",Defective,dent,,dent,True,dent is present at the top left and top right,,finetuned,True,correct
+dent_00076,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00076.jpg,dent/dent_00076.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent
+Defect location: [0.0, 0.1, 0.1, 0.2]",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00081,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00081.jpg,dent/dent_00081.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defect type: dent
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: dent,,finetuned,True,correct
+dent_00081,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00081.jpg,dent/dent_00081.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: dent
+Evidence: Defects are visible as black circles on the surface of the part.",Defective,dent,,dent,True,Defects are visible as black circles on the surface of the part.,,finetuned,True,correct
+dent_00081,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00081.jpg,dent/dent_00081.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00085,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00085.jpg,dent/dent_00085.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defect type: dent
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: dent,,finetuned,True,correct
+dent_00085,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00085.jpg,dent/dent_00085.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect type: dent
+Evidence: A dent is visible at the bottom of the image.",Defective,dent,,dent,True,A dent is visible at the bottom of the image.,,finetuned,True,correct
+dent_00085,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00085.jpg,dent/dent_00085.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00087,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00087.jpg,dent/dent_00087.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defect type: dent
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: dent,,finetuned,True,correct
+dent_00087,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00087.jpg,dent/dent_00087.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: dent
+Evidence: Defects are visible as gray circles with different sizes.",Defective,dent,,dent,True,Defects are visible as gray circles with different sizes.,,finetuned,True,correct
+dent_00087,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00087.jpg,dent/dent_00087.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+dent_00090,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00090.jpg,dent/dent_00090.jpg,Defective,dent,prompt_1,"Classification: Defective
+Reason: Defect type: dent
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: dent,,finetuned,True,correct
+dent_00090,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00090.jpg,dent/dent_00090.jpg,Defective,dent,prompt_2,"Classification: Defective
+Defect type: dent
+Evidence: A dent is visible on the surface of the part.",Defective,dent,,dent,True,A dent is visible on the surface of the part.,,finetuned,True,correct
+dent_00090,/content/casting-defect-vlm/data/raw/output/defect_dataset/dent/dent_00090.jpg,dent/dent_00090.jpg,Defective,dent,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+flash_00001,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00001.jpg,flash/flash_00001.jpg,Defective,flash,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+flash_00001,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00001.jpg,flash/flash_00001.jpg,Defective,flash,prompt_2,"Classification: Unknown
+Defect present: No",Defective,Unknown,,Unmatched,True,,,finetuned,True,correct
+flash_00001,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00001.jpg,flash/flash_00001.jpg,Defective,flash,prompt_3,"Classification: Defective
+Defect type: flash",Defective,flash,,flash,True,,,finetuned,True,correct
+flash_00020,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00020.jpg,flash/flash_00020.jpg,Defective,flash,prompt_1,"Classification: Defective
+Reason: minor surface defect
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,minor surface defect,,finetuned,True,correct
+flash_00020,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00020.jpg,flash/flash_00020.jpg,Defective,flash,prompt_2,"Classification: Defective
+Defect type: dent
+Evidence: dent is present at the center of the part",Defective,dent,,dent,True,dent is present at the center of the part,,finetuned,True,correct
+flash_00020,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00020.jpg,flash/flash_00020.jpg,Defective,flash,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+flash_00025,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00025.jpg,flash/flash_00025.jpg,Defective,flash,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+flash_00025,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00025.jpg,flash/flash_00025.jpg,Defective,flash,prompt_2,"Classification: Defective
+Defect type: dent
+Evidence: dent is present
+Confidence: 90%",Defective,dent,90.0,dent,True,dent is present,,finetuned,True,correct
+flash_00025,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00025.jpg,flash/flash_00025.jpg,Defective,flash,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+flash_00026,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00026.jpg,flash/flash_00026.jpg,Defective,flash,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+flash_00026,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00026.jpg,flash/flash_00026.jpg,Defective,flash,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: Flash is visible on the edge of the part.",Defective,flash,,flash,True,Flash is visible on the edge of the part.,,finetuned,True,correct
+flash_00026,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00026.jpg,flash/flash_00026.jpg,Defective,flash,prompt_3,"Classification: Defective
+Defect type: flash",Defective,flash,,flash,True,,,finetuned,True,correct
+flash_00031,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00031.jpg,flash/flash_00031.jpg,Defective,flash,prompt_1,"Classification: Defective
+Reason: Defect type: dent
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: dent,,finetuned,True,correct
+flash_00031,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00031.jpg,flash/flash_00031.jpg,Defective,flash,prompt_2,"Classification: Defective
+Defect type: dent
+Evidence: A dent is visible on the surface of the part.",Defective,dent,,dent,True,A dent is visible on the surface of the part.,,finetuned,True,correct
+flash_00031,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00031.jpg,flash/flash_00031.jpg,Defective,flash,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,True,correct
+flash_00040,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00040.jpg,flash/flash_00040.jpg,Defective,flash,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+flash_00040,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00040.jpg,flash/flash_00040.jpg,Defective,flash,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: Flash is visible on the surface of the part.",Defective,flash,,flash,True,Flash is visible on the surface of the part.,,finetuned,True,correct
+flash_00040,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00040.jpg,flash/flash_00040.jpg,Defective,flash,prompt_3,"Classification: Defective
+Defect type: flash",Defective,flash,,flash,True,,,finetuned,True,correct
+flash_00042,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00042.jpg,flash/flash_00042.jpg,Defective,flash,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+flash_00042,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00042.jpg,flash/flash_00042.jpg,Defective,flash,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: Flash is visible on the surface of the part.",Defective,flash,,flash,True,Flash is visible on the surface of the part.,,finetuned,True,correct
+flash_00042,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00042.jpg,flash/flash_00042.jpg,Defective,flash,prompt_3,"Classification: OK
+Defect type: None",OK,None,,ok,True,,,finetuned,False,false_negative_missed_defect
+flash_00046,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00046.jpg,flash/flash_00046.jpg,Defective,flash,prompt_1,"Classification: OK
+Reason: None
+Confidence: 100%",OK,None,100.0,ok,True,None,,finetuned,False,false_negative_missed_defect
+flash_00046,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00046.jpg,flash/flash_00046.jpg,Defective,flash,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: Flash is visible on the outer edge of the part.",Defective,flash,,flash,True,Flash is visible on the outer edge of the part.,,finetuned,True,correct
+flash_00046,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00046.jpg,flash/flash_00046.jpg,Defective,flash,prompt_3,"Classification: OK
+Defect type: None
+Defect location: None",OK,None,,ok,True,,,finetuned,False,false_negative_missed_defect
+flash_00052,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00052.jpg,flash/flash_00052.jpg,Defective,flash,prompt_1,"Classification: OK
+Reason: No defect detected
+Confidence: 100%",OK,None,100.0,ok,True,No defect detected,,finetuned,False,false_negative_missed_defect
+flash_00052,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00052.jpg,flash/flash_00052.jpg,Defective,flash,prompt_2,"Classification: OK
+Defect present: No
+Defect type: Unknown
+Evidence: None",OK,None,,ok,True,None,,finetuned,False,false_negative_missed_defect
+flash_00052,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00052.jpg,flash/flash_00052.jpg,Defective,flash,prompt_3,"Classification: OK
+Defect type: None
+Defect location: None",OK,None,,ok,True,,,finetuned,False,false_negative_missed_defect
+flash_00054,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00054.jpg,flash/flash_00054.jpg,Defective,flash,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+flash_00054,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00054.jpg,flash/flash_00054.jpg,Defective,flash,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: Flash is visible on the surface of the part.",Defective,flash,,flash,True,Flash is visible on the surface of the part.,,finetuned,True,correct
+flash_00054,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00054.jpg,flash/flash_00054.jpg,Defective,flash,prompt_3,"Classification: OK
+Defect type: None",OK,None,,ok,True,,,finetuned,False,false_negative_missed_defect
+flash_00059,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00059.jpg,flash/flash_00059.jpg,Defective,flash,prompt_1,"Classification: OK
+Reason: None
+Confidence: 100%",OK,None,100.0,ok,True,None,,finetuned,False,false_negative_missed_defect
+flash_00059,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00059.jpg,flash/flash_00059.jpg,Defective,flash,prompt_2,"Classification: Unknown
+Defect present: No",Defective,Unknown,,Unmatched,True,,,finetuned,True,correct
+flash_00059,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00059.jpg,flash/flash_00059.jpg,Defective,flash,prompt_3,"Classification: Defective
+Defect type: flash",Defective,flash,,flash,True,,,finetuned,True,correct
+flash_00064,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00064.jpg,flash/flash_00064.jpg,Defective,flash,prompt_1,"Classification: OK
+Reason: None
+Confidence: 100%",OK,None,100.0,ok,True,None,,finetuned,False,false_negative_missed_defect
+flash_00064,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00064.jpg,flash/flash_00064.jpg,Defective,flash,prompt_2,"Classification: Unknown
+Defect present: No",Defective,Unknown,,Unmatched,True,,,finetuned,True,correct
+flash_00064,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00064.jpg,flash/flash_00064.jpg,Defective,flash,prompt_3,"Classification: OK
+Defect type: None
+Defect location: None",OK,None,,ok,True,,,finetuned,False,false_negative_missed_defect
+flash_00066,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00066.jpg,flash/flash_00066.jpg,Defective,flash,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 99%",Defective,Unknown,99.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+flash_00066,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00066.jpg,flash/flash_00066.jpg,Defective,flash,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: Flash is visible on the surface of the part.",Defective,flash,,flash,True,Flash is visible on the surface of the part.,,finetuned,True,correct
+flash_00066,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00066.jpg,flash/flash_00066.jpg,Defective,flash,prompt_3,"Classification: Defective
+Defect type: flash",Defective,flash,,flash,True,,,finetuned,True,correct
+flash_00067,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00067.jpg,flash/flash_00067.jpg,Defective,flash,prompt_1,"Classification: OK
+Reason: None
+Confidence: 100%",OK,None,100.0,ok,True,None,,finetuned,False,false_negative_missed_defect
+flash_00067,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00067.jpg,flash/flash_00067.jpg,Defective,flash,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: Flash is visible on the outer edge of the part.",Defective,flash,,flash,True,Flash is visible on the outer edge of the part.,,finetuned,True,correct
+flash_00067,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00067.jpg,flash/flash_00067.jpg,Defective,flash,prompt_3,"Classification: OK
+Defect type: None
+Defect location: None",OK,None,,ok,True,,,finetuned,False,false_negative_missed_defect
+flash_00070,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00070.jpg,flash/flash_00070.jpg,Defective,flash,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+flash_00070,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00070.jpg,flash/flash_00070.jpg,Defective,flash,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: The image shows a flash, which is a thin layer of material that has been extruded from the mold during the casting process. This flash is visible as a thin layer around the outer edge of the circular object.",Defective,flash,,flash,True,"The image shows a flash, which is a thin layer of material that has been extruded from the mold during the casting process. This flash is visible as a thin layer around the outer edge of the circular object.",,finetuned,True,correct
+flash_00070,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00070.jpg,flash/flash_00070.jpg,Defective,flash,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+flash_00082,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00082.jpg,flash/flash_00082.jpg,Defective,flash,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+flash_00082,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00082.jpg,flash/flash_00082.jpg,Defective,flash,prompt_2,"Classification: Unknown
+Defect present: No",Defective,Unknown,,Unmatched,True,,,finetuned,True,correct
+flash_00082,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00082.jpg,flash/flash_00082.jpg,Defective,flash,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+flash_00086,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00086.jpg,flash/flash_00086.jpg,Defective,flash,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+flash_00086,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00086.jpg,flash/flash_00086.jpg,Defective,flash,prompt_2,"Classification: Unknown
+Defect present: No",Defective,Unknown,,Unmatched,True,,,finetuned,True,correct
+flash_00086,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00086.jpg,flash/flash_00086.jpg,Defective,flash,prompt_3,"Classification: Defective
+Defect type: flash",Defective,flash,,flash,True,,,finetuned,True,correct
+flash_00098,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00098.jpg,flash/flash_00098.jpg,Defective,flash,prompt_1,"Classification: Defective
+Reason: Defective surface: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defective surface: surface_roughness,,finetuned,True,correct
+flash_00098,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00098.jpg,flash/flash_00098.jpg,Defective,flash,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: The surface of the object has a rough texture, which is a surface defect.
+Confidence: 90%",Defective,surface_roughness,90.0,surface_roughness,True,"The surface of the object has a rough texture, which is a surface defect.",,finetuned,True,correct
+flash_00098,/content/casting-defect-vlm/data/raw/output/defect_dataset/flash/flash_00098.jpg,flash/flash_00098.jpg,Defective,flash,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+inclusion_00011,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00011.jpg,inclusion/inclusion_00011.jpg,Defective,inclusion,prompt_1,"Classification: Defective
+Reason: inclusion
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,inclusion,,finetuned,True,correct
+inclusion_00011,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00011.jpg,inclusion/inclusion_00011.jpg,Defective,inclusion,prompt_2,"Classification: Defective
+Defect type: inclusion
+Evidence: Inclusions are visible as bright spots on the surface of the casting.",Defective,inclusion,,inclusion,True,Inclusions are visible as bright spots on the surface of the casting.,,finetuned,True,correct
+inclusion_00011,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00011.jpg,inclusion/inclusion_00011.jpg,Defective,inclusion,prompt_3,"Classification: Defective
+Defect type: inclusion",Defective,inclusion,,inclusion,True,,,finetuned,True,correct
+inclusion_00021,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00021.jpg,inclusion/inclusion_00021.jpg,Defective,inclusion,prompt_1,"Classification: Defective
+Reason: Defect type: inclusion
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: inclusion,,finetuned,True,correct
+inclusion_00021,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00021.jpg,inclusion/inclusion_00021.jpg,Defective,inclusion,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: inclusion
+Evidence: Defects: [inclusion, inclusion]
+Confidence: 90%",Defective,inclusion,90.0,inclusion,True,"Defects: [inclusion, inclusion]",,finetuned,True,correct
+inclusion_00021,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00021.jpg,inclusion/inclusion_00021.jpg,Defective,inclusion,prompt_3,"Classification: Defective
+Defect type: inclusion
+Defect type: mixed_defects",Defective,inclusion,,inclusion,True,,,finetuned,True,correct
+inclusion_00042,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00042.jpg,inclusion/inclusion_00042.jpg,Defective,inclusion,prompt_1,"Classification: Defective
+Reason: inclusion
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,inclusion,,finetuned,True,correct
+inclusion_00042,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00042.jpg,inclusion/inclusion_00042.jpg,Defective,inclusion,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: inclusion
+Evidence: Inclusions are present at the following locations: [178, 730], [178, 730], [178, 730], [178, 730], [178, 730], [178, 730], [178, 730], [178, 730], [178, 730], [178, 730],",Defective,inclusion,,inclusion,True,"Inclusions are present at the following locations: [178, 730], [178, 730], [178, 730], [178, 730], [178, 730], [178, 730], [178, 730], [178, 730], [178, 730], [178, 730],",,finetuned,True,correct
+inclusion_00042,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00042.jpg,inclusion/inclusion_00042.jpg,Defective,inclusion,prompt_3,"Classification: Defective
+Defect type: inclusion
+Defect location: [178, 718, 252, 830], [548, 662, 597, 744], [128, 107, 208, 202], [847, 268, 936, 357]",Defective,inclusion,,inclusion,True,,,finetuned,True,correct
+inclusion_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00045.jpg,inclusion/inclusion_00045.jpg,Defective,inclusion,prompt_1,"Classification: Defective
+Reason: inclusion
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,inclusion,,finetuned,True,correct
+inclusion_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00045.jpg,inclusion/inclusion_00045.jpg,Defective,inclusion,prompt_2,"Classification: Defective
+Defect type: inclusion
+Evidence: Defects are marked with red circles.
+Confidence: 90%",Defective,inclusion,90.0,inclusion,True,Defects are marked with red circles.,,finetuned,True,correct
+inclusion_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00045.jpg,inclusion/inclusion_00045.jpg,Defective,inclusion,prompt_3,"Classification: Defective
+Defect type: inclusion
+Defect location: [0.56, 0.28, 0.62, 0.34]
+Defect type: inclusion
+Defect location: [0.43, 0.32, 0.52, 0.39]
+Defect type: inclusion
+Defect location: [0.84, 0.07, 0.93, 0.15]
+Defect type: inclusion
+Defect location: [0.07, 0.3,",Defective,inclusion,,inclusion,True,,,finetuned,True,correct
+inclusion_00062,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00062.jpg,inclusion/inclusion_00062.jpg,Defective,inclusion,prompt_1,"Classification: Defective
+Reason: inclusion
+Confidence: 80",Defective,Unknown,80.0,Unmatched,True,inclusion,,finetuned,True,correct
+inclusion_00062,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00062.jpg,inclusion/inclusion_00062.jpg,Defective,inclusion,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: inclusion
+Evidence: Defects are multicolored and located at the bottom right of the image.
+Confidence: 80%",Defective,inclusion,80.0,inclusion,True,Defects are multicolored and located at the bottom right of the image.,,finetuned,True,correct
+inclusion_00062,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00062.jpg,inclusion/inclusion_00062.jpg,Defective,inclusion,prompt_3,"Classification: Defective
+Defect type: inclusion
+Defect location: [508, 708, 578, 778]",Defective,inclusion,,inclusion,True,,,finetuned,True,correct
+inclusion_00063,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00063.jpg,inclusion/inclusion_00063.jpg,Defective,inclusion,prompt_1,"Classification: Defective
+Reason: Defect type: inclusion, Defect location: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30,",Defective,Unknown,,Unmatched,True,"Defect type: inclusion, Defect location: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30,",,finetuned,True,correct
+inclusion_00063,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00063.jpg,inclusion/inclusion_00063.jpg,Defective,inclusion,prompt_2,"Classification: Defective
+Defect type: inclusion
+Evidence: Defects: 1. inclusion (multicolor) 2. inclusion (white) 3. inclusion (white) 4. inclusion (white) 5. inclusion (white)",Defective,inclusion,,inclusion,True,Defects: 1. inclusion (multicolor) 2. inclusion (white) 3. inclusion (white) 4. inclusion (white) 5. inclusion (white),,finetuned,True,correct
+inclusion_00063,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00063.jpg,inclusion/inclusion_00063.jpg,Defective,inclusion,prompt_3,"Classification: Defective
+Defect type: inclusion
+Defect location: [0.22, 0.28]",Defective,inclusion,,inclusion,True,,,finetuned,True,correct
+inclusion_00083,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00083.jpg,inclusion/inclusion_00083.jpg,Defective,inclusion,prompt_1,"Classification: Defective
+Reason: inclusion
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,inclusion,,finetuned,True,correct
+inclusion_00083,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00083.jpg,inclusion/inclusion_00083.jpg,Defective,inclusion,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: inclusion
+Evidence: Inclusions are visible as white spots on the surface of the part.",Defective,inclusion,,inclusion,True,Inclusions are visible as white spots on the surface of the part.,,finetuned,True,correct
+inclusion_00083,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00083.jpg,inclusion/inclusion_00083.jpg,Defective,inclusion,prompt_3,"Classification: Defective
+Defect type: inclusion
+Defect location: [0.0, 0.4, 0.1, 0.1], [0.3, 0.3, 0.4, 0.4], [0.4, 0.2, 0.5, 0.3]",Defective,inclusion,,inclusion,True,,,finetuned,True,correct
+inclusion_00084,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00084.jpg,inclusion/inclusion_00084.jpg,Defective,inclusion,prompt_1,"Classification: Defective
+Reason: inclusion
+Confidence: 80",Defective,Unknown,80.0,Unmatched,True,inclusion,,finetuned,True,correct
+inclusion_00084,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00084.jpg,inclusion/inclusion_00084.jpg,Defective,inclusion,prompt_2,"Classification: Defective
+Defect type: inclusion
+Evidence: Inclusions are visible as colorful speckles on the surface of the part.
+Confidence: 80%",Defective,inclusion,80.0,inclusion,True,Inclusions are visible as colorful speckles on the surface of the part.,,finetuned,True,correct
+inclusion_00084,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00084.jpg,inclusion/inclusion_00084.jpg,Defective,inclusion,prompt_3,"Classification: Defective
+Defect type: inclusion
+Defect location: [0.71, 0.42, 0.77, 0.47]",Defective,inclusion,,inclusion,True,,,finetuned,True,correct
+inclusion_00099,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00099.jpg,inclusion/inclusion_00099.jpg,Defective,inclusion,prompt_1,"Classification: Defective
+Reason: inclusion
+Confidence: 80",Defective,Unknown,80.0,Unmatched,True,inclusion,,finetuned,True,correct
+inclusion_00099,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00099.jpg,inclusion/inclusion_00099.jpg,Defective,inclusion,prompt_2,"Classification: Defective
+Defect type: inclusion
+Evidence: Inclusions detected at the following locations: [1] [2] [3] [4]
+Confidence: 90%",Defective,inclusion,90.0,inclusion,True,Inclusions detected at the following locations: [1] [2] [3] [4],,finetuned,True,correct
+inclusion_00099,/content/casting-defect-vlm/data/raw/output/defect_dataset/inclusion/inclusion_00099.jpg,inclusion/inclusion_00099.jpg,Defective,inclusion,prompt_3,"Classification: Defective
+Defect type: inclusion
+Defect location: [0.22, 0.08, 0.28, 0.11], [0.75, 0.15, 0.81, 0.21], [0.82, 0.73, 0.88, 0.79], [0.93, 0.82, 0.99, 0.89]",Defective,inclusion,,inclusion,True,,,finetuned,True,correct
+mixed_defects_00009,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00009.jpg,mixed_defects/mixed_defects_00009.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Reason: Defect type: mixed_defects, Defects: scratch, dent, mixed_defects
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,"Defect type: mixed_defects, Defects: scratch, dent, mixed_defects",,finetuned,True,correct
+mixed_defects_00009,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00009.jpg,mixed_defects/mixed_defects_00009.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect type: mixed_defects
+Evidence: Defects: mixed_defects (crack, dent, mixed_defects)",Defective,mixed_defects,,mixed_defects,True,"Defects: mixed_defects (crack, dent, mixed_defects)",,finetuned,True,correct
+mixed_defects_00009,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00009.jpg,mixed_defects/mixed_defects_00009.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: mixed_defects
+Defects: [('*', 47), ('*', 198), ('*', 220), ('*', 270), ('*', 300), ('*', 330), ('*', 360), ('*', 390), ('*', 420), ('*', 450), ('*', 480), ('*', 510), ('*', 540), ('*', 570), ('*', 600), ('*', 63",Defective,mixed_defects,,mixed_defects,True,,,finetuned,True,correct
+mixed_defects_00010,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00010.jpg,mixed_defects/mixed_defects_00010.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Reason: Defect type: shrinkage
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: shrinkage,,finetuned,True,correct
+mixed_defects_00010,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00010.jpg,mixed_defects/mixed_defects_00010.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect type: shrinkage
+Evidence: A shrinkage defect is present in the image. The defect is located at the center of the image.",Defective,shrinkage,,shrinkage,True,A shrinkage defect is present in the image. The defect is located at the center of the image.,,finetuned,True,correct
+mixed_defects_00010,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00010.jpg,mixed_defects/mixed_defects_00010.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: shrinkage",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+mixed_defects_00022,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00022.jpg,mixed_defects/mixed_defects_00022.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Reason: scratch
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,scratch,,finetuned,True,correct
+mixed_defects_00022,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00022.jpg,mixed_defects/mixed_defects_00022.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect type: scratch
+Evidence: A scratch is visible on the surface of the disc.",Defective,scratch,,scratch,True,A scratch is visible on the surface of the disc.,,finetuned,True,correct
+mixed_defects_00022,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00022.jpg,mixed_defects/mixed_defects_00022.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,True,correct
+mixed_defects_00024,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00024.jpg,mixed_defects/mixed_defects_00024.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Reason: Defect type: mixed_defects, Defects: mixed_defects
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,"Defect type: mixed_defects, Defects: mixed_defects",,finetuned,True,correct
+mixed_defects_00024,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00024.jpg,mixed_defects/mixed_defects_00024.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect type: mixed_defects
+Evidence: Defects: mixed_defects (mixed defects: mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3",Defective,mixed_defects,,mixed_defects,True,Defects: mixed_defects (mixed defects: mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3 mixed defects: 3,,finetuned,True,correct
+mixed_defects_00024,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00024.jpg,mixed_defects/mixed_defects_00024.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: mixed_defects
+Defect location: [0.28, 0.35, 0.5, 0.55]
+Defect type: mixed_defects
+Defect location: [0.5, 0.35, 0.7, 0.55]
+Defect type: mixed_defects
+Defect location: [0.28, 0.35, 0.5, 0.55]
+Defect type: mixed_defects
+Defect location: [0.",Defective,mixed_defects,,mixed_defects,True,,,finetuned,True,correct
+mixed_defects_00033,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00033.jpg,mixed_defects/mixed_defects_00033.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Defect type: mixed_defects
+Defects: [dot, inclusion, mixed_defects]
+Defects: [dot, inclusion, mixed_defects]
+Defects: [dot, inclusion, mixed_defects]
+Defects: [dot, inclusion, mixed_defects]
+Defects: [dot, inclusion, mixed_defects]
+Defects: [dot, inclusion, mixed_defects]
+Defects: [dot, inclusion, mixed_defects]
+Defects: [dot, inclusion, mixed_defects]
+Defect",Defective,mixed_defects,,mixed_defects,True,,,finetuned,True,correct
+mixed_defects_00033,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00033.jpg,mixed_defects/mixed_defects_00033.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect type: mixed_defects
+Evidence: Defects: mixed_defects (type: mixed_defects, location: [0.12, 0.77, 0.22, 0.82], [0.09, 0.82, 0.17, 0.89], [0.28, 0.94, 0.38, 1.0], [0.33, 0.54, 0.4, 0.62],",Defective,mixed_defects,,mixed_defects,True,"Defects: mixed_defects (type: mixed_defects, location: [0.12, 0.77, 0.22, 0.82], [0.09, 0.82, 0.17, 0.89], [0.28, 0.94, 0.38, 1.0], [0.33, 0.54, 0.4, 0.62],",,finetuned,True,correct
+mixed_defects_00033,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00033.jpg,mixed_defects/mixed_defects_00033.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: mixed_defects
+Defect location: [0.25, 0.61, 0.27, 0.64], [0.62, 0.41, 0.64, 0.44], [0.82, 0.49, 0.84, 0.51], [0.85, 10, 0.87, 0.12], [0.27, 0.0, 0.3,",Defective,mixed_defects,,mixed_defects,True,,,finetuned,True,correct
+mixed_defects_00043,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00043.jpg,mixed_defects/mixed_defects_00043.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Reason: Defect type: mixed_defects
+Defects: [porosity, crack]",Defective,Unknown,,Unmatched,True,Defect type: mixed_defects,,finetuned,True,correct
+mixed_defects_00043,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00043.jpg,mixed_defects/mixed_defects_00043.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect type: mixed_defects
+Evidence: Defects: mixed_defects (presence of mixed defects: 1. inclusion, 2. crack)",Defective,mixed_defects,,mixed_defects,True,"Defects: mixed_defects (presence of mixed defects: 1. inclusion, 2. crack)",,finetuned,True,correct
+mixed_defects_00043,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00043.jpg,mixed_defects/mixed_defects_00043.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: mixed_defects
+Defect location: [0.58, 0.34]",Defective,mixed_defects,,mixed_defects,True,,,finetuned,True,correct
+mixed_defects_00057,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00057.jpg,mixed_defects/mixed_defects_00057.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Reason: Defect type: porosity, Defect location: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,",Defective,Unknown,,Unmatched,True,"Defect type: porosity, Defect location: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,",,finetuned,True,correct
+mixed_defects_00057,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00057.jpg,mixed_defects/mixed_defects_00057.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect type: porosity
+Evidence: Defects: 8 porosity",Defective,porosity,,porosity,True,Defects: 8 porosity,,finetuned,True,correct
+mixed_defects_00057,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00057.jpg,mixed_defects/mixed_defects_00057.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: porosity
+Defect location: [0.26, 0.35, 0.31, 0.38], [0.0, 0.0, 0.04, 0.05], [0.0, 0.23, 0.05, 0.27], [0.92, 0.9, 0.97, 0.96], [0.78, 0.3, 0.81, 0.",Defective,porosity,,porosity,True,,,finetuned,True,correct
+mixed_defects_00063,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00063.jpg,mixed_defects/mixed_defects_00063.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Reason: Defect type: mixed_defects, Defects: mixed_defects
+Confidence: 99%",Defective,Unknown,99.0,Unmatched,True,"Defect type: mixed_defects, Defects: mixed_defects",,finetuned,True,correct
+mixed_defects_00063,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00063.jpg,mixed_defects/mixed_defects_00063.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect type: mixed_defects
+Evidence: Defects: mixed_defects (mixed_defects: 100%)
+Defects: mixed_defects (mixed_defects: 100%)
+Defects: mixed_defects (mixed_defects: 100%)
+Defects: mixed_defects (mixed_defects: 100%)
+Defects: mixed_defects (mixed_defects: 100%)
+Defects: mixed_defects (mixed_defect",Defective,mixed_defects,100.0,mixed_defects,True,Defects: mixed_defects (mixed_defects: 100%),,finetuned,True,correct
+mixed_defects_00063,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00063.jpg,mixed_defects/mixed_defects_00063.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: mixed_defects
+Defects: [ {'defect_type': 'crack', 'defect_location': [0.12, 0.28, 0.87, 0.42]}, {'defect_type': 'crack', 'defect_location': [0.5, 0.5, 0.87, 0.61]}, {'defect_type': 'crack', 'defect_location': [0.7, 0.77, 0.9, 0.95",Defective,mixed_defects,,mixed_defects,True,,,finetuned,True,correct
+mixed_defects_00064,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00064.jpg,mixed_defects/mixed_defects_00064.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Reason: Defect type: mixed_defects, Defects: porosity, porosity
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,"Defect type: mixed_defects, Defects: porosity, porosity",,finetuned,True,correct
+mixed_defects_00064,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00064.jpg,mixed_defects/mixed_defects_00064.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect type: mixed_defects
+Evidence: Defects: 4 porosity, 2 mixed_defects
+Confidence: 90%",Defective,mixed_defects,90.0,mixed_defects,True,"Defects: 4 porosity, 2 mixed_defects",,finetuned,True,correct
+mixed_defects_00064,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00064.jpg,mixed_defects/mixed_defects_00064.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: mixed_defects
+Defect location: [0.02, 0.34, 0.08, 0.12], [0.05, 0.85, 0.07, 0.08], [0.39, 0.6, 0.04, 0.04], [0.57, 0.6, 0.08, 0.08], [0.75, 0.08, 0.0",Defective,mixed_defects,,mixed_defects,True,,,finetuned,True,correct
+mixed_defects_00069,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00069.jpg,mixed_defects/mixed_defects_00069.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Reason: Defect type: mixed_defects, Defects: scratch, inclusion
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,"Defect type: mixed_defects, Defects: scratch, inclusion",,finetuned,True,correct
+mixed_defects_00069,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00069.jpg,mixed_defects/mixed_defects_00069.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: mixed_defects
+Evidence: Defects: mixed_defects (Defect type: mixed_defects, Defect location: [0.22, 0.18, 0.35, 0.25], [0.31, 0.34, 0.39, 0.38], [0.82, 0.65, 0.9, 0.71], [0.05, 0.02,",Defective,mixed_defects,,mixed_defects,True,"Defects: mixed_defects (Defect type: mixed_defects, Defect location: [0.22, 0.18, 0.35, 0.25], [0.31, 0.34, 0.39, 0.38], [0.82, 0.65, 0.9, 0.71], [0.05, 0.02,",,finetuned,True,correct
+mixed_defects_00069,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00069.jpg,mixed_defects/mixed_defects_00069.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: mixed_defects
+Defects: [ {'defect_type': 'mixed_defects', 'bbox_2d': [250, 125, 355, 235], 'defect_type': 'mixed_defects', 'bbox_2d': [325, 312, 410, 385], 'defect_type': 'mixed_defects', 'bbox_2d': [805, 658, 905, 72",Defective,mixed_defects,,mixed_defects,True,,,finetuned,True,correct
+mixed_defects_00071,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00071.jpg,mixed_defects/mixed_defects_00071.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Reason: Defect type: mixed_defects, Defects: mixed_defects
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,"Defect type: mixed_defects, Defects: mixed_defects",,finetuned,True,correct
+mixed_defects_00071,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00071.jpg,mixed_defects/mixed_defects_00071.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect type: mixed_defects
+Evidence: Defects: mixed_defects (type: mixed_defects, location: [100, 625], [100, 625], [100, 625], [100, 625], [100, 625], [100, 625], [100, 625], [100, 625], [100, 625], [100",Defective,mixed_defects,,mixed_defects,True,"Defects: mixed_defects (type: mixed_defects, location: [100, 625], [100, 625], [100, 625], [100, 625], [100, 625], [100, 625], [100, 625], [100, 625], [100, 625], [100",,finetuned,True,correct
+mixed_defects_00071,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00071.jpg,mixed_defects/mixed_defects_00071.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: mixed_defects
+Defect location: [0.7, 0.85, 0.75, 0.88, 0.75, 0.88, 0.7, 0.85, 0.75, 0.88, 0.75, 0.88, 0.7, 0.85, 0.75, 0.88, 0.75, 0.88, 0.7,",Defective,mixed_defects,,mixed_defects,True,,,finetuned,True,correct
+mixed_defects_00082,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00082.jpg,mixed_defects/mixed_defects_00082.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Reason: Defect type: crack; Defect location: right side
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: crack; Defect location: right side,,finetuned,True,correct
+mixed_defects_00082,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00082.jpg,mixed_defects/mixed_defects_00082.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect type: crack
+Evidence: Defects: crack, crack
+Confidence: 90%",Defective,crack,90.0,crack,True,"Defects: crack, crack",,finetuned,True,correct
+mixed_defects_00082,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00082.jpg,mixed_defects/mixed_defects_00082.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: crack
+Defect type: shrinkage",Defective,crack,,crack,True,,,finetuned,True,correct
+mixed_defects_00084,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00084.jpg,mixed_defects/mixed_defects_00084.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Reason: Defect type: porosity
+Defects: 10 porosity
+Confidence: 99%",Defective,Unknown,99.0,Unmatched,True,Defect type: porosity,,finetuned,True,correct
+mixed_defects_00084,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00084.jpg,mixed_defects/mixed_defects_00084.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect type: porosity
+Evidence: Defects: 10 porosity",Defective,porosity,,porosity,True,Defects: 10 porosity,,finetuned,True,correct
+mixed_defects_00084,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00084.jpg,mixed_defects/mixed_defects_00084.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: porosity",Defective,porosity,,porosity,True,,,finetuned,True,correct
+mixed_defects_00093,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00093.jpg,mixed_defects/mixed_defects_00093.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Reason: Defect type: mixed_defects, Defects: scratch, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent,",Defective,Unknown,,Unmatched,True,"Defect type: mixed_defects, Defects: scratch, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent,",,finetuned,True,correct
+mixed_defects_00093,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00093.jpg,mixed_defects/mixed_defects_00093.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect type: mixed_defects
+Evidence: Defects: scratch, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent,",Defective,mixed_defects,,mixed_defects,True,"Defects: scratch, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent,",,finetuned,True,correct
+mixed_defects_00093,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00093.jpg,mixed_defects/mixed_defects_00093.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: mixed_defects
+Defects: [{""defect_type"": ""scratch"", ""defect_location"": [122, 632, 198, 800]}, {""defect_type"": ""scratch"", ""defect_location"": [122, 538, 278, 550]}, {""defect_type"": ""scratch"", ""defect_location"": [122, 538, 278, 550]}, {""defect_type"": ""scratch"", ""def",Defective,mixed_defects,,mixed_defects,True,,,finetuned,True,correct
+mixed_defects_00097,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00097.jpg,mixed_defects/mixed_defects_00097.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Reason: Defect type: mixed_defects, Defects: mixed_defects
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,"Defect type: mixed_defects, Defects: mixed_defects",,finetuned,True,correct
+mixed_defects_00097,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00097.jpg,mixed_defects/mixed_defects_00097.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect type: mixed_defects
+Evidence: Defects: mixed_defects (mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects:",Defective,mixed_defects,,mixed_defects,True,Defects: mixed_defects (mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects: 1 mixed_defects:,,finetuned,True,correct
+mixed_defects_00097,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00097.jpg,mixed_defects/mixed_defects_00097.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: mixed_defects
+Defects: [ {'defect_type': 'mixed_defects', 'bbox_2d': [778, 48, 999, 351], 'defect_type': 'mixed_defects', 'bbox_2d': [0, 458, 218, 620], 'defect_type': 'mixed_defects', 'bbox_2d': [362, 620, 438, 692], '",Defective,mixed_defects,,mixed_defects,True,,,finetuned,True,correct
+mixed_defects_00099,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00099.jpg,mixed_defects/mixed_defects_00099.jpg,Defective,mixed_defects,prompt_1,"Classification: Defective
+Reason: Defect type: mixed_defects, Defects: dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent,",Defective,Unknown,,Unmatched,True,"Defect type: mixed_defects, Defects: dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent, dent,",,finetuned,True,correct
+mixed_defects_00099,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00099.jpg,mixed_defects/mixed_defects_00099.jpg,Defective,mixed_defects,prompt_2,"Classification: Defective
+Defect type: mixed_defects
+Evidence: Defects: mixed_defects (Defects: 3: dent, 2: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defect",Defective,mixed_defects,,mixed_defects,True,"Defects: mixed_defects (Defects: 3: dent, 2: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defects, 1: mixed_defect",,finetuned,True,correct
+mixed_defects_00099,/content/casting-defect-vlm/data/raw/output/defect_dataset/mixed_defects/mixed_defects_00099.jpg,mixed_defects/mixed_defects_00099.jpg,Defective,mixed_defects,prompt_3,"Classification: Defective
+Defect type: mixed_defects
+Defects: [1: 'porosity', 2: 'dent', 3: 'mixed_defects']",Defective,mixed_defects,,mixed_defects,True,,,finetuned,True,correct
+ok_00000,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00000.jpg,ok/ok_00000.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: crack
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,crack,,finetuned,False,false_positive_false_alarm
+ok_00000,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00000.jpg,ok/ok_00000.jpg,OK,ok,prompt_2,"Classification: Defective
+Defect type: crack
+Evidence: A crack is visible on the right side of the part.",Defective,crack,,crack,True,A crack is visible on the right side of the part.,,finetuned,False,false_positive_false_alarm
+ok_00000,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00000.jpg,ok/ok_00000.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: crack
+Defect location: [0.85, 0.45, 0.95, 0.55]",Defective,crack,,crack,True,,,finetuned,False,false_positive_false_alarm
+ok_00005,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00005.jpg,ok/ok_00005.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: crack
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,crack,,finetuned,False,false_positive_false_alarm
+ok_00005,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00005.jpg,ok/ok_00005.jpg,OK,ok,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: The flash is visible as a thin layer of material on the outer edge of the part.",Defective,flash,,flash,True,The flash is visible as a thin layer of material on the outer edge of the part.,,finetuned,False,false_positive_false_alarm
+ok_00005,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00005.jpg,ok/ok_00005.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: flash",Defective,flash,,flash,True,,,finetuned,False,false_positive_false_alarm
+ok_00024,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00024.jpg,ok/ok_00024.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,False,false_positive_false_alarm
+ok_00024,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00024.jpg,ok/ok_00024.jpg,OK,ok,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: Flash is visible on the surface of the part.",Defective,flash,,flash,True,Flash is visible on the surface of the part.,,finetuned,False,false_positive_false_alarm
+ok_00024,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00024.jpg,ok/ok_00024.jpg,OK,ok,prompt_3,"Classification: OK
+Defect type: None
+Defect location: None",OK,None,,ok,True,,,finetuned,True,correct
+ok_00025,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00025.jpg,ok/ok_00025.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: small scratch
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,small scratch,,finetuned,False,false_positive_false_alarm
+ok_00025,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00025.jpg,ok/ok_00025.jpg,OK,ok,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: A flash is present on the surface of the part.",Defective,flash,,flash,True,A flash is present on the surface of the part.,,finetuned,False,false_positive_false_alarm
+ok_00025,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00025.jpg,ok/ok_00025.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: dent",Defective,dent,,dent,True,,,finetuned,False,false_positive_false_alarm
+ok_00030,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00030.jpg,ok/ok_00030.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: Defective surface: surface_roughness
+Confidence: 99%",Defective,Unknown,99.0,Unmatched,True,Defective surface: surface_roughness,,finetuned,False,false_positive_false_alarm
+ok_00030,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00030.jpg,ok/ok_00030.jpg,OK,ok,prompt_2,"Classification: Unknown
+Defect present: No",Defective,Unknown,,Unmatched,True,,,finetuned,False,false_positive_false_alarm
+ok_00030,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00030.jpg,ok/ok_00030.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,False,false_positive_false_alarm
+ok_00032,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00032.jpg,ok/ok_00032.jpg,OK,ok,prompt_1,"Classification: OK
+Reason: None
+Confidence: 100%",OK,None,100.0,ok,True,None,,finetuned,True,correct
+ok_00032,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00032.jpg,ok/ok_00032.jpg,OK,ok,prompt_2,"Classification: Unknown
+Defect present: No",Defective,Unknown,,Unmatched,True,,,finetuned,False,false_positive_false_alarm
+ok_00032,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00032.jpg,ok/ok_00032.jpg,OK,ok,prompt_3,"Classification: OK
+Defect type: None
+Defect location: None",OK,None,,ok,True,,,finetuned,True,correct
+ok_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00045.jpg,ok/ok_00045.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,surface_roughness,,finetuned,False,false_positive_false_alarm
+ok_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00045.jpg,ok/ok_00045.jpg,OK,ok,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: Flash is visible on the surface of the part.",Defective,flash,,flash,True,Flash is visible on the surface of the part.,,finetuned,False,false_positive_false_alarm
+ok_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00045.jpg,ok/ok_00045.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: flash",Defective,flash,,flash,True,,,finetuned,False,false_positive_false_alarm
+ok_00050,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00050.jpg,ok/ok_00050.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,False,false_positive_false_alarm
+ok_00050,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00050.jpg,ok/ok_00050.jpg,OK,ok,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: Flash is visible on the left side of the part.",Defective,flash,,flash,True,Flash is visible on the left side of the part.,,finetuned,False,false_positive_false_alarm
+ok_00050,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00050.jpg,ok/ok_00050.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: flash",Defective,flash,,flash,True,,,finetuned,False,false_positive_false_alarm
+ok_00055,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00055.jpg,ok/ok_00055.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: scratch
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,scratch,,finetuned,False,false_positive_false_alarm
+ok_00055,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00055.jpg,ok/ok_00055.jpg,OK,ok,prompt_2,"Classification: Defective
+Defect type: scratch
+Evidence: A scratch is visible on the surface of the part.",Defective,scratch,,scratch,True,A scratch is visible on the surface of the part.,,finetuned,False,false_positive_false_alarm
+ok_00055,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00055.jpg,ok/ok_00055.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,False,false_positive_false_alarm
+ok_00062,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00062.jpg,ok/ok_00062.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,False,false_positive_false_alarm
+ok_00062,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00062.jpg,ok/ok_00062.jpg,OK,ok,prompt_2,"Classification: Unknown
+Defect present: No",Defective,Unknown,,Unmatched,True,,,finetuned,False,false_positive_false_alarm
+ok_00062,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00062.jpg,ok/ok_00062.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,False,false_positive_false_alarm
+ok_00080,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00080.jpg,ok/ok_00080.jpg,OK,ok,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,False,false_positive_false_alarm
+ok_00080,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00080.jpg,ok/ok_00080.jpg,OK,ok,prompt_2,"Classification: Unknown
+Defect present: No",Defective,Unknown,,Unmatched,True,,,finetuned,False,false_positive_false_alarm
+ok_00080,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00080.jpg,ok/ok_00080.jpg,OK,ok,prompt_3,"Classification: Defective
+Defect type: flash",Defective,flash,,flash,True,,,finetuned,False,false_positive_false_alarm
+ok_00099,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00099.jpg,ok/ok_00099.jpg,OK,ok,prompt_1,"Classification: OK
+Reason: No defect detected
+Confidence: 100%",OK,None,100.0,ok,True,No defect detected,,finetuned,True,correct
+ok_00099,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00099.jpg,ok/ok_00099.jpg,OK,ok,prompt_2,"Classification: OK
+Defect present: No
+Defect type: Unknown
+Evidence: No defect found",OK,None,,ok,True,No defect found,,finetuned,True,correct
+ok_00099,/content/casting-defect-vlm/data/raw/output/defect_dataset/ok/ok_00099.jpg,ok/ok_00099.jpg,OK,ok,prompt_3,"Classification: OK
+Defect type: None
+Defect location: None",OK,None,,ok,True,,,finetuned,True,correct
+pinhole_00014,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00014.jpg,pinhole/pinhole_00014.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: Defect type: pinhole
+Defect location: [0.32, 0.49], [0.52, 0.4], [0.72, 0.45], [0.88, 0.35], [0.75, 0.1], [0.76, 0.12]
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: pinhole,,finetuned,True,correct
+pinhole_00014,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00014.jpg,pinhole/pinhole_00014.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: pinhole
+Evidence: Multiple pinholes are visible on the surface of the part.",Defective,pinhole,,pinhole,True,Multiple pinholes are visible on the surface of the part.,,finetuned,True,correct
+pinhole_00014,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00014.jpg,pinhole/pinhole_00014.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00016,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00016.jpg,pinhole/pinhole_00016.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: Defect type: pinhole
+Defect location: [0.12, 0.47], [0.54, 0.85], [0.63, 0.31], [0.64, 0.09], [0.85, 0.15]
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: pinhole,,finetuned,True,correct
+pinhole_00016,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00016.jpg,pinhole/pinhole_00016.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect type: pinhole
+Evidence: Defects: 5 pinholes",Defective,pinhole,,pinhole,True,Defects: 5 pinholes,,finetuned,True,correct
+pinhole_00016,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00016.jpg,pinhole/pinhole_00016.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00021,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00021.jpg,pinhole/pinhole_00021.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: Defect type: pinhole
+Defect location: [0.05, 0.3, 0.06, 0.31], [0.54, 0.75, 0.55, 0.77], [0.9, 0.45, 0.91, 0.47]
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: pinhole,,finetuned,True,correct
+pinhole_00021,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00021.jpg,pinhole/pinhole_00021.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect type: pinhole
+Evidence: Defects: 3 pinholes
+Confidence: 90%",Defective,pinhole,90.0,pinhole,True,Defects: 3 pinholes,,finetuned,True,correct
+pinhole_00021,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00021.jpg,pinhole/pinhole_00021.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole
+Defect location: [0.05, 0.3, 0.06, 0.31]",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00044,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00044.jpg,pinhole/pinhole_00044.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: The presence of pinholes
+Confidence: 99%",Defective,Unknown,99.0,Unmatched,True,The presence of pinholes,,finetuned,True,correct
+pinhole_00044,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00044.jpg,pinhole/pinhole_00044.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect type: pinhole
+Evidence: The image shows multiple pinholes, which are small, dark spots scattered across the surface of the casting. These pinholes are irregular in shape and size, and they are located on the surface of the casting. The pinholes are not clustered together, and they are not located in the center of the casting. The pinholes are not located in the center of the casting, and they are not located in the center of the casting. The pinholes are not located in the center of the casting, and they are not located in the center of the casting. The pin",Defective,pinhole,,pinhole,True,"The image shows multiple pinholes, which are small, dark spots scattered across the surface of the casting. These pinholes are irregular in shape and size, and they are located on the surface of the casting. The pinholes are not clustered together, and they are not located in the center of the casting. The pinholes are not located in the center of the casting, and they are not located in the center of the casting. The pinholes are not located in the center of the casting, and they are not located in the center of the casting. The pin",,finetuned,True,correct
+pinhole_00044,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00044.jpg,pinhole/pinhole_00044.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00046,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00046.jpg,pinhole/pinhole_00046.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: pinhole
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,pinhole,,finetuned,True,correct
+pinhole_00046,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00046.jpg,pinhole/pinhole_00046.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect type: pinhole
+Evidence: Defects: pinhole
+Defect location: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28,",Defective,pinhole,,pinhole,True,Defects: pinhole,,finetuned,True,correct
+pinhole_00046,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00046.jpg,pinhole/pinhole_00046.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole
+Defect location: [0.27, 0.67, 0.28, 0.69]",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00048,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00048.jpg,pinhole/pinhole_00048.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: pinhole
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,pinhole,,finetuned,True,correct
+pinhole_00048,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00048.jpg,pinhole/pinhole_00048.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: pinhole
+Evidence: Defects: 4 pinholes",Defective,pinhole,,pinhole,True,Defects: 4 pinholes,,finetuned,True,correct
+pinhole_00048,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00048.jpg,pinhole/pinhole_00048.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00051,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00051.jpg,pinhole/pinhole_00051.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: Defect type: porosity, Defect location: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Confidence: 98%",Defective,Unknown,98.0,Unmatched,True,"Defect type: porosity, Defect location: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",,finetuned,True,correct
+pinhole_00051,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00051.jpg,pinhole/pinhole_00051.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect type: porosity
+Evidence: Porosity is present at 6 locations.",Defective,porosity,,porosity,True,Porosity is present at 6 locations.,,finetuned,True,correct
+pinhole_00051,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00051.jpg,pinhole/pinhole_00051.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: porosity
+Defect location: [0.0, 0.3, 0.2, 0.4]",Defective,porosity,,porosity,True,,,finetuned,True,correct
+pinhole_00052,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00052.jpg,pinhole/pinhole_00052.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Defect type: pinhole
+Defect location: [0.12, 0.21], [0.32, 0.23], [0.65, 0.34], [0.57, 0.89]",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00052,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00052.jpg,pinhole/pinhole_00052.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect type: pinhole
+Evidence: Defects: 5 pinholes
+Confidence: 90%",Defective,pinhole,90.0,pinhole,True,Defects: 5 pinholes,,finetuned,True,correct
+pinhole_00052,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00052.jpg,pinhole/pinhole_00052.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole
+Defect location: [0.51, 0.91], [0.14, 0.2], [0.3, 0.2], [0.65, 0.34]",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00053,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00053.jpg,pinhole/pinhole_00053.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: Defect type: pinhole
+Defect location: [0.74, 0.14, 0.77, 0.17], [0.14, 0.28, 0.17, 0.31], [0.66, 0.33, 0.69, 0.36]
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: pinhole,,finetuned,True,correct
+pinhole_00053,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00053.jpg,pinhole/pinhole_00053.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: pinhole
+Evidence: Defects: 3 pinholes",Defective,pinhole,,pinhole,True,Defects: 3 pinholes,,finetuned,True,correct
+pinhole_00053,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00053.jpg,pinhole/pinhole_00053.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00055,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00055.jpg,pinhole/pinhole_00055.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: The part has multiple pinholes, which are small, dark, and star-shaped defects.
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,"The part has multiple pinholes, which are small, dark, and star-shaped defects.",,finetuned,True,correct
+pinhole_00055,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00055.jpg,pinhole/pinhole_00055.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect type: pinhole
+Evidence: The image shows multiple pinhole defects, which are small, dark spots scattered across the surface of the casting. These are likely caused by air bubbles trapped during the casting process.
+Confidence: 95%",Defective,pinhole,95.0,pinhole,True,"The image shows multiple pinhole defects, which are small, dark spots scattered across the surface of the casting. These are likely caused by air bubbles trapped during the casting process.",,finetuned,True,correct
+pinhole_00055,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00055.jpg,pinhole/pinhole_00055.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00061,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00061.jpg,pinhole/pinhole_00061.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: Defect type: pinhole
+Defect location: [100, 600, 100, 600], [100, 600, 100, 600], [100, 600, 100, 600], [100, 600, 100, 600], [100, 600, 100, 600], [100, 600,",Defective,Unknown,,Unmatched,True,Defect type: pinhole,,finetuned,True,correct
+pinhole_00061,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00061.jpg,pinhole/pinhole_00061.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect type: pinhole
+Evidence: Defects: 10 pinholes
+Confidence: 90%",Defective,pinhole,90.0,pinhole,True,Defects: 10 pinholes,,finetuned,True,correct
+pinhole_00061,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00061.jpg,pinhole/pinhole_00061.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00062,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00062.jpg,pinhole/pinhole_00062.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: Defect type: pinhole
+Defect location: [0.03, 0.72, 0.04, 0.73], [0.33, 0.62, 0.34, 0.63], [0.61, 0.6, 0.62, 0.61], [0.81, 0.48, 0.82, 0.49], [0.81, 0.48, 0.",Defective,Unknown,,Unmatched,True,Defect type: pinhole,,finetuned,True,correct
+pinhole_00062,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00062.jpg,pinhole/pinhole_00062.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: pinhole
+Evidence: Defects: 10 pinholes",Defective,pinhole,,pinhole,True,Defects: 10 pinholes,,finetuned,True,correct
+pinhole_00062,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00062.jpg,pinhole/pinhole_00062.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00065,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00065.jpg,pinhole/pinhole_00065.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: Defect type: pinhole
+Defect location: [0.12, 0.82, 0.14, 0.84], [0.19, 0.83, 0.21, 0.85], [0.2, 0.85, 0.22, 0.87], [0.27, 0.85, 0.29, 0.87], [0.39, 0.41, 0.",Defective,Unknown,,Unmatched,True,Defect type: pinhole,,finetuned,True,correct
+pinhole_00065,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00065.jpg,pinhole/pinhole_00065.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect type: pinhole
+Evidence: Defects: 14 pinholes",Defective,pinhole,,pinhole,True,Defects: 14 pinholes,,finetuned,True,correct
+pinhole_00065,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00065.jpg,pinhole/pinhole_00065.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00066,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00066.jpg,pinhole/pinhole_00066.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: pinhole
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,pinhole,,finetuned,True,correct
+pinhole_00066,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00066.jpg,pinhole/pinhole_00066.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect type: pinhole
+Evidence: Defects are marked with red stars.",Defective,pinhole,,pinhole,True,Defects are marked with red stars.,,finetuned,True,correct
+pinhole_00066,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00066.jpg,pinhole/pinhole_00066.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00068,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00068.jpg,pinhole/pinhole_00068.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: Defect type: pinhole
+Defect location: [0.02, 0.02, 0.03, 0.03], [0.05, 0.45, 0.06, 0.46], [0.06, 0.4, 0.07, 0.41], [0.07, 0.4, 0.08, 0.41], [0.08, 0.4, 0.09",Defective,Unknown,,Unmatched,True,Defect type: pinhole,,finetuned,True,correct
+pinhole_00068,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00068.jpg,pinhole/pinhole_00068.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect type: pinhole
+Evidence: Multiple pinholes are visible on the surface of the part.",Defective,pinhole,,pinhole,True,Multiple pinholes are visible on the surface of the part.,,finetuned,True,correct
+pinhole_00068,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00068.jpg,pinhole/pinhole_00068.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00070,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00070.jpg,pinhole/pinhole_00070.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: pinhole
+Confidence: 98%",Defective,Unknown,98.0,Unmatched,True,pinhole,,finetuned,True,correct
+pinhole_00070,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00070.jpg,pinhole/pinhole_00070.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect type: pinhole
+Evidence: The image shows multiple pinhole defects, which are small, dark spots scattered across the surface of the casting. These are likely caused by air bubbles trapped during the casting process.
+Confidence: 95%",Defective,pinhole,95.0,pinhole,True,"The image shows multiple pinhole defects, which are small, dark spots scattered across the surface of the casting. These are likely caused by air bubbles trapped during the casting process.",,finetuned,True,correct
+pinhole_00070,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00070.jpg,pinhole/pinhole_00070.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00071,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00071.jpg,pinhole/pinhole_00071.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: pinhole
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,pinhole,,finetuned,True,correct
+pinhole_00071,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00071.jpg,pinhole/pinhole_00071.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect type: pinhole
+Evidence: The image shows multiple pinholes, which are small, dark spots scattered across the surface of the casting. These pinholes are irregular in shape and size, and they are located on the outer surface of the casting. The pinholes are not clustered together, and they are not located near the center of the casting.
+Confidence: 95%",Defective,pinhole,95.0,pinhole,True,"The image shows multiple pinholes, which are small, dark spots scattered across the surface of the casting. These pinholes are irregular in shape and size, and they are located on the outer surface of the casting. The pinholes are not clustered together, and they are not located near the center of the casting.",,finetuned,True,correct
+pinhole_00071,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00071.jpg,pinhole/pinhole_00071.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00072,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00072.jpg,pinhole/pinhole_00072.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: Defect type: pinhole; Defect location: center
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: pinhole; Defect location: center,,finetuned,True,correct
+pinhole_00072,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00072.jpg,pinhole/pinhole_00072.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: pinhole
+Evidence: The image shows 4 pinholes, marked with asterisks, on the surface of the casting.",Defective,pinhole,,pinhole,True,"The image shows 4 pinholes, marked with asterisks, on the surface of the casting.",,finetuned,True,correct
+pinhole_00072,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00072.jpg,pinhole/pinhole_00072.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole
+Defect location: [0.43, 0.57, 0.45, 0.59], [0.29, 0.44, 0.32, 0.47], [0.75, 0.45, 0.78, 0.48], [0.71, 0.38, 0.74, 0.41]",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00083,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00083.jpg,pinhole/pinhole_00083.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: Defect type: pinhole
+Defect location: (428, 102), (648, 206), (234, 192), (388, 662)
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: pinhole,,finetuned,True,correct
+pinhole_00083,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00083.jpg,pinhole/pinhole_00083.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect type: pinhole
+Evidence: Defects: 4 pinholes",Defective,pinhole,,pinhole,True,Defects: 4 pinholes,,finetuned,True,correct
+pinhole_00083,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00083.jpg,pinhole/pinhole_00083.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole
+Defect location: [0.41, 0.64], [0.44, 0.67], [0.62, 0.22], [0.73, 0.12], [0.43, 0.11]",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00084,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00084.jpg,pinhole/pinhole_00084.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: Defect type: pinhole
+Defect location: [1, 4, 2, 5, 3, 6, 4, 7, 5, 8, 6, 9, 7, 10, 8, 11, 9, 12, 10, 13, 11, 14, 12, 15, 13, 16, 14, 17, 15, 18, 16,",Defective,Unknown,,Unmatched,True,Defect type: pinhole,,finetuned,True,correct
+pinhole_00084,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00084.jpg,pinhole/pinhole_00084.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect type: pinhole
+Evidence: Defects: 5 pinholes
+Confidence: 90%",Defective,pinhole,90.0,pinhole,True,Defects: 5 pinholes,,finetuned,True,correct
+pinhole_00084,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00084.jpg,pinhole/pinhole_00084.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00087,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00087.jpg,pinhole/pinhole_00087.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: Defect type: pinhole
+Defect location: [0.26, 0.28], [0.61, 0.61], [0.97, 0.67], [0.85, 0.98]
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: pinhole,,finetuned,True,correct
+pinhole_00087,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00087.jpg,pinhole/pinhole_00087.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: pinhole
+Evidence: Defects are marked with red stars.",Defective,pinhole,,pinhole,True,Defects are marked with red stars.,,finetuned,True,correct
+pinhole_00087,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00087.jpg,pinhole/pinhole_00087.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+pinhole_00088,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00088.jpg,pinhole/pinhole_00088.jpg,Defective,pinhole,prompt_1,"Classification: Defective
+Reason: Defect type: pinhole
+Defect location: [0.08, 0.45, 0.1, 0.47], [0.19, 0.84, 0.21, 0.86], [0.25, 0.84, 0.27, 0.86], [0.36, 0.85, 0.38, 0.87], [0.47, 0.95, 0.",Defective,Unknown,,Unmatched,True,Defect type: pinhole,,finetuned,True,correct
+pinhole_00088,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00088.jpg,pinhole/pinhole_00088.jpg,Defective,pinhole,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: pinhole
+Evidence: Defects are visible as small black dots scattered across the surface.",Defective,pinhole,,pinhole,True,Defects are visible as small black dots scattered across the surface.,,finetuned,True,correct
+pinhole_00088,/content/casting-defect-vlm/data/raw/output/defect_dataset/pinhole/pinhole_00088.jpg,pinhole/pinhole_00088.jpg,Defective,pinhole,prompt_3,"Classification: Defective
+Defect type: pinhole",Defective,pinhole,,pinhole,True,,,finetuned,True,correct
+porosity_00013,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00013.jpg,porosity/porosity_00013.jpg,Defective,porosity,prompt_1,"Classification: Defective
+Reason: Defect type: porosity, Defect location: center, left, right
+Confidence: 99%",Defective,Unknown,99.0,Unmatched,True,"Defect type: porosity, Defect location: center, left, right",,finetuned,True,correct
+porosity_00013,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00013.jpg,porosity/porosity_00013.jpg,Defective,porosity,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: porosity
+Evidence: Defects are visible as black dots.",Defective,porosity,,porosity,True,Defects are visible as black dots.,,finetuned,True,correct
+porosity_00013,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00013.jpg,porosity/porosity_00013.jpg,Defective,porosity,prompt_3,"Classification: Defective
+Defect type: porosity
+Defect location: [0.02, 0.6], [0.08, 0.15], [0.45, 0.4], [0.55, 0.6], [0.75, 0.45], [0.95, 0.2]",Defective,porosity,,porosity,True,,,finetuned,True,correct
+porosity_00033,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00033.jpg,porosity/porosity_00033.jpg,Defective,porosity,prompt_1,"Classification: Defective
+Defect type: porosity
+Defect location: [0.02, 0.12], [0.17, 0.15], [0.63, 0.21], [0.75, 0.28], [0.77, 0.56], [0.32, 0.87], [0.87, 0.22]",Defective,porosity,,porosity,True,,,finetuned,True,correct
+porosity_00033,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00033.jpg,porosity/porosity_00033.jpg,Defective,porosity,prompt_2,"Classification: Defective
+Defect type: mixed_defects
+Evidence: Defects: 6 holes, 1 dent",Defective,mixed_defects,,mixed_defects,True,"Defects: 6 holes, 1 dent",,finetuned,True,correct
+porosity_00033,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00033.jpg,porosity/porosity_00033.jpg,Defective,porosity,prompt_3,"Classification: Defective
+Defect type: porosity
+Defect location: [0.02, 0.12], [0.17, 0.15], [0.35, 0.87], [0.62, 0.61], [0.76, 0.57], [0.75, 0.27], [0.62, 0.18], [0.87, 0.22]",Defective,porosity,,porosity,True,,,finetuned,True,correct
+porosity_00040,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00040.jpg,porosity/porosity_00040.jpg,Defective,porosity,prompt_1,"Classification: Defective
+Defect type: porosity
+Defect location: [558, 765], [788, 815], [562, 228]
+Defect type: porosity
+Defect location: [558, 765], [788, 815], [562, 228]",Defective,porosity,,porosity,True,,,finetuned,True,correct
+porosity_00040,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00040.jpg,porosity/porosity_00040.jpg,Defective,porosity,prompt_2,"Classification: Defective
+Defect type: porosity
+Evidence: Defects: 3 porosity",Defective,porosity,,porosity,True,Defects: 3 porosity,,finetuned,True,correct
+porosity_00040,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00040.jpg,porosity/porosity_00040.jpg,Defective,porosity,prompt_3,"Classification: Defective
+Defect type: porosity
+Defect location: [558, 765], [788, 815], [562, 228]",Defective,porosity,,porosity,True,,,finetuned,True,correct
+porosity_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00045.jpg,porosity/porosity_00045.jpg,Defective,porosity,prompt_1,"Classification: Defective
+Reason: Defect type: porosity
+Defect location: [572, 228, 612, 268], [568, 612, 612, 658], [568, 828, 612, 868]
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: porosity,,finetuned,True,correct
+porosity_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00045.jpg,porosity/porosity_00045.jpg,Defective,porosity,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: porosity
+Evidence: Defects are marked with black dots.",Defective,porosity,,porosity,True,Defects are marked with black dots.,,finetuned,True,correct
+porosity_00045,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00045.jpg,porosity/porosity_00045.jpg,Defective,porosity,prompt_3,"Classification: Defective
+Defect type: porosity",Defective,porosity,,porosity,True,,,finetuned,True,correct
+porosity_00047,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00047.jpg,porosity/porosity_00047.jpg,Defective,porosity,prompt_1,"Classification: Defective
+Reason: Defect type: porosity
+Defect location: [0.0, 0.3, 0.2, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: porosity,,finetuned,True,correct
+porosity_00047,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00047.jpg,porosity/porosity_00047.jpg,Defective,porosity,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: porosity
+Evidence: Defects: 8 porosity",Defective,porosity,,porosity,True,Defects: 8 porosity,,finetuned,True,correct
+porosity_00047,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00047.jpg,porosity/porosity_00047.jpg,Defective,porosity,prompt_3,"Classification: Defective
+Defect type: porosity",Defective,porosity,,porosity,True,,,finetuned,True,correct
+porosity_00058,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00058.jpg,porosity/porosity_00058.jpg,Defective,porosity,prompt_1,"Classification: Defective
+Reason: Defect type: porosity, Defect location: [0.11, 0.48], [0.59, 0.42], [0.77, 0.47], [0.53, 0.61], [0.08, 0.99]
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,"Defect type: porosity, Defect location: [0.11, 0.48], [0.59, 0.42], [0.77, 0.47], [0.53, 0.61], [0.08, 0.99]",,finetuned,True,correct
+porosity_00058,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00058.jpg,porosity/porosity_00058.jpg,Defective,porosity,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: porosity
+Evidence: Defects: 6 porosity",Defective,porosity,,porosity,True,Defects: 6 porosity,,finetuned,True,correct
+porosity_00058,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00058.jpg,porosity/porosity_00058.jpg,Defective,porosity,prompt_3,"Classification: Defective
+Defect type: porosity
+Defect location: [0.11, 0.87, 0.12, 0.89], [0.2, 0.47, 0.24, 0.5], [0.52, 0.59, 0.56, 0.62], [0.59, 0.42, 0.63, 0.46], [0.75, 0.45, 0.79,",Defective,porosity,,porosity,True,,,finetuned,True,correct
+porosity_00071,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00071.jpg,porosity/porosity_00071.jpg,Defective,porosity,prompt_1,"Classification: Defective
+Reason: Defect type: porosity, Defect location: center
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,"Defect type: porosity, Defect location: center",,finetuned,True,correct
+porosity_00071,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00071.jpg,porosity/porosity_00071.jpg,Defective,porosity,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: porosity
+Evidence: Defects: 5 porosity",Defective,porosity,,porosity,True,Defects: 5 porosity,,finetuned,True,correct
+porosity_00071,/content/casting-defect-vlm/data/raw/output/defect_dataset/porosity/porosity_00071.jpg,porosity/porosity_00071.jpg,Defective,porosity,prompt_3,"Classification: Defective
+Defect type: porosity
+Defect location: [0.0, 0.3, 0.6, 0.7]",Defective,porosity,,porosity,True,,,finetuned,True,correct
+scratch_00002,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00002.jpg,scratch/scratch_00002.jpg,Defective,scratch,prompt_1,"Classification: Defective
+Reason: Defect type: scratch
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: scratch,,finetuned,True,correct
+scratch_00002,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00002.jpg,scratch/scratch_00002.jpg,Defective,scratch,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: scratch
+Evidence: Defects: scratch",Defective,scratch,,scratch,True,Defects: scratch,,finetuned,True,correct
+scratch_00002,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00002.jpg,scratch/scratch_00002.jpg,Defective,scratch,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,True,correct
+scratch_00018,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00018.jpg,scratch/scratch_00018.jpg,Defective,scratch,prompt_1,"Classification: Defective
+Reason: A scratch is detected on the surface.
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,A scratch is detected on the surface.,,finetuned,True,correct
+scratch_00018,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00018.jpg,scratch/scratch_00018.jpg,Defective,scratch,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: scratch
+Evidence: A scratch is visible on the surface of the part.",Defective,scratch,,scratch,True,A scratch is visible on the surface of the part.,,finetuned,True,correct
+scratch_00018,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00018.jpg,scratch/scratch_00018.jpg,Defective,scratch,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,True,correct
+scratch_00023,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00023.jpg,scratch/scratch_00023.jpg,Defective,scratch,prompt_1,"Classification: Defective
+Reason: Defect type: scratch
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: scratch,,finetuned,True,correct
+scratch_00023,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00023.jpg,scratch/scratch_00023.jpg,Defective,scratch,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: scratch
+Evidence: Two scratches are visible on the surface.",Defective,scratch,,scratch,True,Two scratches are visible on the surface.,,finetuned,True,correct
+scratch_00023,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00023.jpg,scratch/scratch_00023.jpg,Defective,scratch,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,True,correct
+scratch_00024,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00024.jpg,scratch/scratch_00024.jpg,Defective,scratch,prompt_1,"Classification: Defective
+Reason: scratch
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,scratch,,finetuned,True,correct
+scratch_00024,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00024.jpg,scratch/scratch_00024.jpg,Defective,scratch,prompt_2,"Classification: Defective
+Defect type: scratch
+Evidence: A scratch is visible on the surface of the part.",Defective,scratch,,scratch,True,A scratch is visible on the surface of the part.,,finetuned,True,correct
+scratch_00024,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00024.jpg,scratch/scratch_00024.jpg,Defective,scratch,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,True,correct
+scratch_00026,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00026.jpg,scratch/scratch_00026.jpg,Defective,scratch,prompt_1,"Classification: Defective
+Reason: scratch
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,scratch,,finetuned,True,correct
+scratch_00026,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00026.jpg,scratch/scratch_00026.jpg,Defective,scratch,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: scratch
+Evidence: Three long scratches are visible on the surface.",Defective,scratch,,scratch,True,Three long scratches are visible on the surface.,,finetuned,True,correct
+scratch_00026,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00026.jpg,scratch/scratch_00026.jpg,Defective,scratch,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,True,correct
+scratch_00030,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00030.jpg,scratch/scratch_00030.jpg,Defective,scratch,prompt_1,"Classification: Defective
+Reason: A thin needle-like scratch is present on the surface.
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,A thin needle-like scratch is present on the surface.,,finetuned,True,correct
+scratch_00030,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00030.jpg,scratch/scratch_00030.jpg,Defective,scratch,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,True,correct
+scratch_00030,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00030.jpg,scratch/scratch_00030.jpg,Defective,scratch,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,True,correct
+scratch_00038,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00038.jpg,scratch/scratch_00038.jpg,Defective,scratch,prompt_1,"Classification: Defective
+Reason: A thin scratch is visible on the surface.
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,A thin scratch is visible on the surface.,,finetuned,True,correct
+scratch_00038,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00038.jpg,scratch/scratch_00038.jpg,Defective,scratch,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: scratch
+Evidence: A scratch is visible on the surface of the object.",Defective,scratch,,scratch,True,A scratch is visible on the surface of the object.,,finetuned,True,correct
+scratch_00038,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00038.jpg,scratch/scratch_00038.jpg,Defective,scratch,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,True,correct
+scratch_00039,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00039.jpg,scratch/scratch_00039.jpg,Defective,scratch,prompt_1,"Classification: Defective
+Reason: A thin needle-like scratch is present on the surface.
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,A thin needle-like scratch is present on the surface.,,finetuned,True,correct
+scratch_00039,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00039.jpg,scratch/scratch_00039.jpg,Defective,scratch,prompt_2,"Classification: Defective
+Defect type: scratch
+Evidence: A scratch is visible on the surface of the part.",Defective,scratch,,scratch,True,A scratch is visible on the surface of the part.,,finetuned,True,correct
+scratch_00039,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00039.jpg,scratch/scratch_00039.jpg,Defective,scratch,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,True,correct
+scratch_00055,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00055.jpg,scratch/scratch_00055.jpg,Defective,scratch,prompt_1,"Classification: Defective
+Reason: scratch
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,scratch,,finetuned,True,correct
+scratch_00055,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00055.jpg,scratch/scratch_00055.jpg,Defective,scratch,prompt_2,"Classification: Defective
+Defect type: scratch
+Evidence: A scratch is present on the surface of the object.",Defective,scratch,,scratch,True,A scratch is present on the surface of the object.,,finetuned,True,correct
+scratch_00055,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00055.jpg,scratch/scratch_00055.jpg,Defective,scratch,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,True,correct
+scratch_00068,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00068.jpg,scratch/scratch_00068.jpg,Defective,scratch,prompt_1,"Classification: Defective
+Reason: scratch
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,scratch,,finetuned,True,correct
+scratch_00068,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00068.jpg,scratch/scratch_00068.jpg,Defective,scratch,prompt_2,"Classification: Defective
+Defect type: scratch
+Evidence: Two thin, diagonal scratches are visible on the surface.",Defective,scratch,,scratch,True,"Two thin, diagonal scratches are visible on the surface.",,finetuned,True,correct
+scratch_00068,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00068.jpg,scratch/scratch_00068.jpg,Defective,scratch,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,True,correct
+scratch_00087,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00087.jpg,scratch/scratch_00087.jpg,Defective,scratch,prompt_1,"Classification: Defective
+Reason: Defect type: scratch
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: scratch,,finetuned,True,correct
+scratch_00087,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00087.jpg,scratch/scratch_00087.jpg,Defective,scratch,prompt_2,"Classification: Defective
+Defect type: scratch
+Evidence: A scratch is visible on the surface of the part.",Defective,scratch,,scratch,True,A scratch is visible on the surface of the part.,,finetuned,True,correct
+scratch_00087,/content/casting-defect-vlm/data/raw/output/defect_dataset/scratch/scratch_00087.jpg,scratch/scratch_00087.jpg,Defective,scratch,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,True,correct
+shrinkage_00004,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00004.jpg,shrinkage/shrinkage_00004.jpg,Defective,shrinkage,prompt_1,"Classification: Defective
+Reason: Defect type: shrinkage
+Defect location: [0.49, 0.44, 0.55, 0.49] [0.68, 0.39, 0.82, 0.57]
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: shrinkage,,finetuned,True,correct
+shrinkage_00004,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00004.jpg,shrinkage/shrinkage_00004.jpg,Defective,shrinkage,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: shrinkage
+Evidence: Defects: shrinkage
+Confidence: 90%",Defective,shrinkage,90.0,shrinkage,True,Defects: shrinkage,,finetuned,True,correct
+shrinkage_00004,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00004.jpg,shrinkage/shrinkage_00004.jpg,Defective,shrinkage,prompt_3,"Classification: Defective
+Defect type: shrinkage",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+shrinkage_00018,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00018.jpg,shrinkage/shrinkage_00018.jpg,Defective,shrinkage,prompt_1,"Classification: Defective
+Reason: Defect type: shrinkage
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: shrinkage,,finetuned,True,correct
+shrinkage_00018,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00018.jpg,shrinkage/shrinkage_00018.jpg,Defective,shrinkage,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: shrinkage
+Evidence: Defects: shrinkage, shape: diamond, pentagon",Defective,shrinkage,,shrinkage,True,"Defects: shrinkage, shape: diamond, pentagon",,finetuned,True,correct
+shrinkage_00018,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00018.jpg,shrinkage/shrinkage_00018.jpg,Defective,shrinkage,prompt_3,"Classification: Defective
+Defect type: shrinkage",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+shrinkage_00022,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00022.jpg,shrinkage/shrinkage_00022.jpg,Defective,shrinkage,prompt_1,"Classification: Defective
+Reason: Defect type: shrinkage
+Defect location: center
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: shrinkage,,finetuned,True,correct
+shrinkage_00022,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00022.jpg,shrinkage/shrinkage_00022.jpg,Defective,shrinkage,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: shrinkage
+Evidence: Defects: shrinkage, shrinkage, shrinkage",Defective,shrinkage,,shrinkage,True,"Defects: shrinkage, shrinkage, shrinkage",,finetuned,True,correct
+shrinkage_00022,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00022.jpg,shrinkage/shrinkage_00022.jpg,Defective,shrinkage,prompt_3,"Classification: Defective
+Defect type: shrinkage",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+shrinkage_00038,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00038.jpg,shrinkage/shrinkage_00038.jpg,Defective,shrinkage,prompt_1,"Classification: Defective
+Reason: Defect type: shrinkage
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: shrinkage,,finetuned,True,correct
+shrinkage_00038,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00038.jpg,shrinkage/shrinkage_00038.jpg,Defective,shrinkage,prompt_2,"Classification: Defective
+Defect type: shrinkage
+Evidence: A shrinkage defect is present in the image, characterized by a dark, irregularly shaped void in the center of the casting. The defect appears to be a hexagonal void, which is a common type of shrinkage defect.
+Confidence: 90%",Defective,shrinkage,90.0,shrinkage,True,"A shrinkage defect is present in the image, characterized by a dark, irregularly shaped void in the center of the casting. The defect appears to be a hexagonal void, which is a common type of shrinkage defect.",,finetuned,True,correct
+shrinkage_00038,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00038.jpg,shrinkage/shrinkage_00038.jpg,Defective,shrinkage,prompt_3,"Classification: Defective
+Defect type: shrinkage",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+shrinkage_00040,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00040.jpg,shrinkage/shrinkage_00040.jpg,Defective,shrinkage,prompt_1,"Classification: Defective
+Reason: Defect type: shrinkage
+Defect location: [550, 258, 670, 350], [540, 388, 670, 500]
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: shrinkage,,finetuned,True,correct
+shrinkage_00040,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00040.jpg,shrinkage/shrinkage_00040.jpg,Defective,shrinkage,prompt_2,"Classification: Defective
+Defect type: shrinkage
+Evidence: Defects are marked with black boxes.",Defective,shrinkage,,shrinkage,True,Defects are marked with black boxes.,,finetuned,True,correct
+shrinkage_00040,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00040.jpg,shrinkage/shrinkage_00040.jpg,Defective,shrinkage,prompt_3,"Classification: Defective
+Defect type: shrinkage",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+shrinkage_00048,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00048.jpg,shrinkage/shrinkage_00048.jpg,Defective,shrinkage,prompt_1,"Classification: Defective
+Reason: Defect type: shrinkage
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: shrinkage,,finetuned,True,correct
+shrinkage_00048,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00048.jpg,shrinkage/shrinkage_00048.jpg,Defective,shrinkage,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: shrinkage
+Evidence: A shrinkage defect is visible as a black hexagonal shape on the surface of the casting.",Defective,shrinkage,,shrinkage,True,A shrinkage defect is visible as a black hexagonal shape on the surface of the casting.,,finetuned,True,correct
+shrinkage_00048,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00048.jpg,shrinkage/shrinkage_00048.jpg,Defective,shrinkage,prompt_3,"Classification: Defective
+Defect type: shrinkage",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+shrinkage_00051,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00051.jpg,shrinkage/shrinkage_00051.jpg,Defective,shrinkage,prompt_1,"Classification: Defective
+Reason: Defect type: shrinkage
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: shrinkage,,finetuned,True,correct
+shrinkage_00051,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00051.jpg,shrinkage/shrinkage_00051.jpg,Defective,shrinkage,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: shrinkage",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+shrinkage_00051,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00051.jpg,shrinkage/shrinkage_00051.jpg,Defective,shrinkage,prompt_3,"Classification: Defective
+Defect type: shrinkage",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+shrinkage_00056,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00056.jpg,shrinkage/shrinkage_00056.jpg,Defective,shrinkage,prompt_1,"Classification: Defective
+Reason: Defect type: shrinkage
+Defect location: [0.17, 0.2, 0.37, 0.39], [0.29, 0.42, 0.46, 0.57], [0.57, 0.63, 0.8, 0.82]
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: shrinkage,,finetuned,True,correct
+shrinkage_00056,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00056.jpg,shrinkage/shrinkage_00056.jpg,Defective,shrinkage,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: shrinkage
+Evidence: Defects are visible as black shapes on the surface of the casting.",Defective,shrinkage,,shrinkage,True,Defects are visible as black shapes on the surface of the casting.,,finetuned,True,correct
+shrinkage_00056,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00056.jpg,shrinkage/shrinkage_00056.jpg,Defective,shrinkage,prompt_3,"Classification: Defective
+Defect type: shrinkage
+Defect location: [0.17, 0.2, 0.37, 0.38], [0.3, 0.43, 0.45, 0.57], [0.57, 0.63, 0.8, 0.82]",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+shrinkage_00061,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00061.jpg,shrinkage/shrinkage_00061.jpg,Defective,shrinkage,prompt_1,"Classification: Defective
+Reason: Defect type: shrinkage
+Defect location: center
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: shrinkage,,finetuned,True,correct
+shrinkage_00061,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00061.jpg,shrinkage/shrinkage_00061.jpg,Defective,shrinkage,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: shrinkage
+Evidence: Defects are hexagonal in shape and are located at the center of the image.",Defective,shrinkage,,shrinkage,True,Defects are hexagonal in shape and are located at the center of the image.,,finetuned,True,correct
+shrinkage_00061,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00061.jpg,shrinkage/shrinkage_00061.jpg,Defective,shrinkage,prompt_3,"Classification: Defective
+Defect type: shrinkage",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+shrinkage_00067,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00067.jpg,shrinkage/shrinkage_00067.jpg,Defective,shrinkage,prompt_1,"Classification: Defective
+Reason: Defect type: shrinkage
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: shrinkage,,finetuned,True,correct
+shrinkage_00067,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00067.jpg,shrinkage/shrinkage_00067.jpg,Defective,shrinkage,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: shrinkage",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+shrinkage_00067,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00067.jpg,shrinkage/shrinkage_00067.jpg,Defective,shrinkage,prompt_3,"Classification: Defective
+Defect type: shrinkage",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+shrinkage_00070,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00070.jpg,shrinkage/shrinkage_00070.jpg,Defective,shrinkage,prompt_1,"Classification: Defective
+Reason: Defect type: shrinkage
+Defect location: [300, 220, 380, 330], [370, 220, 450, 320]
+Confidence: 95%",Defective,Unknown,95.0,Unmatched,True,Defect type: shrinkage,,finetuned,True,correct
+shrinkage_00070,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00070.jpg,shrinkage/shrinkage_00070.jpg,Defective,shrinkage,prompt_2,"Classification: Defective
+Defect type: shrinkage
+Evidence: Defects are marked with black boxes.",Defective,shrinkage,,shrinkage,True,Defects are marked with black boxes.,,finetuned,True,correct
+shrinkage_00070,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00070.jpg,shrinkage/shrinkage_00070.jpg,Defective,shrinkage,prompt_3,"Classification: Defective
+Defect type: shrinkage",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+shrinkage_00087,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00087.jpg,shrinkage/shrinkage_00087.jpg,Defective,shrinkage,prompt_1,"Classification: Defective
+Reason: Defect type: shrinkage
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: shrinkage,,finetuned,True,correct
+shrinkage_00087,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00087.jpg,shrinkage/shrinkage_00087.jpg,Defective,shrinkage,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: shrinkage
+Evidence: Two black shrinkage defects are visible in the center of the image.",Defective,shrinkage,,shrinkage,True,Two black shrinkage defects are visible in the center of the image.,,finetuned,True,correct
+shrinkage_00087,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00087.jpg,shrinkage/shrinkage_00087.jpg,Defective,shrinkage,prompt_3,"Classification: Defective
+Defect type: shrinkage",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+shrinkage_00090,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00090.jpg,shrinkage/shrinkage_00090.jpg,Defective,shrinkage,prompt_1,"Classification: Defective
+Reason: Defect type: shrinkage
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: shrinkage,,finetuned,True,correct
+shrinkage_00090,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00090.jpg,shrinkage/shrinkage_00090.jpg,Defective,shrinkage,prompt_2,"Classification: Defective
+Defect present: Yes
+Defect type: shrinkage
+Evidence: A hexagonal-shaped shrinkage is visible in the center of the image.",Defective,shrinkage,,shrinkage,True,A hexagonal-shaped shrinkage is visible in the center of the image.,,finetuned,True,correct
+shrinkage_00090,/content/casting-defect-vlm/data/raw/output/defect_dataset/shrinkage/shrinkage_00090.jpg,shrinkage/shrinkage_00090.jpg,Defective,shrinkage,prompt_3,"Classification: Defective
+Defect type: shrinkage",Defective,shrinkage,,shrinkage,True,,,finetuned,True,correct
+surface_roughness_00006,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00006.jpg,surface_roughness/surface_roughness_00006.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: Defective surface: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defective surface: surface_roughness,,finetuned,True,correct
+surface_roughness_00006,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00006.jpg,surface_roughness/surface_roughness_00006.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: inclusion
+Evidence: Inclusion is visible as a white spot on the right side of the image.
+Confidence: 90%",Defective,inclusion,90.0,inclusion,True,Inclusion is visible as a white spot on the right side of the image.,,finetuned,True,correct
+surface_roughness_00006,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00006.jpg,surface_roughness/surface_roughness_00006.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00009,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00009.jpg,surface_roughness/surface_roughness_00009.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: Defective surface: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defective surface: surface_roughness,,finetuned,True,correct
+surface_roughness_00009,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00009.jpg,surface_roughness/surface_roughness_00009.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: Surface has surface roughness
+Confidence: 90%",Defective,surface_roughness,90.0,surface_roughness,True,Surface has surface roughness,,finetuned,True,correct
+surface_roughness_00009,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00009.jpg,surface_roughness/surface_roughness_00009.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00034,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00034.jpg,surface_roughness/surface_roughness_00034.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+surface_roughness_00034,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00034.jpg,surface_roughness/surface_roughness_00034.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: Surface has surface roughness
+Confidence: 90%",Defective,surface_roughness,90.0,surface_roughness,True,Surface has surface roughness,,finetuned,True,correct
+surface_roughness_00034,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00034.jpg,surface_roughness/surface_roughness_00034.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00036,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00036.jpg,surface_roughness/surface_roughness_00036.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+surface_roughness_00036,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00036.jpg,surface_roughness/surface_roughness_00036.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: Surface roughness is visible on the surface of the part.",Defective,surface_roughness,,surface_roughness,True,Surface roughness is visible on the surface of the part.,,finetuned,True,correct
+surface_roughness_00036,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00036.jpg,surface_roughness/surface_roughness_00036.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00040,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00040.jpg,surface_roughness/surface_roughness_00040.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+surface_roughness_00040,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00040.jpg,surface_roughness/surface_roughness_00040.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: The surface of the object has a rough texture, which is a surface defect.
+Confidence: 90%",Defective,surface_roughness,90.0,surface_roughness,True,"The surface of the object has a rough texture, which is a surface defect.",,finetuned,True,correct
+surface_roughness_00040,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00040.jpg,surface_roughness/surface_roughness_00040.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00046,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00046.jpg,surface_roughness/surface_roughness_00046.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+surface_roughness_00046,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00046.jpg,surface_roughness/surface_roughness_00046.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: Surface has surface roughness
+Confidence: 90%",Defective,surface_roughness,90.0,surface_roughness,True,Surface has surface roughness,,finetuned,True,correct
+surface_roughness_00046,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00046.jpg,surface_roughness/surface_roughness_00046.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00047,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00047.jpg,surface_roughness/surface_roughness_00047.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+surface_roughness_00047,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00047.jpg,surface_roughness/surface_roughness_00047.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: Surface has surface roughness
+Confidence: 90%",Defective,surface_roughness,90.0,surface_roughness,True,Surface has surface roughness,,finetuned,True,correct
+surface_roughness_00047,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00047.jpg,surface_roughness/surface_roughness_00047.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00048,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00048.jpg,surface_roughness/surface_roughness_00048.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+surface_roughness_00048,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00048.jpg,surface_roughness/surface_roughness_00048.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: Surface has surface roughness
+Confidence: 90%",Defective,surface_roughness,90.0,surface_roughness,True,Surface has surface roughness,,finetuned,True,correct
+surface_roughness_00048,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00048.jpg,surface_roughness/surface_roughness_00048.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00056,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00056.jpg,surface_roughness/surface_roughness_00056.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+surface_roughness_00056,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00056.jpg,surface_roughness/surface_roughness_00056.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: The surface of the object has surface roughness.
+Confidence: 90%",Defective,surface_roughness,90.0,surface_roughness,True,The surface of the object has surface roughness.,,finetuned,True,correct
+surface_roughness_00056,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00056.jpg,surface_roughness/surface_roughness_00056.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00057,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00057.jpg,surface_roughness/surface_roughness_00057.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+surface_roughness_00057,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00057.jpg,surface_roughness/surface_roughness_00057.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: Surface has a rough texture
+Confidence: 90%",Defective,surface_roughness,90.0,surface_roughness,True,Surface has a rough texture,,finetuned,True,correct
+surface_roughness_00057,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00057.jpg,surface_roughness/surface_roughness_00057.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00065,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00065.jpg,surface_roughness/surface_roughness_00065.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+surface_roughness_00065,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00065.jpg,surface_roughness/surface_roughness_00065.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: Surface roughness is visible on the surface of the part.",Defective,surface_roughness,,surface_roughness,True,Surface roughness is visible on the surface of the part.,,finetuned,True,correct
+surface_roughness_00065,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00065.jpg,surface_roughness/surface_roughness_00065.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00069,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00069.jpg,surface_roughness/surface_roughness_00069.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: Defective surface: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defective surface: surface_roughness,,finetuned,True,correct
+surface_roughness_00069,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00069.jpg,surface_roughness/surface_roughness_00069.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: The surface of the part has a rough texture.
+Confidence: 90%",Defective,surface_roughness,90.0,surface_roughness,True,The surface of the part has a rough texture.,,finetuned,True,correct
+surface_roughness_00069,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00069.jpg,surface_roughness/surface_roughness_00069.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00072,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00072.jpg,surface_roughness/surface_roughness_00072.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+surface_roughness_00072,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00072.jpg,surface_roughness/surface_roughness_00072.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: Surface has a rough texture
+Confidence: 90%",Defective,surface_roughness,90.0,surface_roughness,True,Surface has a rough texture,,finetuned,True,correct
+surface_roughness_00072,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00072.jpg,surface_roughness/surface_roughness_00072.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00074,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00074.jpg,surface_roughness/surface_roughness_00074.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: scratch
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,scratch,,finetuned,True,correct
+surface_roughness_00074,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00074.jpg,surface_roughness/surface_roughness_00074.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: scratch
+Evidence: A scratch is visible on the surface of the object.",Defective,scratch,,scratch,True,A scratch is visible on the surface of the object.,,finetuned,True,correct
+surface_roughness_00074,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00074.jpg,surface_roughness/surface_roughness_00074.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: scratch",Defective,scratch,,scratch,True,,,finetuned,True,correct
+surface_roughness_00075,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00075.jpg,surface_roughness/surface_roughness_00075.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+surface_roughness_00075,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00075.jpg,surface_roughness/surface_roughness_00075.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: Surface has a rough texture
+Confidence: 90%",Defective,surface_roughness,90.0,surface_roughness,True,Surface has a rough texture,,finetuned,True,correct
+surface_roughness_00075,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00075.jpg,surface_roughness/surface_roughness_00075.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00078,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00078.jpg,surface_roughness/surface_roughness_00078.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: Defect type: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,Defect type: surface_roughness,,finetuned,True,correct
+surface_roughness_00078,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00078.jpg,surface_roughness/surface_roughness_00078.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: The surface of the object has a surface roughness defect.
+Confidence: 90%",Defective,surface_roughness,90.0,surface_roughness,True,The surface of the object has a surface roughness defect.,,finetuned,True,correct
+surface_roughness_00078,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00078.jpg,surface_roughness/surface_roughness_00078.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00083,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00083.jpg,surface_roughness/surface_roughness_00083.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+surface_roughness_00083,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00083.jpg,surface_roughness/surface_roughness_00083.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: flash
+Evidence: Flash is visible on the surface of the part.",Defective,flash,,flash,True,Flash is visible on the surface of the part.,,finetuned,True,correct
+surface_roughness_00083,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00083.jpg,surface_roughness/surface_roughness_00083.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00090,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00090.jpg,surface_roughness/surface_roughness_00090.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+surface_roughness_00090,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00090.jpg,surface_roughness/surface_roughness_00090.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: Surface has surface roughness
+Confidence: 90%",Defective,surface_roughness,90.0,surface_roughness,True,Surface has surface roughness,,finetuned,True,correct
+surface_roughness_00090,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00090.jpg,surface_roughness/surface_roughness_00090.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00096,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00096.jpg,surface_roughness/surface_roughness_00096.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: surface_roughness
+Confidence: 90%",Defective,Unknown,90.0,Unmatched,True,surface_roughness,,finetuned,True,correct
+surface_roughness_00096,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00096.jpg,surface_roughness/surface_roughness_00096.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: Surface has surface roughness
+Confidence: 90%",Defective,surface_roughness,90.0,surface_roughness,True,Surface has surface roughness,,finetuned,True,correct
+surface_roughness_00096,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00096.jpg,surface_roughness/surface_roughness_00096.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00097,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00097.jpg,surface_roughness/surface_roughness_00097.jpg,Defective,surface_roughness,prompt_1,"Classification: Defective
+Reason: Defective surface: surface_roughness
+Confidence: 99%",Defective,Unknown,99.0,Unmatched,True,Defective surface: surface_roughness,,finetuned,True,correct
+surface_roughness_00097,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00097.jpg,surface_roughness/surface_roughness_00097.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: flash
+Defect present: Yes
+Defect type: flash
+Evidence: The image shows a flash defect, characterized by the presence of excess material around the edges of the casting. The flash is visible as a thick, irregularly shaped extrusion that appears to be extruded from the mold. The flash is located at the bottom left and bottom right of the image.
+Confidence: 95%",Defective,flash,95.0,flash,True,"The image shows a flash defect, characterized by the presence of excess material around the edges of the casting. The flash is visible as a thick, irregularly shaped extrusion that appears to be extruded from the mold. The flash is located at the bottom left and bottom right of the image.",,finetuned,True,correct
+surface_roughness_00097,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00097.jpg,surface_roughness/surface_roughness_00097.jpg,Defective,surface_roughness,prompt_3,"Classification: Defective
+Defect type: surface_roughness",Defective,surface_roughness,,surface_roughness,True,,,finetuned,True,correct
+surface_roughness_00098,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00098.jpg,surface_roughness/surface_roughness_00098.jpg,Defective,surface_roughness,prompt_1,"Classification: OK
+Reason: None
+Confidence: 100%",OK,None,100.0,ok,True,None,,finetuned,False,false_negative_missed_defect
+surface_roughness_00098,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00098.jpg,surface_roughness/surface_roughness_00098.jpg,Defective,surface_roughness,prompt_2,"Classification: Defective
+Defect type: surface_roughness
+Evidence: Surface roughness is visible on the surface of the part.",Defective,surface_roughness,,surface_roughness,True,Surface roughness is visible on the surface of the part.,,finetuned,True,correct
+surface_roughness_00098,/content/casting-defect-vlm/data/raw/output/defect_dataset/surface_roughness/surface_roughness_00098.jpg,surface_roughness/surface_roughness_00098.jpg,Defective,surface_roughness,prompt_3,"Classification: OK
+Defect type: None",OK,None,,ok,True,,,finetuned,False,false_negative_missed_defect

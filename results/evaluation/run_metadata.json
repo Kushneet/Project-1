@@ -1,0 +1,50 @@
+{
+  "run": "finetuned",
+  "fine_tuned": true,
+  "adapter": "/content/casting-defect-vlm/results/training/final_model",
+  "lora": {
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "o_proj",
+      "gate_proj",
+      "k_proj",
+      "up_proj",
+      "down_proj",
+      "v_proj"
+    ]
+  },
+  "model_id": "Qwen/Qwen3-VL-4B-Instruct",
+  "transformers_version": "5.15.1",
+  "torch_version": "2.11.0+cu128",
+  "device": "cuda:0",
+  "dtype": "torch.float16",
+  "attn_implementation": "sdpa",
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 128,
+    "decoding": "greedy"
+  },
+  "min_pixels": 200704,
+  "max_pixels": 602112,
+  "seed": 42,
+  "prompt_ids": [
+    "prompt_1",
+    "prompt_2",
+    "prompt_3"
+  ],
+  "prompt_sha256_16": {
+    "prompt_1": "b2ad84caece22b78",
+    "prompt_2": "2c3e3f3333f50cbf",
+    "prompt_3": "ec538eb4639255d2"
+  },
+  "n_images": 178,
+  "n_prompts": 3,
+  "total_generations": 534,
+  "gpu_name": "Tesla T4",
+  "gpu_memory_gb": 15.6,
+  "model_load_seconds": 183.37,
+  "total_inference_seconds": 1229.32
+}

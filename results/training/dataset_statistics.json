@@ -1,0 +1,163 @@
+{
+  "defect_type_supervision_enabled": true,
+  "instruction_templates": [
+    "Is this casting defective or OK?",
+    "Inspect this casting for visible defects.",
+    "Perform quality inspection on this casting.",
+    "Classify this casting image.",
+    "Does this manufactured casting contain a defect?"
+  ],
+  "n_instruction_templates": 5,
+  "train": {
+    "n_examples": 838,
+    "binary_distribution": {
+      "Defective": 767,
+      "OK": 71
+    },
+    "defect_type_distribution": {
+      "inclusion": 80,
+      "porosity": 78,
+      "scratch": 73,
+      "mixed_defects": 72,
+      "dent": 71,
+      "ok": 71,
+      "crack": 68,
+      "flash": 68,
+      "shrinkage": 66,
+      "pinhole": 65,
+      "cold_shut": 64,
+      "surface_roughness": 62
+    },
+    "n_unique_groups": 586
+  },
+  "validation": {
+    "n_examples": 184,
+    "binary_distribution": {
+      "Defective": 167,
+      "OK": 17
+    },
+    "defect_type_distribution": {
+      "shrinkage": 21,
+      "crack": 20,
+      "cold_shut": 17,
+      "ok": 17,
+      "surface_roughness": 17,
+      "scratch": 16,
+      "porosity": 15,
+      "flash": 14,
+      "pinhole": 13,
+      "mixed_defects": 12,
+      "dent": 11,
+      "inclusion": 11
+    },
+    "n_unique_groups": 142
+  },
+  "test": {
+    "n_examples": 178,
+    "binary_distribution": {
+      "Defective": 166,
+      "OK": 12
+    },
+    "defect_type_distribution": {
+      "pinhole": 22,
+      "surface_roughness": 21,
+      "cold_shut": 19,
+      "dent": 18,
+      "flash": 18,
+      "mixed_defects": 16,
+      "shrinkage": 13,
+      "crack": 12,
+      "ok": 12,
+      "scratch": 11,
+      "inclusion": 9,
+      "porosity": 7
+    },
+    "n_unique_groups": 126
+  },
+  "duplicate_removal": {
+    "n_before": 1200,
+    "n_cross_class_groups_dropped": 0,
+    "n_exact_duplicates_removed": 0,
+    "n_after": 1200
+  },
+  "leakage_check": {
+    "leakage_free": true,
+    "n_groups": 854,
+    "checked_hashes": true
+  },
+  "split_statistics": {
+    "total_images": 1200,
+    "train": {
+      "n_images": 838,
+      "n_groups": 586,
+      "binary_distribution": {
+        "Defective": 767,
+        "OK": 71
+      },
+      "defect_type_distribution": {
+        "inclusion": 80,
+        "porosity": 78,
+        "scratch": 73,
+        "mixed_defects": 72,
+        "dent": 71,
+        "ok": 71,
+        "crack": 68,
+        "flash": 68,
+        "shrinkage": 66,
+        "pinhole": 65,
+        "cold_shut": 64,
+        "surface_roughness": 62
+      }
+    },
+    "validation": {
+      "n_images": 184,
+      "n_groups": 142,
+      "binary_distribution": {
+        "Defective": 167,
+        "OK": 17
+      },
+      "defect_type_distribution": {
+        "shrinkage": 21,
+        "crack": 20,
+        "cold_shut": 17,
+        "ok": 17,
+        "surface_roughness": 17,
+        "scratch": 16,
+        "porosity": 15,
+        "flash": 14,
+        "pinhole": 13,
+        "mixed_defects": 12,
+        "dent": 11,
+        "inclusion": 11
+      }
+    },
+    "test": {
+      "n_images": 178,
+      "n_groups": 126,
+      "binary_distribution": {
+        "Defective": 166,
+        "OK": 12
+      },
+      "defect_type_distribution": {
+        "pinhole": 22,
+        "surface_roughness": 21,
+        "cold_shut": 19,
+        "dent": 18,
+        "flash": 18,
+        "mixed_defects": 16,
+        "shrinkage": 13,
+        "crack": 12,
+        "ok": 12,
+        "scratch": 11,
+        "inclusion": 9,
+        "porosity": 7
+      }
+    }
+  },
+  "seed": 42,
+  "split_ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  }
+}

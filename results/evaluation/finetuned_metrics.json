@@ -1,0 +1,1974 @@
+{
+  "tag": "finetuned",
+  "track_a_binary": {
+    "full_test_set": {
+      "n_total": 534,
+      "n_scored": 534,
+      "n_unparseable": 0,
+      "unparseable_rate": 0.0,
+      "accuracy": 0.9176,
+      "precision_defective": 0.9416,
+      "recall_defective": 0.9719,
+      "f1_defective": 0.9565,
+      "macro_precision": 0.6208,
+      "macro_recall": 0.5693,
+      "macro_f1": 0.5854,
+      "confusion_matrix": {
+        "labels": [
+          "OK",
+          "Defective"
+        ],
+        "matrix": [
+          [
+            6,
+            30
+          ],
+          [
+            14,
+            484
+          ]
+        ],
+        "true_negative_ok_as_ok": 6,
+        "false_positive_ok_as_defective": 30,
+        "false_negative_defective_as_ok": 14,
+        "true_positive_defective_as_defective": 484
+      },
+      "classification_report": {
+        "OK": {
+          "precision": 0.3,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.21428571428571427,
+          "support": 36.0
+        },
+        "Defective": {
+          "precision": 0.9416342412451362,
+          "recall": 0.9718875502008032,
+          "f1-score": 0.9565217391304348,
+          "support": 498.0
+        },
+        "accuracy": 0.9176029962546817,
+        "macro avg": {
+          "precision": 0.6208171206225681,
+          "recall": 0.5692771084337349,
+          "f1-score": 0.5854037267080745,
+          "support": 534.0
+        },
+        "weighted avg": {
+          "precision": 0.8983780002623181,
+          "recall": 0.9176029962546817,
+          "f1-score": 0.9064833554330379,
+          "support": 534.0
+        }
+      },
+      "classification_report_text": "              precision    recall  f1-score   support\n\n          OK       0.30      0.17      0.21        36\n   Defective       0.94      0.97      0.96       498\n\n    accuracy                           0.92       534\n   macro avg       0.62      0.57      0.59       534\nweighted avg       0.90      0.92      0.91       534\n",
+      "positive_class": "Defective",
+      "unparseable_treated_as_error": true,
+      "n_ok_observations": 36,
+      "n_defective_observations": 498,
+      "ok_recall": 0.1667,
+      "defective_recall": 0.9719,
+      "balanced_accuracy": 0.5693,
+      "n_ok_images": 12,
+      "n_defective_images": 166,
+      "n_prompts_per_image": 3,
+      "ci_basis": "Wilson 95% intervals use 12 distinct OK / 166 distinct Defective images, not the 36/498 (image, prompt) rows: repeated prompts on the same image are not independent samples.",
+      "ok_recall_95ci": [
+        0.047,
+        0.448
+      ],
+      "defective_recall_95ci": [
+        0.9314,
+        0.9871
+      ],
+      "small_sample_warning": "OK class has only 12 distinct images; one flip changes OK recall by 8.3 points. Treat OK recall as indicative, not statistically significant."
+    },
+    "per_prompt": {
+      "prompt_1": {
+        "n_total": 178,
+        "n_scored": 178,
+        "n_unparseable": 0,
+        "unparseable_rate": 0.0,
+        "accuracy": 0.9101,
+        "precision_defective": 0.9412,
+        "recall_defective": 0.9639,
+        "f1_defective": 0.9524,
+        "macro_precision": 0.5956,
+        "macro_recall": 0.5653,
+        "macro_f1": 0.5762,
+        "confusion_matrix": {
+          "labels": [
+            "OK",
+            "Defective"
+          ],
+          "matrix": [
+            [
+              2,
+              10
+            ],
+            [
+              6,
+              160
+            ]
+          ],
+          "true_negative_ok_as_ok": 2,
+          "false_positive_ok_as_defective": 10,
+          "false_negative_defective_as_ok": 6,
+          "true_positive_defective_as_defective": 160
+        },
+        "classification_report": {
+          "OK": {
+            "precision": 0.25,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.2,
+            "support": 12.0
+          },
+          "Defective": {
+            "precision": 0.9411764705882353,
+            "recall": 0.963855421686747,
+            "f1-score": 0.9523809523809523,
+            "support": 166.0
+          },
+          "accuracy": 0.9101123595505618,
+          "macro avg": {
+            "precision": 0.5955882352941176,
+            "recall": 0.5652610441767069,
+            "f1-score": 0.5761904761904761,
+            "support": 178.0
+          },
+          "weighted avg": {
+            "precision": 0.894580304031725,
+            "recall": 0.9101123595505618,
+            "f1-score": 0.9016586409844836,
+            "support": 178.0
+          }
+        },
+        "classification_report_text": "              precision    recall  f1-score   support\n\n          OK       0.25      0.17      0.20        12\n   Defective       0.94      0.96      0.95       166\n\n    accuracy                           0.91       178\n   macro avg       0.60      0.57      0.58       178\nweighted avg       0.89      0.91      0.90       178\n",
+        "positive_class": "Defective",
+        "unparseable_treated_as_error": true,
+        "n_ok_observations": 12,
+        "n_defective_observations": 166,
+        "ok_recall": 0.1667,
+        "defective_recall": 0.9639,
+        "balanced_accuracy": 0.5653,
+        "n_ok_images": 12,
+        "n_defective_images": 166,
+        "n_prompts_per_image": 1,
+        "ci_basis": "Wilson 95% intervals use 12 distinct OK / 166 distinct Defective images, not the 12/166 (image, prompt) rows: repeated prompts on the same image are not independent samples.",
+        "ok_recall_95ci": [
+          0.047,
+          0.448
+        ],
+        "defective_recall_95ci": [
+          0.9234,
+          0.9833
+        ],
+        "small_sample_warning": "OK class has only 12 distinct images; one flip changes OK recall by 8.3 points. Treat OK recall as indicative, not statistically significant."
+      },
+      "prompt_2": {
+        "n_total": 178,
+        "n_scored": 178,
+        "n_unparseable": 0,
+        "unparseable_rate": 0.0,
+        "accuracy": 0.9326,
+        "precision_defective": 0.9375,
+        "recall_defective": 0.994,
+        "f1_defective": 0.9649,
+        "macro_precision": 0.7188,
+        "macro_recall": 0.5387,
+        "macro_f1": 0.5539,
+        "confusion_matrix": {
+          "labels": [
+            "OK",
+            "Defective"
+          ],
+          "matrix": [
+            [
+              1,
+              11
+            ],
+            [
+              1,
+              165
+            ]
+          ],
+          "true_negative_ok_as_ok": 1,
+          "false_positive_ok_as_defective": 11,
+          "false_negative_defective_as_ok": 1,
+          "true_positive_defective_as_defective": 165
+        },
+        "classification_report": {
+          "OK": {
+            "precision": 0.5,
+            "recall": 0.08333333333333333,
+            "f1-score": 0.14285714285714285,
+            "support": 12.0
+          },
+          "Defective": {
+            "precision": 0.9375,
+            "recall": 0.9939759036144579,
+            "f1-score": 0.9649122807017544,
+            "support": 166.0
+          },
+          "accuracy": 0.9325842696629213,
+          "macro avg": {
+            "precision": 0.71875,
+            "recall": 0.5386546184738956,
+            "f1-score": 0.5538847117794486,
+            "support": 178.0
+          },
+          "weighted avg": {
+            "precision": 0.9080056179775281,
+            "recall": 0.9325842696629213,
+            "f1-score": 0.9094928332066121,
+            "support": 178.0
+          }
+        },
+        "classification_report_text": "              precision    recall  f1-score   support\n\n          OK       0.50      0.08      0.14        12\n   Defective       0.94      0.99      0.96       166\n\n    accuracy                           0.93       178\n   macro avg       0.72      0.54      0.55       178\nweighted avg       0.91      0.93      0.91       178\n",
+        "positive_class": "Defective",
+        "unparseable_treated_as_error": true,
+        "n_ok_observations": 12,
+        "n_defective_observations": 166,
+        "ok_recall": 0.0833,
+        "defective_recall": 0.994,
+        "balanced_accuracy": 0.5386,
+        "n_ok_images": 12,
+        "n_defective_images": 166,
+        "n_prompts_per_image": 1,
+        "ci_basis": "Wilson 95% intervals use 12 distinct OK / 166 distinct Defective images, not the 12/166 (image, prompt) rows: repeated prompts on the same image are not independent samples.",
+        "ok_recall_95ci": [
+          0.0149,
+          0.3539
+        ],
+        "defective_recall_95ci": [
+          0.9667,
+          0.9989
+        ],
+        "small_sample_warning": "OK class has only 12 distinct images; one flip changes OK recall by 8.3 points. Treat OK recall as indicative, not statistically significant."
+      },
+      "prompt_3": {
+        "n_total": 178,
+        "n_scored": 178,
+        "n_unparseable": 0,
+        "unparseable_rate": 0.0,
+        "accuracy": 0.9101,
+        "precision_defective": 0.9464,
+        "recall_defective": 0.9578,
+        "f1_defective": 0.9521,
+        "macro_precision": 0.6232,
+        "macro_recall": 0.6039,
+        "macro_f1": 0.6124,
+        "confusion_matrix": {
+          "labels": [
+            "OK",
+            "Defective"
+          ],
+          "matrix": [
+            [
+              3,
+              9
+            ],
+            [
+              7,
+              159
+            ]
+          ],
+          "true_negative_ok_as_ok": 3,
+          "false_positive_ok_as_defective": 9,
+          "false_negative_defective_as_ok": 7,
+          "true_positive_defective_as_defective": 159
+        },
+        "classification_report": {
+          "OK": {
+            "precision": 0.3,
+            "recall": 0.25,
+            "f1-score": 0.2727272727272727,
+            "support": 12.0
+          },
+          "Defective": {
+            "precision": 0.9464285714285714,
+            "recall": 0.9578313253012049,
+            "f1-score": 0.9520958083832335,
+            "support": 166.0
+          },
+          "accuracy": 0.9101123595505618,
+          "macro avg": {
+            "precision": 0.6232142857142857,
+            "recall": 0.6039156626506024,
+            "f1-score": 0.612411540555253,
+            "support": 178.0
+          },
+          "weighted avg": {
+            "precision": 0.9028491171749599,
+            "recall": 0.9101123595505618,
+            "f1-score": 0.9062956823839553,
+            "support": 178.0
+          }
+        },
+        "classification_report_text": "              precision    recall  f1-score   support\n\n          OK       0.30      0.25      0.27        12\n   Defective       0.95      0.96      0.95       166\n\n    accuracy                           0.91       178\n   macro avg       0.62      0.60      0.61       178\nweighted avg       0.90      0.91      0.91       178\n",
+        "positive_class": "Defective",
+        "unparseable_treated_as_error": true,
+        "n_ok_observations": 12,
+        "n_defective_observations": 166,
+        "ok_recall": 0.25,
+        "defective_recall": 0.9578,
+        "balanced_accuracy": 0.6039,
+        "n_ok_images": 12,
+        "n_defective_images": 166,
+        "n_prompts_per_image": 1,
+        "ci_basis": "Wilson 95% intervals use 12 distinct OK / 166 distinct Defective images, not the 12/166 (image, prompt) rows: repeated prompts on the same image are not independent samples.",
+        "ok_recall_95ci": [
+          0.0889,
+          0.5323
+        ],
+        "defective_recall_95ci": [
+          0.9155,
+          0.9794
+        ],
+        "small_sample_warning": "OK class has only 12 distinct images; one flip changes OK recall by 8.3 points. Treat OK recall as indicative, not statistically significant."
+      }
+    },
+    "balanced_subset": {
+      "n_total": 72,
+      "n_scored": 72,
+      "n_unparseable": 0,
+      "unparseable_rate": 0.0,
+      "accuracy": 0.5833,
+      "precision_defective": 0.5455,
+      "recall_defective": 1.0,
+      "f1_defective": 0.7059,
+      "macro_precision": 0.7727,
+      "macro_recall": 0.5833,
+      "macro_f1": 0.4958,
+      "confusion_matrix": {
+        "labels": [
+          "OK",
+          "Defective"
+        ],
+        "matrix": [
+          [
+            6,
+            30
+          ],
+          [
+            0,
+            36
+          ]
+        ],
+        "true_negative_ok_as_ok": 6,
+        "false_positive_ok_as_defective": 30,
+        "false_negative_defective_as_ok": 0,
+        "true_positive_defective_as_defective": 36
+      },
+      "classification_report": {
+        "OK": {
+          "precision": 1.0,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.2857142857142857,
+          "support": 36.0
+        },
+        "Defective": {
+          "precision": 0.5454545454545454,
+          "recall": 1.0,
+          "f1-score": 0.7058823529411765,
+          "support": 36.0
+        },
+        "accuracy": 0.5833333333333334,
+        "macro avg": {
+          "precision": 0.7727272727272727,
+          "recall": 0.5833333333333334,
+          "f1-score": 0.4957983193277311,
+          "support": 72.0
+        },
+        "weighted avg": {
+          "precision": 0.7727272727272727,
+          "recall": 0.5833333333333334,
+          "f1-score": 0.4957983193277311,
+          "support": 72.0
+        }
+      },
+      "classification_report_text": "              precision    recall  f1-score   support\n\n          OK       1.00      0.17      0.29        36\n   Defective       0.55      1.00      0.71        36\n\n    accuracy                           0.58        72\n   macro avg       0.77      0.58      0.50        72\nweighted avg       0.77      0.58      0.50        72\n",
+      "positive_class": "Defective",
+      "unparseable_treated_as_error": true,
+      "n_ok_observations": 36,
+      "n_defective_observations": 36,
+      "ok_recall": 0.1667,
+      "defective_recall": 1.0,
+      "balanced_accuracy": 0.5834,
+      "n_ok_images": 12,
+      "n_defective_images": 12,
+      "n_prompts_per_image": 3,
+      "ci_basis": "Wilson 95% intervals use 12 distinct OK / 12 distinct Defective images, not the 36/36 (image, prompt) rows: repeated prompts on the same image are not independent samples.",
+      "ok_recall_95ci": [
+        0.047,
+        0.448
+      ],
+      "defective_recall_95ci": [
+        0.7575,
+        1.0
+      ],
+      "small_sample_warning": "OK class has only 12 distinct images; one flip changes OK recall by 8.3 points. Treat OK recall as indicative, not statistically significant.",
+      "per_prompt": {
+        "prompt_1": {
+          "n_total": 24,
+          "n_scored": 24,
+          "n_unparseable": 0,
+          "unparseable_rate": 0.0,
+          "accuracy": 0.5833,
+          "precision_defective": 0.5455,
+          "recall_defective": 1.0,
+          "f1_defective": 0.7059,
+          "macro_precision": 0.7727,
+          "macro_recall": 0.5833,
+          "macro_f1": 0.4958,
+          "confusion_matrix": {
+            "labels": [
+              "OK",
+              "Defective"
+            ],
+            "matrix": [
+              [
+                2,
+                10
+              ],
+              [
+                0,
+                12
+              ]
+            ],
+            "true_negative_ok_as_ok": 2,
+            "false_positive_ok_as_defective": 10,
+            "false_negative_defective_as_ok": 0,
+            "true_positive_defective_as_defective": 12
+          },
+          "classification_report": {
+            "OK": {
+              "precision": 1.0,
+              "recall": 0.16666666666666666,
+              "f1-score": 0.2857142857142857,
+              "support": 12.0
+            },
+            "Defective": {
+              "precision": 0.5454545454545454,
+              "recall": 1.0,
+              "f1-score": 0.7058823529411765,
+              "support": 12.0
+            },
+            "accuracy": 0.5833333333333334,
+            "macro avg": {
+              "precision": 0.7727272727272727,
+              "recall": 0.5833333333333334,
+              "f1-score": 0.4957983193277311,
+              "support": 24.0
+            },
+            "weighted avg": {
+              "precision": 0.7727272727272728,
+              "recall": 0.5833333333333334,
+              "f1-score": 0.4957983193277311,
+              "support": 24.0
+            }
+          },
+          "classification_report_text": "              precision    recall  f1-score   support\n\n          OK       1.00      0.17      0.29        12\n   Defective       0.55      1.00      0.71        12\n\n    accuracy                           0.58        24\n   macro avg       0.77      0.58      0.50        24\nweighted avg       0.77      0.58      0.50        24\n",
+          "positive_class": "Defective",
+          "unparseable_treated_as_error": true,
+          "n_ok_observations": 12,
+          "n_defective_observations": 12,
+          "ok_recall": 0.1667,
+          "defective_recall": 1.0,
+          "balanced_accuracy": 0.5834,
+          "n_ok_images": 12,
+          "n_defective_images": 12,
+          "n_prompts_per_image": 1,
+          "ci_basis": "Wilson 95% intervals use 12 distinct OK / 12 distinct Defective images, not the 12/12 (image, prompt) rows: repeated prompts on the same image are not independent samples.",
+          "ok_recall_95ci": [
+            0.047,
+            0.448
+          ],
+          "defective_recall_95ci": [
+            0.7575,
+            1.0
+          ],
+          "small_sample_warning": "OK class has only 12 distinct images; one flip changes OK recall by 8.3 points. Treat OK recall as indicative, not statistically significant."
+        },
+        "prompt_2": {
+          "n_total": 24,
+          "n_scored": 24,
+          "n_unparseable": 0,
+          "unparseable_rate": 0.0,
+          "accuracy": 0.5417,
+          "precision_defective": 0.5217,
+          "recall_defective": 1.0,
+          "f1_defective": 0.6857,
+          "macro_precision": 0.7609,
+          "macro_recall": 0.5417,
+          "macro_f1": 0.4198,
+          "confusion_matrix": {
+            "labels": [
+              "OK",
+              "Defective"
+            ],
+            "matrix": [
+              [
+                1,
+                11
+              ],
+              [
+                0,
+                12
+              ]
+            ],
+            "true_negative_ok_as_ok": 1,
+            "false_positive_ok_as_defective": 11,
+            "false_negative_defective_as_ok": 0,
+            "true_positive_defective_as_defective": 12
+          },
+          "classification_report": {
+            "OK": {
+              "precision": 1.0,
+              "recall": 0.08333333333333333,
+              "f1-score": 0.15384615384615385,
+              "support": 12.0
+            },
+            "Defective": {
+              "precision": 0.5217391304347826,
+              "recall": 1.0,
+              "f1-score": 0.6857142857142857,
+              "support": 12.0
+            },
+            "accuracy": 0.5416666666666666,
+            "macro avg": {
+              "precision": 0.7608695652173914,
+              "recall": 0.5416666666666666,
+              "f1-score": 0.4197802197802198,
+              "support": 24.0
+            },
+            "weighted avg": {
+              "precision": 0.7608695652173912,
+              "recall": 0.5416666666666666,
+              "f1-score": 0.4197802197802198,
+              "support": 24.0
+            }
+          },
+          "classification_report_text": "              precision    recall  f1-score   support\n\n          OK       1.00      0.08      0.15        12\n   Defective       0.52      1.00      0.69        12\n\n    accuracy                           0.54        24\n   macro avg       0.76      0.54      0.42        24\nweighted avg       0.76      0.54      0.42        24\n",
+          "positive_class": "Defective",
+          "unparseable_treated_as_error": true,
+          "n_ok_observations": 12,
+          "n_defective_observations": 12,
+          "ok_recall": 0.0833,
+          "defective_recall": 1.0,
+          "balanced_accuracy": 0.5416,
+          "n_ok_images": 12,
+          "n_defective_images": 12,
+          "n_prompts_per_image": 1,
+          "ci_basis": "Wilson 95% intervals use 12 distinct OK / 12 distinct Defective images, not the 12/12 (image, prompt) rows: repeated prompts on the same image are not independent samples.",
+          "ok_recall_95ci": [
+            0.0149,
+            0.3539
+          ],
+          "defective_recall_95ci": [
+            0.7575,
+            1.0
+          ],
+          "small_sample_warning": "OK class has only 12 distinct images; one flip changes OK recall by 8.3 points. Treat OK recall as indicative, not statistically significant."
+        },
+        "prompt_3": {
+          "n_total": 24,
+          "n_scored": 24,
+          "n_unparseable": 0,
+          "unparseable_rate": 0.0,
+          "accuracy": 0.625,
+          "precision_defective": 0.5714,
+          "recall_defective": 1.0,
+          "f1_defective": 0.7273,
+          "macro_precision": 0.7857,
+          "macro_recall": 0.625,
+          "macro_f1": 0.5636,
+          "confusion_matrix": {
+            "labels": [
+              "OK",
+              "Defective"
+            ],
+            "matrix": [
+              [
+                3,
+                9
+              ],
+              [
+                0,
+                12
+              ]
+            ],
+            "true_negative_ok_as_ok": 3,
+            "false_positive_ok_as_defective": 9,
+            "false_negative_defective_as_ok": 0,
+            "true_positive_defective_as_defective": 12
+          },
+          "classification_report": {
+            "OK": {
+              "precision": 1.0,
+              "recall": 0.25,
+              "f1-score": 0.4,
+              "support": 12.0
+            },
+            "Defective": {
+              "precision": 0.5714285714285714,
+              "recall": 1.0,
+              "f1-score": 0.7272727272727273,
+              "support": 12.0
+            },
+            "accuracy": 0.625,
+            "macro avg": {
+              "precision": 0.7857142857142857,
+              "recall": 0.625,
+              "f1-score": 0.5636363636363637,
+              "support": 24.0
+            },
+            "weighted avg": {
+              "precision": 0.7857142857142857,
+              "recall": 0.625,
+              "f1-score": 0.5636363636363636,
+              "support": 24.0
+            }
+          },
+          "classification_report_text": "              precision    recall  f1-score   support\n\n          OK       1.00      0.25      0.40        12\n   Defective       0.57      1.00      0.73        12\n\n    accuracy                           0.62        24\n   macro avg       0.79      0.62      0.56        24\nweighted avg       0.79      0.62      0.56        24\n",
+          "positive_class": "Defective",
+          "unparseable_treated_as_error": true,
+          "n_ok_observations": 12,
+          "n_defective_observations": 12,
+          "ok_recall": 0.25,
+          "defective_recall": 1.0,
+          "balanced_accuracy": 0.625,
+          "n_ok_images": 12,
+          "n_defective_images": 12,
+          "n_prompts_per_image": 1,
+          "ci_basis": "Wilson 95% intervals use 12 distinct OK / 12 distinct Defective images, not the 12/12 (image, prompt) rows: repeated prompts on the same image are not independent samples.",
+          "ok_recall_95ci": [
+            0.0889,
+            0.5323
+          ],
+          "defective_recall_95ci": [
+            0.7575,
+            1.0
+          ],
+          "small_sample_warning": "OK class has only 12 distinct images; one flip changes OK recall by 8.3 points. Treat OK recall as indicative, not statistically significant."
+        }
+      }
+    },
+    "primary_view": "balanced_subset"
+  },
+  "track_b_defect_type": {
+    "full_test_set": {
+      "n_total": 534,
+      "n_valid_class_predictions": 360,
+      "coverage": 0.6742,
+      "n_unmatched": 174,
+      "scored_only": true,
+      "classes": [
+        "ok",
+        "cold_shut",
+        "crack",
+        "dent",
+        "flash",
+        "inclusion",
+        "mixed_defects",
+        "pinhole",
+        "porosity",
+        "scratch",
+        "shrinkage",
+        "surface_roughness"
+      ],
+      "coverage_note": "Metrics below are computed only on rows where the model produced a recognisable class. This subset is self-selected, so the scores are optimistically biased; read them together with coverage.",
+      "n_scored": 360,
+      "accuracy": 0.8333,
+      "macro_precision": 0.8073,
+      "macro_recall": 0.8338,
+      "macro_f1": 0.8144,
+      "weighted_precision": 0.8289,
+      "weighted_recall": 0.8333,
+      "weighted_f1": 0.8255,
+      "per_class": {
+        "ok": {
+          "precision": 0.3,
+          "recall": 0.2727272727272727,
+          "f1-score": 0.2857142857142857,
+          "support": 22.0
+        },
+        "cold_shut": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 39.0
+        },
+        "crack": {
+          "precision": 0.8461538461538461,
+          "recall": 0.9166666666666666,
+          "f1-score": 0.88,
+          "support": 24.0
+        },
+        "dent": {
+          "precision": 0.8372093023255814,
+          "recall": 1.0,
+          "f1-score": 0.9113924050632911,
+          "support": 36.0
+        },
+        "flash": {
+          "precision": 0.5185185185185185,
+          "recall": 0.3888888888888889,
+          "f1-score": 0.4444444444444444,
+          "support": 36.0
+        },
+        "inclusion": {
+          "precision": 0.9473684210526315,
+          "recall": 1.0,
+          "f1-score": 0.972972972972973,
+          "support": 18.0
+        },
+        "mixed_defects": {
+          "precision": 0.9583333333333334,
+          "recall": 0.696969696969697,
+          "f1-score": 0.8070175438596491,
+          "support": 33.0
+        },
+        "pinhole": {
+          "precision": 1.0,
+          "recall": 0.9555555555555556,
+          "f1-score": 0.9772727272727273,
+          "support": 45.0
+        },
+        "porosity": {
+          "precision": 0.7142857142857143,
+          "recall": 0.9375,
+          "f1-score": 0.8108108108108109,
+          "support": 16.0
+        },
+        "scratch": {
+          "precision": 0.7586206896551724,
+          "recall": 1.0,
+          "f1-score": 0.8627450980392157,
+          "support": 22.0
+        },
+        "shrinkage": {
+          "precision": 0.9285714285714286,
+          "recall": 1.0,
+          "f1-score": 0.9629629629629629,
+          "support": 26.0
+        },
+        "surface_roughness": {
+          "precision": 0.8780487804878049,
+          "recall": 0.8372093023255814,
+          "f1-score": 0.8571428571428571,
+          "support": 43.0
+        },
+        "accuracy": 0.8333333333333334,
+        "macro avg": {
+          "precision": 0.8072591695320027,
+          "recall": 0.8337931152611385,
+          "f1-score": 0.8143730090236015,
+          "support": 360.0
+        },
+        "weighted avg": {
+          "precision": 0.8289130742829035,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.8255159752226751,
+          "support": 360.0
+        }
+      },
+      "classification_report_text": "                   precision    recall  f1-score   support\n\n               ok       0.30      0.27      0.29        22\n        cold_shut       1.00      1.00      1.00        39\n            crack       0.85      0.92      0.88        24\n             dent       0.84      1.00      0.91        36\n            flash       0.52      0.39      0.44        36\n        inclusion       0.95      1.00      0.97        18\n    mixed_defects       0.96      0.70      0.81        33\n          pinhole       1.00      0.96      0.98        45\n         porosity       0.71      0.94      0.81        16\n          scratch       0.76      1.00      0.86        22\n        shrinkage       0.93      1.00      0.96        26\nsurface_roughness       0.88      0.84      0.86        43\n\n         accuracy                           0.83       360\n        macro avg       0.81      0.83      0.81       360\n     weighted avg       0.83      0.83      0.83       360\n",
+      "confusion_matrix": {
+        "labels": [
+          "ok",
+          "cold_shut",
+          "crack",
+          "dent",
+          "flash",
+          "inclusion",
+          "mixed_defects",
+          "pinhole",
+          "porosity",
+          "scratch",
+          "shrinkage",
+          "surface_roughness"
+        ],
+        "matrix": [
+          [
+            6,
+            0,
+            2,
+            1,
+            9,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            39,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            22,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            36,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            0,
+            0,
+            6,
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            23,
+            0,
+            4,
+            2,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            43,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            15,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            22,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            26,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            36
+          ]
+        ]
+      }
+    },
+    "per_prompt": {
+      "prompt_1": {
+        "n_total": 178,
+        "n_valid_class_predictions": 13,
+        "coverage": 0.073,
+        "n_unmatched": 165,
+        "scored_only": true,
+        "classes": [
+          "ok",
+          "cold_shut",
+          "crack",
+          "dent",
+          "flash",
+          "inclusion",
+          "mixed_defects",
+          "pinhole",
+          "porosity",
+          "scratch",
+          "shrinkage",
+          "surface_roughness"
+        ],
+        "coverage_note": "Metrics below are computed only on rows where the model produced a recognisable class. This subset is self-selected, so the scores are optimistically biased; read them together with coverage.",
+        "n_scored": 13,
+        "accuracy": 0.5385,
+        "macro_precision": 0.3542,
+        "macro_recall": 0.4167,
+        "macro_f1": 0.3667,
+        "weighted_precision": 0.4231,
+        "weighted_recall": 0.5385,
+        "weighted_f1": 0.4462,
+        "per_class": {
+          "ok": {
+            "precision": 0.25,
+            "recall": 1.0,
+            "f1-score": 0.4,
+            "support": 2.0
+          },
+          "cold_shut": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1.0
+          },
+          "crack": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "dent": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "flash": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 5.0
+          },
+          "inclusion": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "mixed_defects": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1.0
+          },
+          "pinhole": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1.0
+          },
+          "porosity": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "scratch": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "shrinkage": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "surface_roughness": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1.0
+          },
+          "accuracy": 0.5384615384615384,
+          "macro avg": {
+            "precision": 0.3541666666666667,
+            "recall": 0.4166666666666667,
+            "f1-score": 0.3666666666666667,
+            "support": 13.0
+          },
+          "weighted avg": {
+            "precision": 0.4230769230769231,
+            "recall": 0.5384615384615384,
+            "f1-score": 0.4461538461538461,
+            "support": 13.0
+          }
+        },
+        "classification_report_text": "                   precision    recall  f1-score   support\n\n               ok       0.25      1.00      0.40         2\n        cold_shut       1.00      1.00      1.00         1\n            crack       0.00      0.00      0.00         0\n             dent       0.00      0.00      0.00         0\n            flash       0.00      0.00      0.00         5\n        inclusion       0.00      0.00      0.00         0\n    mixed_defects       1.00      1.00      1.00         1\n          pinhole       1.00      1.00      1.00         1\n         porosity       1.00      1.00      1.00         2\n          scratch       0.00      0.00      0.00         0\n        shrinkage       0.00      0.00      0.00         0\nsurface_roughness       0.00      0.00      0.00         1\n\n         accuracy                           0.54        13\n        macro avg       0.35      0.42      0.37        13\n     weighted avg       0.42      0.54      0.45        13\n",
+        "confusion_matrix": {
+          "labels": [
+            "ok",
+            "cold_shut",
+            "crack",
+            "dent",
+            "flash",
+            "inclusion",
+            "mixed_defects",
+            "pinhole",
+            "porosity",
+            "scratch",
+            "shrinkage",
+            "surface_roughness"
+          ],
+          "matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "prompt_2": {
+        "n_total": 178,
+        "n_valid_class_predictions": 169,
+        "coverage": 0.9494,
+        "n_unmatched": 9,
+        "scored_only": true,
+        "classes": [
+          "ok",
+          "cold_shut",
+          "crack",
+          "dent",
+          "flash",
+          "inclusion",
+          "mixed_defects",
+          "pinhole",
+          "porosity",
+          "scratch",
+          "shrinkage",
+          "surface_roughness"
+        ],
+        "coverage_note": "Metrics below are computed only on rows where the model produced a recognisable class. This subset is self-selected, so the scores are optimistically biased; read them together with coverage.",
+        "n_scored": 169,
+        "accuracy": 0.858,
+        "macro_precision": 0.8204,
+        "macro_recall": 0.8305,
+        "macro_f1": 0.8108,
+        "weighted_precision": 0.8584,
+        "weighted_recall": 0.858,
+        "weighted_f1": 0.8479,
+        "per_class": {
+          "ok": {
+            "precision": 0.5,
+            "recall": 0.125,
+            "f1-score": 0.2,
+            "support": 8.0
+          },
+          "cold_shut": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 19.0
+          },
+          "crack": {
+            "precision": 0.8461538461538461,
+            "recall": 0.9166666666666666,
+            "f1-score": 0.88,
+            "support": 12.0
+          },
+          "dent": {
+            "precision": 0.8571428571428571,
+            "recall": 1.0,
+            "f1-score": 0.9230769230769231,
+            "support": 18.0
+          },
+          "flash": {
+            "precision": 0.5,
+            "recall": 0.6153846153846154,
+            "f1-score": 0.5517241379310345,
+            "support": 13.0
+          },
+          "inclusion": {
+            "precision": 0.9,
+            "recall": 1.0,
+            "f1-score": 0.9473684210526315,
+            "support": 9.0
+          },
+          "mixed_defects": {
+            "precision": 0.9166666666666666,
+            "recall": 0.6875,
+            "f1-score": 0.7857142857142857,
+            "support": 16.0
+          },
+          "pinhole": {
+            "precision": 1.0,
+            "recall": 0.9545454545454546,
+            "f1-score": 0.9767441860465116,
+            "support": 22.0
+          },
+          "porosity": {
+            "precision": 0.6666666666666666,
+            "recall": 0.8571428571428571,
+            "f1-score": 0.75,
+            "support": 7.0
+          },
+          "scratch": {
+            "precision": 0.7857142857142857,
+            "recall": 1.0,
+            "f1-score": 0.88,
+            "support": 11.0
+          },
+          "shrinkage": {
+            "precision": 0.9285714285714286,
+            "recall": 1.0,
+            "f1-score": 0.9629629629629629,
+            "support": 13.0
+          },
+          "surface_roughness": {
+            "precision": 0.9444444444444444,
+            "recall": 0.8095238095238095,
+            "f1-score": 0.8717948717948718,
+            "support": 21.0
+          },
+          "accuracy": 0.8579881656804734,
+          "macro avg": {
+            "precision": 0.8204466829466829,
+            "recall": 0.8304802836052835,
+            "f1-score": 0.8107821490482685,
+            "support": 169.0
+          },
+          "weighted avg": {
+            "precision": 0.8583631358779287,
+            "recall": 0.8579881656804734,
+            "f1-score": 0.8478705662048782,
+            "support": 169.0
+          }
+        },
+        "classification_report_text": "                   precision    recall  f1-score   support\n\n               ok       0.50      0.12      0.20         8\n        cold_shut       1.00      1.00      1.00        19\n            crack       0.85      0.92      0.88        12\n             dent       0.86      1.00      0.92        18\n            flash       0.50      0.62      0.55        13\n        inclusion       0.90      1.00      0.95         9\n    mixed_defects       0.92      0.69      0.79        16\n          pinhole       1.00      0.95      0.98        22\n         porosity       0.67      0.86      0.75         7\n          scratch       0.79      1.00      0.88        11\n        shrinkage       0.93      1.00      0.96        13\nsurface_roughness       0.94      0.81      0.87        21\n\n         accuracy                           0.86       169\n        macro avg       0.82      0.83      0.81       169\n     weighted avg       0.86      0.86      0.85       169\n",
+        "confusion_matrix": {
+          "labels": [
+            "ok",
+            "cold_shut",
+            "crack",
+            "dent",
+            "flash",
+            "inclusion",
+            "mixed_defects",
+            "pinhole",
+            "porosity",
+            "scratch",
+            "shrinkage",
+            "surface_roughness"
+          ],
+          "matrix": [
+            [
+              1,
+              0,
+              1,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              19,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              11,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              18,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              3,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              9,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              11,
+              0,
+              2,
+              1,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              21,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              11,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              13,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              17
+            ]
+          ]
+        }
+      },
+      "prompt_3": {
+        "n_total": 178,
+        "n_valid_class_predictions": 178,
+        "coverage": 1.0,
+        "n_unmatched": 0,
+        "scored_only": true,
+        "classes": [
+          "ok",
+          "cold_shut",
+          "crack",
+          "dent",
+          "flash",
+          "inclusion",
+          "mixed_defects",
+          "pinhole",
+          "porosity",
+          "scratch",
+          "shrinkage",
+          "surface_roughness"
+        ],
+        "coverage_note": "Metrics below are computed only on rows where the model produced a recognisable class. This subset is self-selected, so the scores are optimistically biased; read them together with coverage.",
+        "n_scored": 178,
+        "accuracy": 0.8315,
+        "macro_precision": 0.8081,
+        "macro_recall": 0.8372,
+        "macro_f1": 0.8129,
+        "weighted_precision": 0.8241,
+        "weighted_recall": 0.8315,
+        "weighted_f1": 0.8187,
+        "per_class": {
+          "ok": {
+            "precision": 0.3,
+            "recall": 0.25,
+            "f1-score": 0.2727272727272727,
+            "support": 12.0
+          },
+          "cold_shut": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 19.0
+          },
+          "crack": {
+            "precision": 0.8461538461538461,
+            "recall": 0.9166666666666666,
+            "f1-score": 0.88,
+            "support": 12.0
+          },
+          "dent": {
+            "precision": 0.8181818181818182,
+            "recall": 1.0,
+            "f1-score": 0.9,
+            "support": 18.0
+          },
+          "flash": {
+            "precision": 0.5454545454545454,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.41379310344827586,
+            "support": 18.0
+          },
+          "inclusion": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 9.0
+          },
+          "mixed_defects": {
+            "precision": 1.0,
+            "recall": 0.6875,
+            "f1-score": 0.8148148148148148,
+            "support": 16.0
+          },
+          "pinhole": {
+            "precision": 1.0,
+            "recall": 0.9545454545454546,
+            "f1-score": 0.9767441860465116,
+            "support": 22.0
+          },
+          "porosity": {
+            "precision": 0.7,
+            "recall": 1.0,
+            "f1-score": 0.8235294117647058,
+            "support": 7.0
+          },
+          "scratch": {
+            "precision": 0.7333333333333333,
+            "recall": 1.0,
+            "f1-score": 0.8461538461538461,
+            "support": 11.0
+          },
+          "shrinkage": {
+            "precision": 0.9285714285714286,
+            "recall": 1.0,
+            "f1-score": 0.9629629629629629,
+            "support": 13.0
+          },
+          "surface_roughness": {
+            "precision": 0.8260869565217391,
+            "recall": 0.9047619047619048,
+            "f1-score": 0.8636363636363636,
+            "support": 21.0
+          },
+          "accuracy": 0.8314606741573034,
+          "macro avg": {
+            "precision": 0.8081484940180591,
+            "recall": 0.8372339466089467,
+            "f1-score": 0.8128634967962295,
+            "support": 178.0
+          },
+          "weighted avg": {
+            "precision": 0.824074281035688,
+            "recall": 0.8314606741573034,
+            "f1-score": 0.8187286101673255,
+            "support": 178.0
+          }
+        },
+        "classification_report_text": "                   precision    recall  f1-score   support\n\n               ok       0.30      0.25      0.27        12\n        cold_shut       1.00      1.00      1.00        19\n            crack       0.85      0.92      0.88        12\n             dent       0.82      1.00      0.90        18\n            flash       0.55      0.33      0.41        18\n        inclusion       1.00      1.00      1.00         9\n    mixed_defects       1.00      0.69      0.81        16\n          pinhole       1.00      0.95      0.98        22\n         porosity       0.70      1.00      0.82         7\n          scratch       0.73      1.00      0.85        11\n        shrinkage       0.93      1.00      0.96        13\nsurface_roughness       0.83      0.90      0.86        21\n\n         accuracy                           0.83       178\n        macro avg       0.81      0.84      0.81       178\n     weighted avg       0.82      0.83      0.82       178\n",
+        "confusion_matrix": {
+          "labels": [
+            "ok",
+            "cold_shut",
+            "crack",
+            "dent",
+            "flash",
+            "inclusion",
+            "mixed_defects",
+            "pinhole",
+            "porosity",
+            "scratch",
+            "shrinkage",
+            "surface_roughness"
+          ],
+          "matrix": [
+            [
+              3,
+              0,
+              1,
+              1,
+              4,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              19,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              11,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              18,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              6,
+              0,
+              0,
+              3,
+              6,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              9,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              11,
+              0,
+              2,
+              1,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              21,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              7,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              11,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              13,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              19
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "error_summary": {
+    "n_total": 534,
+    "n_correct": 490,
+    "n_incorrect": 44,
+    "error_type_counts": {
+      "correct": 490,
+      "false_positive_false_alarm": 30,
+      "false_negative_missed_defect": 14
+    },
+    "failure_flag_counts": {
+      "confidently_wrong": 16,
+      "hallucinated_defect_type": 16
+    }
+  },
+  "synthetic_label_caveat": "The 12 defect classes were generated programmatically by painting defects onto real OK castings. Track B measures recognition of synthetic defect textures, NOT real industrial defect recognition.",
+  "overall": {
+    "n_total": 534,
+    "n_scored": 534,
+    "n_unparseable": 0,
+    "unparseable_rate": 0.0,
+    "accuracy": 0.9176,
+    "precision_defective": 0.9416,
+    "recall_defective": 0.9719,
+    "f1_defective": 0.9565,
+    "macro_precision": 0.6208,
+    "macro_recall": 0.5693,
+    "macro_f1": 0.5854,
+    "confusion_matrix": {
+      "labels": [
+        "OK",
+        "Defective"
+      ],
+      "matrix": [
+        [
+          6,
+          30
+        ],
+        [
+          14,
+          484
+        ]
+      ],
+      "true_negative_ok_as_ok": 6,
+      "false_positive_ok_as_defective": 30,
+      "false_negative_defective_as_ok": 14,
+      "true_positive_defective_as_defective": 484
+    },
+    "classification_report": {
+      "OK": {
+        "precision": 0.3,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.21428571428571427,
+        "support": 36.0
+      },
+      "Defective": {
+        "precision": 0.9416342412451362,
+        "recall": 0.9718875502008032,
+        "f1-score": 0.9565217391304348,
+        "support": 498.0
+      },
+      "accuracy": 0.9176029962546817,
+      "macro avg": {
+        "precision": 0.6208171206225681,
+        "recall": 0.5692771084337349,
+        "f1-score": 0.5854037267080745,
+        "support": 534.0
+      },
+      "weighted avg": {
+        "precision": 0.8983780002623181,
+        "recall": 0.9176029962546817,
+        "f1-score": 0.9064833554330379,
+        "support": 534.0
+      }
+    },
+    "classification_report_text": "              precision    recall  f1-score   support\n\n          OK       0.30      0.17      0.21        36\n   Defective       0.94      0.97      0.96       498\n\n    accuracy                           0.92       534\n   macro avg       0.62      0.57      0.59       534\nweighted avg       0.90      0.92      0.91       534\n",
+    "positive_class": "Defective",
+    "unparseable_treated_as_error": true,
+    "n_ok_observations": 36,
+    "n_defective_observations": 498,
+    "ok_recall": 0.1667,
+    "defective_recall": 0.9719,
+    "balanced_accuracy": 0.5693,
+    "n_ok_images": 12,
+    "n_defective_images": 166,
+    "n_prompts_per_image": 3,
+    "ci_basis": "Wilson 95% intervals use 12 distinct OK / 166 distinct Defective images, not the 36/498 (image, prompt) rows: repeated prompts on the same image are not independent samples.",
+    "ok_recall_95ci": [
+      0.047,
+      0.448
+    ],
+    "defective_recall_95ci": [
+      0.9314,
+      0.9871
+    ],
+    "small_sample_warning": "OK class has only 12 distinct images; one flip changes OK recall by 8.3 points. Treat OK recall as indicative, not statistically significant."
+  }
+}

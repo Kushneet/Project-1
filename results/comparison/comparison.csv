@@ -1,0 +1,33 @@
+scope,metric,base_model,finetuned_model,delta
+overall,Accuracy,0.633,0.9176,0.2846
+overall,Precision (Defective),0.9719,0.9416,-0.0303
+overall,Recall (Defective),0.6245,0.9719,0.3474
+overall,F1 (Defective),0.7604,0.9565,0.1961
+overall,Macro F1,0.4882,0.5854,0.0972
+overall,False Positives,9.0,30.0,21.0
+overall,False Negatives,187.0,14.0,-173.0
+overall,Unparseable outputs,0.0,0.0,0.0
+prompt_1,Accuracy,0.8427,0.9101,0.0674
+prompt_1,Precision (Defective),0.9726,0.9412,-0.0314
+prompt_1,Recall (Defective),0.8554,0.9639,0.1085
+prompt_1,F1 (Defective),0.9103,0.9524,0.0421
+prompt_1,Macro F1,0.6369,0.5762,-0.0607
+prompt_1,False Positives,4.0,10.0,6.0
+prompt_1,False Negatives,24.0,6.0,-18.0
+prompt_1,Unparseable outputs,0.0,0.0,0.0
+prompt_2,Accuracy,0.4831,0.9326,0.4495
+prompt_2,Precision (Defective),0.9744,0.9375,-0.0369
+prompt_2,Recall (Defective),0.4578,0.994,0.5362
+prompt_2,F1 (Defective),0.623,0.9649,0.3419
+prompt_2,Macro F1,0.4008,0.5539,0.1531
+prompt_2,False Positives,2.0,11.0,9.0
+prompt_2,False Negatives,90.0,1.0,-89.0
+prompt_2,Unparseable outputs,0.0,0.0,0.0
+prompt_3,Accuracy,0.573,0.9101,0.3371
+prompt_3,Precision (Defective),0.9688,0.9464,-0.0224
+prompt_3,Recall (Defective),0.5602,0.9578,0.3976
+prompt_3,F1 (Defective),0.7099,0.9521,0.2422
+prompt_3,Macro F1,0.4507,0.6124,0.1617
+prompt_3,False Positives,3.0,9.0,6.0
+prompt_3,False Negatives,73.0,7.0,-66.0
+prompt_3,Unparseable outputs,0.0,0.0,0.0

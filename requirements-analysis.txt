@@ -1,0 +1,13 @@
+# Lightweight subset: enough to run the dataset analysis, splitting and tests
+# on a machine with no GPU and no ML stack (e.g. a MacBook).
+#   python -m venv .venv && .venv/bin/pip install -r requirements-analysis.txt
+numpy>=1.26
+pandas>=2.0
+pillow>=10.0
+scikit-learn>=1.4
+matplotlib>=3.8
+seaborn>=0.13
+pyyaml>=6.0
+tqdm>=4.66
+kaggle>=1.6
+pytest>=8.0
